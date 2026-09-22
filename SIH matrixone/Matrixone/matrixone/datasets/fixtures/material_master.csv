@@ -1,0 +1,1501 @@
+cpse,legacy_code,description,category,specification,uom
+NTPC,NTPC/VLV/1007,Gate Valve 100mm CS Class 150 RF,Valve,"CS, 150#, Flanged",NOS
+ONGC,ONGC-PMP-1003,VERTICAL TURBINE PUMP 200MM,Pump,"200mm column, 75kW",SET
+IOCL,IOCL-PMP-1005,Centrifugal Pump 50x40 15kW,Pump,"50x40mm, 15kW, 2900rpm",SET
+CIL,CIL-PIP-1003,MS Pipe 100mm NB ERW,Pipe,"100 NB, ERW, 6m",NOS
+CPCL,CPCL_MTR_1003,Flameproof  Motor 30kW Exd,Motor,"30kW, Exd IIB, 415V",PCS
+SAIL,SAIL-VLV-1006,Safety Relief Valve 50mm SS,Valve,"SS, Set 10 barg, Flanged",EA
+SAIL,SAIL_PIP_1009,HDPE Pipe 110mm PN10,Pipe,"110mm OD, PN10, PE100",M
+NTPC,NTPC/PIP/1013,GI - Pipe 25mm Medium,Pipe,"25mm, Medium, IS1239",NOS
+SAIL,SAIL/CBL/1014,HT Cable 3Cx300 11kV,Cable,3Cx300 Al XLPE 11kV,M
+ONGC,ONGC-PMP-1007,SCREW PUMP 5M3/HR SS,Pump,"5 m3/hr, SS wetted",EA
+CPCL,CPCL/VLV/1005,Diaphragm Valve 80 MM PP,Valve,"PP body, EPDM diaphragm",NOS
+ONGC,ONGC-VLV-1009,GATE VALVE 100MM CS CL 150,Valve,"CS, 150#, Flanged",EA
+CIL,CIL-VLV-1007,Plug VLV 100mm CS PTFE,Valve,"CS+PTFE sleeve, 150#",EA
+CPCL,CPCL/MTR/1010,Flameproof Motor 30kW Exd,Motor,"30kW, Exd IIB, 415V",EA
+CPCL,CPCL_FLG_1011,Blind Flange 50 MM 300# SS316,Flange,"50 NB, 300#, SS316",NOS
+IOCL,IOCL/BRG/1009,Needle Roller Bearing NK45/35,Bearing,45x55x35,PCS
+IOCL,IOCL-VLV-1012,Ball Valve 3 Inch SS304 Class 300,Valve,"SS304, Class 300, Screwed",
+SAIL,SAIL_FLG_1016,Blind Flange 50mm 300# AISI 316,,"50 NB, 300#, SS316",EA
+CPCL,CPCL/VLV/1012,Safety Relief Valve 50 MM SS,Valve,"SS, Set 10 barg, Flanged",NOS
+CIL,CIL_PMP_1009,Diaphragm Dosing Pump 0-100LPH,Pump,"0-100 LPH, PP head",EA
+SAIL,SAIL_VLV_1018,Butterfly Valve 200mm CI PN16,Valve,"CI, PN16, Wafer",NOS
+CPCL,CPCL_VLV_1013,Gate Valve 200 MM CI PN10,Valve,"CI, PN10, Flanged",PCS
+ONGC,ONGC_VLV_1011,GATE VALVE 100MM CS CL 150,Valve,"CS, 150#, Flanged",EA
+ONGC,ONGC/MTR/1017,INDUCTION MOTOR 15KW 4P IE3,Motor,"15kW, 4P, 415V, IE3",PCS
+CIL,CIL-MTR-1016,DC Motor 5kW 1500rpm,Motor,"5kW, 220V DC",EA
+IOCL,IOCL/FLG/1019,Slipon  Flange 3 Inch PN16,Flange,"80 NB, PN16, MS",PCS
+CIL,CIL/PIP/1020,CS Pipe 150mm NB Sch80,Pipe,"150 NB, Sch80, API 5L",NOS
+CIL,CIL-PMP-1023,Screw Pump 5m3/hr SS,Pump,"5 m3/hr, SS wetted",NOS
+ONGC,ONGC/VLV/1023,FOOT VALVE 100MM CI,Valve,"CI, Flanged, With strainer",PCS
+CPCL,CPCL/CBL/1018,HT Cable 3Cx300 11kV,Cable,3Cx300 Al XLPE 11kV,NOS
+CPCL,CPCL-VLV-1025,Safety Relief Valve 50 MM SS,Valve,"SS, Set 10 barg, Flanged",NOS
+SAIL,SAIL/FST/1019,Hex Bolt M20x80 8.8 HDG,Fastener,"M20x80, Gr 8.8, HDG+nut",EA
+ONGC,ONGC/BRG/1028,DEEP GROOVE BALL BEARING 6205,Bearing,"25x52x15, SKF/equiv",EA
+NTPC,NTPC/PMP/1015,Diaphragm Dosing Pump 0-100LPH,Pump,"0-100 LPH, PP head",PCS
+ONGC,ONGC-PIP-1033,CS PIPE 150MM NB SCH80,Pipe,"150 NB, Sch80, API 5L",NOS
+ONGC,ONGC_VLV_1034,GATE VALVE 100MM CS CL 150,Valve,"CS, 150#, Flanged",EA
+NTPC,NTPC/PMP/1017,Multistage Pump 65x50 30kW,Pump,"65x50, 30kW, 8 stage",SET
+ONGC,ONGC/CBL/1041,CONTROL CABLE 12CX2.5SQMM,Cable,"12Cx2.5 Cu, Unarm",M
+CPCL,CPCL_PMP_1030,Gear Pump 2inch CI,Pump,"2 inch, CI, 1440rpm",EA
+SAIL,SAIL-PMP-1022,Submersible Pump 10HP 100mm,Pump,"10HP, 100mm bore, 3ph",SET
+CIL,CIL/VLV/1030,Globe VLV 65mm CS 150#,Valve,"CS, 150#, Flanged",NOS
+ONGC,ONGC-VLV-1044,"BALL, VALVE 50MM BRASS SCREWED",Valve,"Brass, Screwed BSP",EA
+CIL,CIL/FLG/1031,Blind Flange 50mm 300# SS316,Flange,"50 NB, 300#, SS316",EA
+CIL,CIL/VLV/1035,Plug VLV 100mm CS PTFE,Valve,"CS+PTFE sleeve, 150#",PCS
+ONGC,ONGC/VLV/1050,NEEDLE VALVE 25MM SS316 6000PSI,Valve,"SS316, 6000 psi, NPT",NOS
+ONGC,ONGC/VLV/1056,BUTTERFLY VALVE 200MM CI PN16,Valve,"CI, PN16, Wafer",EA
+IOCL,IOCL_FLG_1023,WN Flange 4 Inch 150# Carbon Steel,Flange,"100 NB, 150#, A105",PCS
+SAIL,SAIL_FLG_1026,WN Flange 100mm 150# CS,Flange,"100 NB, 150#, A105",NOS
+NTPC,NTPC_VLV_1023,Foot Valve 100mm CI RF,Valve,"CI, Flanged, With strainer",NOS
+NTPC,NTPC/PIP/1027,MS Pipe 100mm NB ERW,Pipe,"100 NB, ERW, 6m",MTR
+CPCL,CPCL/VLV/1036,Gate Valve 50 MM SS316 PN40,Valve,"SS316, PN40, Flanged RF",EA
+CIL,CIL_VLV_1036,Foot VLV 100mm CI,Valve,"CI, Flanged, With strainer",PCS
+SAIL,SAIL_MTR_1028,Induction Motor 15kW 4P IE3,Motor,"15kW, 4P, 415V, IE3",NOS
+IOCL,IOCL_PIP_1029,SS316 Pipe 2 Inch NB Sch40,Pipe,"50 NB, Sch40, Seamless",MTR
+ONGC,ONGC_VLV_1059,GATE VALVE 150MM CS 300#,Valve,"CS, 300#, RTJ",NOS
+SAIL,SAIL-PIP-1031,HDPE Pipe 110mm PN10,Pipe,"110mm OD, PN10, PE100",M
+CPCL,CPCL-BRG-1040,Spherical Roller Bearing 22218,Bearing,90x160x40,NOS
+NTPC,NTPC_PMP_1034,Vertical Turbine Pump 200mm,Pump,"200mm column, 75kW",EA
+CPCL,CPCL/VLV/1046,Check Valve 150 MM CS CL 150,Valve,"CS, NACE, Flanged",PCS
+NTPC,NTPC/BRG/1039,Needle Roller Bearng NK45/35,Bearing,45x55x35,PCS
+CPCL,CPCL-PMP-1047,Submersible Pump 10HP 100 MM,Pump,"10HP, 100mm bore, 3ph",SET
+SAIL,SAIL_VLV_1034,Gate - Valve 150mm CS 300#,Valve,"CS, 300#, RTJ",PCS
+NTPC,NTPC/VLV/1046,Foot Valve 100mm CI RF,Valve,"CI, Flanged, With strainer",PCS
+NTPC,NTPC/MTR/1048,Induction Motor 15kW 4P IE3,Motor,"15kW, 4P, 415V, IE3",NOS
+ONGC,ONGC-PMP-1061,DIAPHRAGM DOSING PUMP 0-100LPH,Pump,"0-100 LPH, PP head",EA
+ONGC,ONGC-BRG-1063,DEEP GROOVE BALL BEARING 6205,Bearing,"25x52x15, SKF/equiv",PCS
+IOCL,IOCL_VLV_1031,Foot Valve 4 Inch CI,Valve,"CI, Flanged, With strainer",NOS
+IOCL,IOCL-VLV-1033,Check  Valve 12 Inch Carbon Steel Class 150,Valve,"CS, NACE, Flanged",EA
+ONGC,ONGC-PIP-1068,CS - PIPE 150MM NB SCH80,Pipe,"150 NB, Sch80, API 5L",NOS
+NTPC,NTPC-VLV-1053,Globe Valve 65mm CS 150# RF,Valve,"CS, 150#, Flanged",PCS
+ONGC,ONGC/PMP/1075,GEAR - PUMP 2INCH CI,Pump,"2 inch, CI, 1440rpm",EA
+ONGC,ONGC-VLV-1077,BALL VALVE 80MM SS304 CL 300,Valve,"SS304, Class 300, Screwed",NOS
+SAIL,SAIL_PMP_1038,Gear Pump 2inch CI,Pump,"2 inch, CI, 1440rpm",PCS
+SAIL,SAIL/VLV/1040,Gate Valve 200mm CI PN10,Valve,"CI, PN10, Flanged",NOS
+CIL,CIL_PIP_1039,MS - Pipe 100mm NB ERW,Pipe,"100 NB, ERW, 6m",M
+ONGC,ONGC_PMP_1083,SUBMERSIBLE  PUMP 10HP 100MM,Pump,"10HP, 100mm bore, 3ph",EA
+CPCL,CPCL/FLG/1051,Slipon Flange 80 MM PN16,Flange,"80 NB, PN16, MS",PCS
+CPCL,CPCL-PMP-1054,Diaphragm Dosing Pump 0-100LPH,Pump,"0-100 LPH, PP head",PCS
+CPCL,CPCL-BRG-1057,Deep Groove Ball Bearing 6205,Bearing,"25x52x15, SKF/equiv",EA
+SAIL,SAIL_PIP_1046,HDPE Pipe 110mm PN10,Pipe,"110mm OD, PN10, PE100",MTR
+CPCL,CPCL/MTR/1060,Induction Motor 15kW 4P IE3,Motor,"15kW, 4P, 415V, IE3",
+IOCL,IOCL-BRG-1034,Plummer Block UCP210,Bearing,"50mm bore, CI housing",PCS
+CPCL,CPCL_PMP_1067,Screw Pump 5m3/hr SS,Pump,"5 m3/hr, SS wetted",PCS
+CIL,CIL/BRG/1045,Deep - Groove BALL BRG 6205,Bearing,"25x52x15, SKF/equiv",EA
+CPCL,CPCL_VLV_1070,Gate Valve 50 MM SS316 PN40,Valve,"SS316, PN40, Flanged RF",PCS
+SAIL,SAIL/BRG/1048,Plummer Block UCP210,Bearing,"50mm bore, CI housing",NOS
+NTPC,NTPC-VLV-1055,Gate Valve 200mm CI PN10 RF,Valve,"CI, PN10, Flanged",NOS
+CPCL,CPCL/MTR/1071,"DC, Motor 5kW 1500rpm",Motor,"5kW, 220V DC",NOS
+NTPC,NTPC/PIP/1059,HDPE Pipe 110mm PN10,Pipe,"110mm OD, PN10, PE100",MTR
+NTPC,NTPC-PIP-1062,GI Pipe 25mm Medium,Pipe,"25mm, Medium, IS1239",M
+NTPC,NTPC/PMP/1068,Diaphragm Dosing Pump 0-100LPH,Pump,"0-100 LPH, PP head",NOS
+SAIL,SAIL/VLV/1055,Globe Valve 65mm CS 150#,Valve,"CS, 150#, Flanged",NOS
+IOCL,IOCL_VLV_1036,Check Valve 12 Inch Carbon Steel Class 150,Valve,"CS, NACE, Flanged",NOS
+NTPC,NTPC_BRG_1073,Deep Groove Ball Bearing 6205,Bearing,"25x52x15, SKF/equiv",EA
+CPCL,CPCL/CBL/1077,XLPE Cable 3Cx120sq MM 1.1kV,Cable,"3Cx120, Al, Armoured",MTR
+SAIL,SAIL-VLV-1060,Ball Vlve 80mm AISI 304 Class 300,Valve,"SS304, Class 300, Screwed",EA
+CIL,CIL-VLV-1052,Safety Relief VLV 50mm SS,Valve,"SS, Set 10 barg, Flanged",PCS
+CIL,CIL_VLV_1056,Check VLV 150mm CS Class 150,Valve,"CS, NACE, Flanged",PCS
+NTPC,NTPC-CBL-1079,Control - Cable 12Cx2.5sqmm,Cable,"12Cx2.5 Cu, Unarm",NOS
+SAIL,SAIL/VLV/1062,Needle Valve 25mm AISI 316 6000psi,Valve,"SS316, 6000 psi, NPT",EA
+ONGC,ONGC/BRG/1089,THRUST BALL BEARING 51108,Bearing,40x60x13,NOS
+CIL,CIL-VLV-1061,Foot VLV 100mm CI,Valve,"CI, Flanged, With strainer",EA
+CIL,CIL-BRG-1065,Needle Roller BRG NK45/35,Bearing,45x55x35,PCS
+CPCL,CPCL_VLV_1083,Gate Valve 100 MM CS CL 150,Valve,"CS, 150#, Flanged",PCS
+SAIL,SAIL/PIP/1065,GI Pipe 25mm Medium,Pipe,"25mm, Medium, IS1239",MTR
+IOCL,IOCL-VLV-1039,Diaphragm Valve 3 Inch PP,Valve,"PP body, EPDM diaphragm",PCS
+CPCL,CPCL-CBL-1088,XLPE Cable 3Cx120sq MM 1.1kV,Cable,"3Cx120, Al, Armoured",NOS
+IOCL,IOCL/BRG/1040,Plummer Block UCP210,Bearing,"50mm bore, CI housing",EA
+CIL,CIL_BRG_1067,Taper Roller BRG 32210,Bearing,50x90x24.75,NOS
+CPCL,CPCL/PIP/1093,CS Pipe 150 MM NB Sch80,Pipe,"150 NB, Sch80, API 5L",M
+IOCL,IOCL_VLV_1047,Diaphragm Valve 3 Inch PP,Valve,"PP body, EPDM diaphragm",EA
+ONGC,ONGC-MTR-1094,FLAMEPROOF MOTOR 30KW EXD,Motor,"30kW, Exd IIB, 415V",EA
+NTPC,NTPC/VLV/1086,Gate  Valve 50mm SS316 PN40 RF,Valve,"SS316, PN40, Flanged RF",NOS
+NTPC,NTPC-VLV-1089,Plug Valve 100mm CS PTFE RF,Valve,"CS+PTFE sleeve, 150#",EA
+IOCL,IOCL/FLG/1054,Slipon - Flange 3 Inch PN16,Flange,"80 NB, PN16, MS",PCS
+ONGC,ONGC-VLV-1096,GATE VALV 100MM CS CL 150,Valve,"CS, 150#, Flanged",PCS
+IOCL,IOCL-PMP-1055,Vertical Turbine Pump 8 Inch,Pump,"200mm column, 75kW",EA
+NTPC,NTPC_MTR_1090,Flameproof Motor 30kW Exd,Motor,"30kW, Exd IIB, 415V",PCS
+IOCL,IOCL_CBL_1057,HT Cable 3Cx300 11kV,Cable,3Cx300 Al XLPE 11kV,NOS
+SAIL,SAIL_VLV_1070,Check Valve 150mm CS Class 150,Valve,"CS, NACE, Flanged",NOS
+CPCL,CPCL-PIP-1096,HDPE Pipe 110 MM PN10,Pipe,"110mm OD, PN10, PE100",M
+CPCL,CPCL/PMP/1101,Multistage - Pump 65x50 30kW,Pump,"65x50, 30kW, 8 stage",SET
+IOCL,IOCL_VLV_1058,Ball Valve 2 Inch Brass Screwed,Valve,"Brass, Screwed BSP",EA
+CPCL,CPCL/VLV/1106,Safety Relief Valve 50 MM SS,Valve,"SS, Set 10 barg, Flanged",PCS
+ONGC,ONGC/VLV/1099,NEEDLE VALVE 25MM SS316 6000PSI,Valve,"SS316, 6000 psi, NPT",NOS
+NTPC,NTPC/VLV/1092,Gate Valve 200mm CI PN10 RF,Valve,"CI, PN10, Flanged",PCS
+CIL,CIL_VLV_1071,Knife GATE VLV 250mm SS,Valve,"SS gate, PN10, Lug",EA
+CPCL,CPCL/BRG/1112,Plu MMer Block UCP210,Bearing,"50mm bore, CI housing",NOS
+CPCL,CPCL/VLV/1116,Ball Valve 50 MM Brass Screwed,Valve,"Brass, Screwed BSP",PCS
+CPCL,CPCL_BRG_1122,Deep Groove Ball Bearing 6205,Bearing,"25x52x15, SKF/equiv",NOS
+ONGC,ONGC_VLV_1106,CHECK  VALVE 150MM CS CL 150,Valve,"CS, NACE, Flanged",EA
+NTPC,NTPC/VLV/1095,Gate Valve 150mm CS 300# RF,Valve,"CS, 300#, RTJ",EA
+IOCL,IOCL_PMP_1059,Centrifugal Pump 50x40 15kW,Pump,"50x40mm, 15kW, 2900rpm",SET
+CPCL,CPCL_VLV_1124,Ball Valve 50 MM Brass Screwed,Valve,"Brass, Screwed BSP",EA
+ONGC,ONGC/VLV/1112,GLOBE VALVE 65MM CS 150#,Valve,"CS, 150#, Flanged",EA
+CIL,CIL/VLV/1074,"BALL, VLV 50mm Brass Screwed",Valve,"Brass, Screwed BSP",NOS
+SAIL,SAIL-VLV-1072,Knife Gate Valve 250mm SS,Valve,"SS gate, PN10, Lug",EA
+SAIL,SAIL/PMP/1073,Diaphragm  Dosing Pump 0-100LPH,Pump,"0-100 LPH, PP head",EA
+SAIL,SAIL-VLV-1079,Gate - Valve 200mm CI PN10,Valve,"CI, PN10, Flanged",NOS
+SAIL,SAIL-VLV-1081,Knife Gate Valve 250mm SS,Valve,"SS gate, PN10, Lug",NOS
+CPCL,CPCL_VLV_1127,Safety Relief Valve 50 MM SS,Valve,"SS, Set 10 barg, Flanged",EA
+CPCL,CPCL/VLV/1132,Globe Valve 65 MM CS 150#,Valve,"CS, 150#, Flanged",EA
+SAIL,SAIL-VLV-1083,Gate Valve 50mm AISI 316 PN40,Valve,"SS316, PN40, Flanged RF",PCS
+ONGC,ONGC-BRG-1113,TAPER ROLLER BEARING 32210,Bearing,50x90x24.75,NOS
+SAIL,SAIL-PIP-1089,GI Pipe 25mm Medium,Pipe,"25mm, Medium, IS1239",M
+IOCL,IOCL/VLV/1065,Butterfly Valve 8 Inch CI PN16,Valve,"CI, PN16, Wafer",NOS
+NTPC,NTPC-PMP-1100,Centrifugal Pump 50x40 15kW,Pump,"50x40mm, 15kW, 2900rpm",EA
+NTPC,NTPC_VLV_1105,Ball - Valve 80mm SS304 Class 300 RF,Valve,"SS304, Class 300, Screwed",NOS
+ONGC,ONGC_VLV_1117,FOOT VALV 100MM CI,Valve,"CI, Flanged, With strainer",EA
+SAIL,SAIL-PMP-1091,Slurry Pump 100mm HNBR,Pump,"100mm, HNBR lined",EA
+ONGC,ONGC/PMP/1122,SLURRY PUMP 100MM HNBR,Pump,"100mm, HNBR lined",SET
+CIL,CIL_PMP_1077,Slurry Pump 100mm HNBR,Pump,"100mm, HNBR lined",SET
+NTPC,NTPC-VLV-1109,Gate Valve 150mm CS 300# RF,Valve,"CS, 300#, RTJ",PCS
+NTPC,NTPC_VLV_1112,Gate Valve 150mm CS 300# RF,Valve,"CS, 300#, RTJ",PCS
+CPCL,CPCL-BRG-1135,Needle Roller Bearing NK45/35,Bearing,45x55x35,NOS
+CIL,CIL_BRG_1081,Needle Roller BRG NK45/35,Bearing,45x55x35,EA
+CPCL,CPCL_VLV_1140,Gate Valve 200 MM CI PN10,Valve,"CI, PN10, Flanged",NOS
+SAIL,SAIL-PMP-1098,Screw Pump 5m3/hr SS,Pump,"5 m3/hr, SS wetted",EA
+CIL,CIL-GSK-1087,Spiral Wound Gasket 4in 150#,Gasket,"4in, 150#, SS316+Graphite",PCS
+SAIL,SAIL_MTR_1099,DC Motor 5kW 1500rpm,Motor,"5kW, 220V DC",EA
+IOCL,IOCL-PMP-1067,Vertical Turbine Pump 8 Inch,Pump,"200mm column, 75kW",SET
+IOCL,IOCL_VLV_1074,Needle Valve 25mm SS316 6000psi,Valve,"SS316, 6000 psi, NPT",EA
+IOCL,IOCL/PMP/1080,Submersible Pump 10HP 4 Inch,Pump,"10HP, 100mm bore, 3ph",EA
+CPCL,CPCL_VLV_1147,Butterfly Valve 200 MM CI PN16,Valve,"CI, PN16, Wafer",PCS
+IOCL,IOCL-MTR-1083,Flameproof Motor 30kW Exd,Motor,"30kW, Exd IIB, 415V",EA
+NTPC,NTPC_PMP_1119,Diaphragm Dosing Pump 0-100LPH,Pump,"0-100 LPH, PP head",EA
+NTPC,NTPC-FLG-1126,Slipon Flange 80mm PN16,Flange,"80 NB, PN16, MS",EA
+CIL,CIL-PMP-1091,Vertical Turbine Pump 200mm,Pump,"200mm column, 75kW",SET
+ONGC,ONGC-BRG-1127,SPHERICAL ROLLER BEARING 22218,Bearing,90x160x40,NOS
+ONGC,ONGC/FLG/1133,WN FLANGE 100MM 150# CS,Flange,"100 NB, 150#, A105",NOS
+IOCL,IOCL/FST/1087,Hex Bolt M20x80 8.8 HDG,Fastener,"M20x80, Gr 8.8, HDG+nut",SET
+ONGC,ONGC_PIP_1135,SS316 PIPE 50MM NB SCH40,Pipe,"50 NB, Sch40, Seamless",NOS
+IOCL,IOCL/PMP/1088,Screw Pump 5m3/hr SS,Pump,"5 m3/hr, SS wetted",EA
+ONGC,ONGC_FLG_1140,WN FLANGE 100MM 150# CS,Flange,"100 NB, 150#, A105",NOS
+SAIL,SAIL_PIP_1101,AISI 316 Pipe 50mm NB Sch40,Pipe,"50 NB, Sch40, Seamless",M
+CIL,CIL-PMP-1093,Screw Pump 5m3/hr SS,Pump,"5 m3/hr, SS wetted",PCS
+SAIL,SAIL/VLV/1105,Gate Valve 200mm CI PN10,Valve,"CI, PN10, Flanged",PCS
+NTPC,NTPC-MTR-1128,Induction Motor 15kW 4P IE3,Motor,"15kW, 4P, 415V, IE3",EA
+SAIL,SAIL/VLV/1106,Needle Valve 25mm AISI 316 6000psi,Valve,"SS316, 6000 psi, NPT",PCS
+IOCL,IOCL_PIP_1093,GI Pipe 25mm Medium,Pipe,"25mm, Medium, IS1239",M
+IOCL,IOCL/CBL/1095,HT Cable 3Cx300 11kV,Cable,3Cx300 Al XLPE 11kV,MTR
+NTPC,NTPC_PIP_1135,MS Pipe 100mm NB ERW,Pipe,"100 NB, ERW, 6m",MTR
+SAIL,SAIL/PMP/1112,Screw Pump 5m3/hr SS,Pump,"5 m3/hr, SS wetted",NOS
+IOCL,IOCL-FST-1097,Hex Bolt M20x80 8.8 HDG,Fastener,"M20x80, Gr 8.8, HDG+nut",EA
+NTPC,NTPC-VLV-1139,"Knife, Gate Valve 250mm SS RF",Valve,"SS gate, PN10, Lug",NOS
+CIL,CIL-VLV-1099,Foot VLV 100mm CI,,"CI, Flanged, With strainer",EA
+NTPC,NTPC_FLG_1140,Blind Flange 50mm 300# SS316,Flange,"50 NB, 300#, SS316",NOS
+NTPC,NTPC_VLV_1142,Gate Valve 150mm CS 300# RF,Valve,"CS, 300#, RTJ",PCS
+NTPC,NTPC_BRG_1148,Spherical Roller Bearing 22218,Bearing,90x160x40,PCS
+NTPC,NTPC-BRG-1154,Taper Roller Bearing 32210,Bearing,50x90x24.75,NOS
+NTPC,NTPC-VLV-1161,Safety Relief Valve 50mm SS RF,Valve,"SS, Set 10 barg, Flanged",EA
+ONGC,ONGC/VLV/1146,GATE VALV 200MM CI PN10,Valve,"CI, PN10, Flanged",PCS
+ONGC,ONGC_PMP_1150,VERTICAL TURBINE PUMP 200MM,Pump,"200mm column, 75kW",SET
+ONGC,ONGC-VLV-1153,GATE VALVE 200MM CI PN10,Valve,"CI, PN10, Flanged",PCS
+IOCL,IOCL_PMP_1099,Screw Pump 5m3/hr SS,Pump,"5 m3/hr, SS wetted",PCS
+CIL,CIL_PMP_1105,Diaphragm Dosing Pump 0-100LPH,Pump,"0-100 LPH, PP head",EA
+NTPC,NTPC_PMP_1164,Slurry Pump 100mm HNBR,Pump,"100mm, HNBR lined",EA
+IOCL,IOCL_PIP_1102,HDPE Pipe 110mm PN10,Pipe,"110mm OD, PN10, PE100",MTR
+SAIL,SAIL-PMP-1116,Diaphragm Dosing Pump 0-100LPH,Pump,"0-100 LPH, PP head",EA
+ONGC,ONGC-PMP-1160,GEAR PUMP 2INCH CI,Pump,"2 inch, CI, 1440rpm",NOS
+IOCL,IOCL_FLG_1107,Blind Flange 2 Inch 300# SS316,Flange,"50 NB, 300#, SS316",PCS
+ONGC,ONGC_PMP_1162,CENTRIFUGAL PUMP 50X40 15KW,Pump,"50x40mm, 15kW, 2900rpm",SET
+CIL,CIL_BRG_1107,Thrust BALL BRG 51108,Bearing,40x60x13,EA
+CPCL,CPCL/VLV/1151,Plug Valve 100 MM CS PTFE,Valve,"CS+PTFE sleeve, 150#",EA
+IOCL,IOCL-BRG-1111,Spherical Roller Bearing 22218,Bearing,90x160x40,PCS
+SAIL,SAIL/PMP/1120,Slurry Pump 100mm HNBR,Pump,"100mm, HNBR lined",SET
+SAIL,SAIL/GSK/1126,Ring Joint Gasket R37 AISI 316,Gasket,"R37, Octagonal, SS316",EA
+NTPC,NTPC/VLV/1171,Plug Valve 100mm CS PTFE RF,Valve,"CS+PTFE sleeve, 150#",EA
+CIL,CIL-VLV-1112,BALL VLV 50mm Brass Screwed,Valve,"Brass, Screwed BSP",NOS
+CIL,CIL-PMP-1118,Multistage Pump 65x50 30kW,Pump,"65x50, 30kW, 8 stage",SET
+SAIL,SAIL/VLV/1132,Ball Valve 50mm Brass Screwed,Valve,"Brass, Screwed BSP",
+CPCL,CPCL-PMP-1154,Gear Pump 2inch CI,Pump,"2 inch, CI, 1440rpm",PCS
+ONGC,ONGC-VLV-1167,BUTTERFLY VALVE 200MM CI PN16,Valve,"CI, PN16, Wafer",EA
+NTPC,NTPC_PMP_1175,Vertical - Turbine Pump 200mm,Pump,"200mm column, 75kW",SET
+CIL,CIL-VLV-1124,Plug VLV 100mm CS PTFE,Valve,"CS+PTFE sleeve, 150#",EA
+CIL,CIL/PIP/1128,CS Pipe 150mm NB Sch80,Pipe,"150 NB, Sch80, API 5L",NOS
+SAIL,SAIL-VLV-1134,Gate Valve 100mm CS Class 150,Valve,"CS, 150#, Flanged",PCS
+CPCL,CPCL_PMP_1159,Slurry Pump 100 MM HNBR,Pump,"100mm, HNBR lined",SET
+IOCL,IOCL/VLV/1117,Plug Valve 4 Inch Carbon Steel PTFE,Valve,"CS+PTFE sleeve, 150#",EA
+CIL,CIL/VLV/1131,BALL VLV 80mm SS304 Class 300,Valve,"SS304, Class 300, Screwed",PCS
+CPCL,CPCL-PMP-1163,Submersible Pump 10HP 100 MM,Pump,"10HP, 100mm bore, 3ph",SET
+CPCL,CPCL/PMP/1166,Gear Pump 2inch CI,Pump,"2 inch, CI, 1440rpm",EA
+SAIL,SAIL_BRG_1135,Taper Roller Bearing 32210,Bearing,50x90x24.75,EA
+CIL,???,Plummer Block UCP210,Bearing,"50mm bore, CI housing",EA
+CPCL,CPCL-VLV-1167,Needle Valve 25 MM SS316 6000psi,Valve,"SS316, 6000 psi, NPT",NOS
+ONGC,ONGC_VLV_1168,"BALL, VALVE 50MM BRASS SCREWED",Valve,"Brass, Screwed BSP",PCS
+ONGC,ONGC-BRG-1173,PLUMMER BLOCK UCP210,Bearing,"50mm bore, CI housing",PCS
+CPCL,CPCL-VLV-1168,Knife Gate Valve 250 MM SS,Valve,"SS gate, PN10, Lug",NOS
+IOCL,IOCL_VLV_1121,Needle Valve 25mm SS316 6000psi,Valve,"SS316, 6000 psi, NPT",PCS
+CPCL,CPCL/VLV/1172,Safety Relief Valve 50 MM SS,Valve,"SS, Set 10 barg, Flanged",NOS
+IOCL,IOCL_VLV_1126,Knife Gate Valve 22 Inch SS,Valve,"SS gate, PN10, Lug",EA
+CIL,CIL_PMP_1137,Vertical Turbine Pump 200mm,Pump,"200mm column, 75kW",SET
+SAIL,SAIL-VLV-1140,Gate Valve 200mm CI PN10,Valve,"CI, PN10, Flanged",PCS
+IOCL,IOCL_VLV_1129,Gate Valve 4 Inch Carbon Steel Class 150,Valve,"CS, 150#, Flanged",EA
+CIL,CIL_VLV_1140,Diaphragm VLV 80mm PP,Valve,"PP body, EPDM diaphragm",EA
+NTPC,NTPC_GSK_1180,Spiral Wound Gasket 4in 150#,Gasket,"4in, 150#, SS316+Graphite",PCS
+SAIL,SAIL-BRG-1141,Deep Groove Ball Bearing 6205,Bearing,"25x52x15, SKF/equiv",NOS
+CIL,CIL/VLV/1144,Check VLV 150mm CS Class 150,Valve,"CS, NACE, Flanged",EA
+SAIL,SAIL-BRG-1146,Thrust Ball Bearing 51108,Bearing,40x60x13,EA
+IOCL,IOCL/VLV/1130,Safety Relief Valve 2 Inch SS,Valve,"SS, Set 10 barg, Flanged",EA
+CIL,CIL/FST/1147,Hex Bolt M20x80 8.8 HDG,Fastener,"M20x80, Gr 8.8, HDG+nut",EA
+CIL,CIL-FLG-1150,WN Flange 100mm 150# CS,Flange,"100 NB, 150#, A105",EA
+ONGC,ONGC_VLV_1175,GLOBE VALVE 65MM CS 150#,Valve,"CS, 150#, Flanged",EA
+NTPC,NTPC_GSK_1184,Spiral Wound Gasket 4in 150#,Gasket,"4in, 150#, SS316+Graphite",NOS
+IOCL,IOCL/MTR/1134,Induction Motor 15kW 4P IE3,Motor,"15kW, 4P, 415V, IE3",NOS
+ONGC,ONGC_VLV_1182,FOOT VALVE 100MM CI,Valve,"CI, Flanged, With strainer",NOS
+NTPC,NTPC/VLV/1190,Butterfly Valve 200mm CI PN16 RF,Valve,"CI, PN16, Wafer",PCS
+NTPC,NTPC_GSK_1197,Ring Joint Gasket R37 SS316,Gasket,"R37, Octagonal, SS316",PCS
+CPCL,CPCL-PIP-1173,SS316 - Pipe 50 MM NB Sch40,Pipe,"50 NB, Sch40, Seamless",M
+NTPC,NTPC_VLV_1201,Knife Gate Valve 250mm SS RF,Valve,"SS gate, PN10, Lug",PCS
+NTPC,NTPC/VLV/1203,Ball Valve 50mm Brass Screwed RF,Valve,"Brass, Screwed BSP",EA
+IOCL,IOCL_PMP_1139,Multistage Pump 65x50 30kW,Pump,"65x50, 30kW, 8 stage",EA
+IOCL,IOCL-VLV-1146,Globe  Valve 65mm Carbon Steel 150#,Valve,"CS, 150#, Flanged",NOS
+SAIL,SAIL/PMP/1153,Vertical Turbine Pump 200mm,Pump,"200mm column, 75kW",SET
+SAIL,SAIL_VLV_1154,Diaphragm Valve 80mm PP,Valve,"PP body, EPDM diaphragm",NOS
+IOCL,IOCL/PIP/1147,HDPE Pipe 110mm PN10,Pipe,"110mm OD, PN10, PE100",M
+IOCL,IOCL_VLV_1153,Gate Valve 8 Inch CI PN10,Valve,"CI, PN10, Flanged",PCS
+IOCL,IOCL-BRG-1160,Needle Roller Bearing NK45/35,Bearing,45x55x35,NOS
+CIL,CIL/FLG/1155,WN Flange 100mm 150# CS,Flange,"100 NB, 150#, A105",PCS
+NTPC,NTPC_VLV_1206,Needle Valve 25mm SS316 6000psi RF,Valve,"SS316, 6000 psi, NPT",NOS
+IOCL,IOCL/MTR/1166,Flameproof Motor 30kW Exd,Motor,"30kW, Exd IIB, 415V",EA
+ONGC,ONGC-BRG-1189,THRUST BALL BEARING 51108,Bearing,40x60x13,EA
+NTPC,NTPC_PMP_1207,Slurry Pump 100mm HNBR,Pump,"100mm, HNBR lined",SET
+ONGC,ONGC-VLV-1193,CHECK VALVE 150MM CS CL 150,Valve,"CS, NACE, Flanged",EA
+SAIL,SAIL/VLV/1159,Gate Valve 100mm CS Class 150,Valve,"CS, 150#, Flanged",NOS
+NTPC,NTPC-VLV-1214,Ball Vlve 50mm Brass Screwed RF,Valve,"Brass, Screwed BSP",EA
+IOCL,IOCL-VLV-1169,Check Valve 12 Inch Carbon Steel Class 150,Valve,"CS, NACE, Flanged",EA
+CIL,CIL_VLV_1159,Butterfly VLV 200mm CI PN16,Valve,"CI, PN16, Wafer",NOS
+ONGC,ONGC-BRG-1197,TAPER ROLLER BEARING 32210,Bearing,50x90x24.75,NOS
+ONGC,ONGC_PMP_1201,SCREW PUMP 5M3/HR SS,Pump,"5 m3/hr, SS wetted",NOS
+ONGC,ONGC-BRG-1204,DEEP GROOVE BALL BEARING 6205,Bearing,"25x52x15, SKF/equiv",EA
+IOCL,IOCL_BRG_1170,"Thrust, Ball Bearing 51108",Bearing,40x60x13,PCS
+NTPC,NTPC-VLV-1218,Ball Valve 80mm SS304 Class 300 RF,Valve,"SS304, Class 300, Screwed",NOS
+CPCL,CPCL-PIP-1176,MS Pipe 100 MM NB ERW,Pipe,"100 NB, ERW, 6m",MTR
+SAIL,SAIL-PMP-1165,Screw Pump 5m3/hr SS,Pump,"5 m3/hr, SS wetted",PCS
+NTPC,NTPC-VLV-1219,Gate Valve 200mm CI PN10 RF,Valve,"CI, PN10, Flanged",NOS
+ONGC,ONGC-PMP-1207,SLURRY PUMP 100MM HNBR,Pump,"100mm, HNBR lined",EA
+NTPC,NTPC-VLV-1226,Gate Valve 200mm CI PN10 RF,,"CI, PN10, Flanged",EA
+NTPC,NTPC_VLV_1232,Plug Valve 100mm CS PTFE RF,Valve,"CS+PTFE sleeve, 150#",PCS
+SAIL,SAIL-VLV-1168,Gate Valve 50mm AISI 316 PN40,Valve,"SS316, PN40, Flanged RF",NOS
+CPCL,CPCL_MTR_1182,Induction Motor 15kW 4P IE3,Motor,"15kW, 4P, 415V, IE3",PCS
+IOCL,IOCL/CBL/1171,XLPE Cable 3Cx120sqmm 1.1kV,Cable,"3Cx120, Al, Armoured",MTR
+CIL,CIL_VLV_1160,Butterfly VLV 200mm CI PN16,Valve,"CI, PN16, Wafer",EA
+CIL,CIL-PMP-1163,Submersible Pump 10HP 100mm,Pump,"10HP, 100mm bore, 3ph",EA
+NTPC,NTPC/CBL/1233,HT Cable 3Cx300 11kV,Cable,3Cx300 Al XLPE 11kV,NOS
+ONGC,ONGC-VLV-1212,GATE VALVE 50MM SS316 PN40,Valve,"SS316, PN40, Flanged RF",NOS
+ONGC,ONGC-PMP-1217,CENTRIFUGAL PUMP 50X40 15KW,,"50x40mm, 15kW, 2900rpm",SET
+IOCL,IOCL-VLV-1178,Butterfly Valve 8 Inch CI PN16,Valve,"CI, PN16, Wafer",PCS
+IOCL,IOCL/BRG/1184,Spherical Roller Bearing 22218,Bearing,90x160x40,EA
+ONGC,ONGC_CBL_1224,CONTROL CABLE 12CX2.5SQMM,Cable,"12Cx2.5 Cu, Unarm",MTR
+CPCL,CPCL/PMP/1187,Diaphragm Dosing Pump 0-100LPH,Pump,"0-100 LPH, PP head",NOS
+IOCL,IOCL/PMP/1189,Centrifugal Pump 50x40 15kW,Pump,"50x40mm, 15kW, 2900rpm",SET
+NTPC,NTPC/VLV/1238,Diaphragm Vlve 80mm PP RF,Valve,"PP body, EPDM diaphragm",PCS
+CIL,CIL-PMP-1164,Centrifugal Pump 50x40 15kW,Pump,"50x40mm, 15kW, 2900rpm",SET
+CPCL,CPCL_CBL_1194,XLPE  Cable 3Cx120sq MM 1.1kV,Cable,"3Cx120, Al, Armoured",M
+ONGC,ONGC/VLV/1230,BUTTERFLY VALVE 200MM CI PN16,Valve,"CI, PN16, Wafer",EA
+CPCL,CPCL/VLV/1197,Needle Valve 25 MM SS316 6000psi,Valve,"SS316, 6000 psi, NPT",PCS
+IOCL,IOCL-VLV-1190,"Globe, Valve 65mm Carbon Steel 150#",Valve,"CS, 150#, Flanged",EA
+IOCL,IOCL/VLV/1194,Safety Relief Valve 2 Inch SS,Valve,"SS, Set 10 barg, Flanged",EA
+SAIL,SAIL/BRG/1175,Deep Groove Ball Bearng 6205,Bearing,"25x52x15, SKF/equiv",NOS
+CIL,CIL-VLV-1171,GATE VLV 50mm SS316 PN40,Valve,"SS316, PN40, Flanged RF",EA
+ONGC,ONGC-CBL-1237,CONTROL CABLE 12CX2.5SQMM,Cable,"12Cx2.5 Cu, Unarm",
+NTPC,NTPC_CBL_1244,Control Cable 12Cx2.5sqmm,Cable,"12Cx2.5 Cu, Unarm",MTR
+ONGC,ONGC/GSK/1243,SPIRAL WOUND GASKET 4IN 150#,Gasket,"4in, 150#, SS316+Graphite",NOS
+NTPC,NTPC/VLV/1249,Gate Vlve 50mm SS316 PN40 RF,Valve,"SS316, PN40, Flanged RF",PCS
+IOCL,IOCL/PIP/1197,GI Pipe 25mm Medium,Pipe,"25mm, Medium, IS1239",M
+CPCL,CPCL/CBL/1202,HT Cable 3Cx300 11kV,Cable,3Cx300 Al XLPE 11kV,MTR
+SAIL,SAIL_VLV_1182,Foot Valve 100mm CI,Valve,"CI, Flanged, With strainer",NOS
+NTPC,NTPC_PIP_1254,CS Pipe 150mm NB Sch80,Pipe,"150 NB, Sch80, API 5L",M
+CPCL,CPCL_PMP_1206,Multistage Pump 65x50 30kW,Pump,"65x50, 30kW, 8 stage",EA
+CIL,CIL_CBL_1176,HT Cable 3Cx300 11kV,Cable,3Cx300 Al XLPE 11kV,MTR
+NTPC,NTPC-VLV-1261,Check Valve 150mm CS Class 150 RF,Valve,"CS, NACE, Flanged",NOS
+SAIL,SAIL/PMP/1188,Screw Pump 5m3/hr SS,Pump,"5 m3/hr, SS wetted",PCS
+NTPC,NTPC/VLV/1263,Plug Valve 100mm CS PTFE RF,Valve,"CS+PTFE sleeve, 150#",EA
+ONGC,ONGC-VLV-1248,NEEDLE VALVE 25MM SS316 6000PSI,Valve,"SS316, 6000 psi, NPT",NOS
+ONGC,ONGC_PMP_1253,VERTICAL TURBINE PUMP 200MM,Pump,"200mm column, 75kW",SET
+CPCL,CPCL/PIP/1212,SS316 Pipe 50 MM NB Sch40,Pipe,"50 NB, Sch40, Seamless",NOS
+NTPC,NTPC_VLV_1267,Globe Valve 65mm CS 150# RF,Valve,"CS, 150#, Flanged",NOS
+CPCL,CPCL-PIP-1217,HDPE Pipe 110 MM PN10,Pipe,"110mm OD, PN10, PE100",M
+CIL,CIL_FLG_1180,Slipon Flange 80mm PN16,Flange,"80 NB, PN16, MS",NOS
+CIL,CIL-VLV-1184,Globe VLV 65mm CS 150#,Valve,"CS, 150#, Flanged",NOS
+ONGC,ONGC_VLV_1259,BALL VALVE 80MM SS304 CL 300,Valve,"SS304, Class 300, Screwed",PCS
+ONGC,ONGC-PMP-1266,MULTISTAGE PUMP 65X50 30KW,Pump,"65x50, 30kW, 8 stage",SET
+NTPC,NTPC/PIP/1271,SS316 Pipe 50mm NB Sch40,Pipe,"50 NB, Sch40, Seamless",NOS
+CIL,CIL-CBL-1188,Control Cable 12Cx2.5sqmm,Cable,"12Cx2.5 Cu, Unarm",MTR
+IOCL,IOCL_FLG_1199,Slipon Flange 3 Inch PN16,Flange,"80 NB, PN16, MS",NOS
+SAIL,SAIL-PMP-1194,Screw Pump 5m3/hr SS,Pump,"5 m3/hr, SS wetted",EA
+ONGC,ONGC/VLV/1268,PLUG VALVE 100MM CS PTFE,Valve,"CS+PTFE sleeve, 150#",PCS
+CPCL,CPCL/PMP/1218,Centrifugal Pump 50x40 15kW,Pump,"50x40mm, 15kW, 2900rpm",EA
+CIL,CIL-MTR-1192,DC Motor 5kW 1500rpm,Motor,"5kW, 220V DC",
+ONGC,ONGC/BRG/1272,TAPER ROLLER BEARING 32210,Bearing,50x90x24.75,EA
+CPCL,CPCL-VLV-1221,Plug Valve 100 MM CS PTFE,Valve,"CS+PTFE sleeve, 150#",NOS
+SAIL,SAIL-VLV-1200,"Gate, Valve 200mm CI PN10",Valve,"CI, PN10, Flanged",EA
+IOCL,IOCL/VLV/1206,Gate Valve 12 Inch Carbon Steel 300#,Valve,"CS, 300#, RTJ",PCS
+IOCL,IOCL/PMP/1207,Gear Pump 2inch CI,Pump,"2 inch, CI, 1440rpm",PCS
+SAIL,SAIL/VLV/1207,Safety Relief Valve 50mm SS,Valve,"SS, Set 10 barg, Flanged",EA
+ONGC,ONGC/PMP/1278,MULTISTAGE PUMP 65X50 30KW,Pump,"65x50, 30kW, 8 stage",SET
+CIL,CIL-PMP-1193,Multistage Pump 65x50 30kW,Pump,"65x50, 30kW, 8 stage",EA
+ONGC,ONGC_VLV_1283,FOOT VALVE 100MM CI,Valve,"CI, Flanged, With strainer",PCS
+SAIL,SAIL-BRG-1208,Deep Groove Ball Bearing 6205,Bearing,"25x52x15, SKF/equiv",PCS
+NTPC,NTPC/PMP/1277,Centrifugal Pump 50x40 15kW,Pump,"50x40mm, 15kW, 2900rpm",EA
+CIL,CIL/PMP/1197,Multistage Pump 65x50 30kW,Pump,"65x50, 30kW, 8 stage",SET
+CPCL,CPCL/VLV/1224,Ball Valve 80 MM SS304 CL 300,Valve,"SS304, Class 300, Screwed",EA
+IOCL,IOCL/PMP/1211,"Submersible, Pump 10HP 4 Inch",Pump,"10HP, 100mm bore, 3ph",EA
+NTPC,NTPC_PMP_1284,Screw Pump 5m3/hr SS,Pump,"5 m3/hr, SS wetted",EA
+SAIL,SAIL_PMP_1215,Multistage Pump 65x50 30kW,Pump,"65x50, 30kW, 8 stage",SET
+ONGC,ONGC_VLV_1286,GATE VALVE 100MM CS CL 150,Valve,"CS, 150#, Flanged",EA
+ONGC,ONGC/VLV/1288,BALL VALVE 80MM SS304 CL 300,Valve,"SS304, Class 300, Screwed",EA
+CPCL,CPCL/PMP/1231,Slurry Pump 100 MM HNBR,Pump,"100mm, HNBR lined",SET
+IOCL,IOCL-GSK-1217,Ring Joint Gasket R37 SS316,Gasket,"R37, Octagonal, SS316",PCS
+CIL,CIL_VLV_1199,Plug VLV 100mm CS PTFE,,"CS+PTFE sleeve, 150#",EA
+CPCL,CPCL_FST_1237,Hex Bolt M20x80 8.8 HDG,Fastener,"M20x80, Gr 8.8, HDG+nut",EA
+NTPC,NTPC_PMP_1289,Multistage Pump 65x50 30kW,,"65x50, 30kW, 8 stage",EA
+CPCL,CPCL_BRG_1242,Needle Roller Bearing NK45/35,Bearing,45x55x35,EA
+CIL,CIL/VLV/1202,BALL VLV 50mm Brass Screwed,Valve,"Brass, Screwed BSP",PCS
+IOCL,IOCL_BRG_1224,Deep Groove Ball Bearing 6205,Bearing,"25x52x15, SKF/equiv",EA
+CPCL,CPCL/VLV/1246,Gate Valve 150 MM CS 300#,Valve,"CS, 300#, RTJ",NOS
+CPCL,CPCL_PMP_1248,Gear Pump 2inch CI,Pump,"2 inch, CI, 1440rpm",PCS
+CPCL,CPCL_PIP_1255,MS Pipe 100 MM NB ERW,Pipe,"100 NB, ERW, 6m",NOS
+SAIL,SAIL_FLG_1217,Slipon Flange 80mm PN16,Flange,"80 NB, PN16, MS",EA
+NTPC,NTPC/VLV/1292,Needle Valve 25mm SS316 6000psi RF,Valve,"SS316, 6000 psi, NPT",EA
+CIL,CIL-MTR-1207,Induction Motor 15kW 4P IE3,Motor,"15kW, 4P, 415V, IE3",EA
+CPCL,CPCL-VLV-1262,Foot Valve 100 MM CI,Valve,"CI, Flanged, With strainer",NOS
+NTPC,NTPC_PMP_1299,Submersible Pump 10HP 100mm,Pump,"10HP, 100mm bore, 3ph",SET
+CIL,CIL/PMP/1211,Submersible Pump 10HP 100mm,Pump,"10HP, 100mm bore, 3ph",SET
+ONGC,???,DIAPHRAGM - DOSING PUMP 0-100LPH,Pump,"0-100 LPH, PP head",EA
+CIL,CIL/FLG/1212,Slipon Flange 80mm PN16,Flange,"80 NB, PN16, MS",PCS
+CIL,CIL-PMP-1215,Gear Pump 2inch CI,Pump,"2 inch, CI, 1440rpm",NOS
+CPCL,CPCL_PMP_1266,Screw Pump 5m3/hr SS,Pump,"5 m3/hr, SS wetted",PCS
+CPCL,CPCL/VLV/1270,Gate Valve 50 MM SS316 PN40,Valve,"SS316, PN40, Flanged RF",EA
+CIL,CIL_FLG_1217,WN Flange 100mm 150# CS,Flange,"100 NB, 150#, A105",NOS
+ONGC,ONGC/PMP/1300,VERTICAL TURBINE PUMP 200MM,Pump,"200mm column, 75kW",SET
+ONGC,ONGC/VLV/1304,NEEDLE VALVE 25MM SS316 6000PSI,Valve,"SS316, 6000 psi, NPT",EA
+CIL,CIL/PMP/1220,Submersible Pump 10HP 100mm,Pump,"10HP, 100mm bore, 3ph",SET
+ONGC,ONGC-VLV-1309,GLOBE VALVE 65MM CS 150#,Valve,"CS, 150#, Flanged",NOS
+CPCL,CPCL/BRG/1272,Plu MMer Block UCP210,Bearing,"50mm bore, CI housing",PCS
+CIL,CIL-VLV-1223,GATE VLV 150mm CS 300#,Valve,"CS, 300#, RTJ",
+NTPC,NTPC_PMP_1300,Multistage Pump 65x50 30kW,Pump,"65x50, 30kW, 8 stage",SET
+CPCL,CPCL-PIP-1273,SS316 Pipe 50 MM NB Sch40,Pipe,"50 NB, Sch40, Seamless",MTR
+NTPC,NTPC-PMP-1301,Submersible Pump 10HP 100mm,Pump,"10HP, 100mm bore, 3ph",SET
+NTPC,NTPC_VLV_1304,Gate Valve 50mm SS316 PN40 RF,Valve,"SS316, PN40, Flanged RF",EA
+NTPC,NTPC_GSK_1308,Spiral Wound Gasket 4in 150#,Gasket,"4in, 150#, SS316+Graphite",EA
+CIL,CIL-VLV-1230,BALL VLV 80mm SS304 Class 300,Valve,"SS304, Class 300, Screwed",NOS
+IOCL,IOCL/VLV/1231,Foot Valve 4 Inch CI,Valve,"CI, Flanged, With strainer",
+IOCL,IOCL-PMP-1235,Gear Pump 2inch CI,Pump,"2 inch, CI, 1440rpm",EA
+SAIL,SAIL_PIP_1222,GI Pipe 25mm Medium,Pipe,"25mm, Medium, IS1239",NOS
+CIL,CIL/PIP/1231,GI Pipe 25mm Medium,Pipe,"25mm, Medium, IS1239",NOS
+IOCL,IOCL_MTR_1240,Flameproof Motor 30kW Exd,Motor,"30kW, Exd IIB, 415V",
+NTPC,NTPC/VLV/1309,Knife Gate Valve 250mm SS RF,Valve,"SS gate, PN10, Lug",NOS
+CIL,CIL-PMP-1238,Submersible Pump 10HP 100mm,Pump,"10HP, 100mm bore, 3ph",SET
+NTPC,NTPC_BRG_1313,Taper Roller Bearing 32210,Bearing,50x90x24.75,
+ONGC,ONGC_PMP_1314,VERTICAL TURBINE PUMP 200MM,Pump,"200mm column, 75kW",EA
+CPCL,CPCL-VLV-1274,Plug Valve 100 MM CS PTFE,Valve,"CS+PTFE sleeve, 150#",NOS
+CPCL,CPCL-PIP-1275,CS Pipe 150 MM NB Sch80,Pipe,"150 NB, Sch80, API 5L",NOS
+CPCL,CPCL_BRG_1278,Plu MMer Block UCP210,Bearing,"50mm bore, CI housing",NOS
+CIL,CIL_PMP_1241,Centrifugal Pump 50x40 15kW,Pump,"50x40mm, 15kW, 2900rpm",SET
+IOCL,IOCL/PMP/1241,Slurry Pump 4 Inch HNBR,Pump,"100mm, HNBR lined",SET
+NTPC,NTPC_FLG_1318,WN Flange 100mm 150# CS,,"100 NB, 150#, A105",NOS
+NTPC,NTPC_VLV_1322,Gate Valve 50mm SS316 PN40 RF,Valve,"SS316, PN40, Flanged RF",EA
+CIL,CIL_VLV_1244,GATE VLV 150mm CS 300#,Valve,"CS, 300#, RTJ",NOS
+NTPC,NTPC/VLV/1325,Plug Valve 100mm CS PTFE RF,Valve,"CS+PTFE sleeve, 150#",EA
+CIL,CIL_GSK_1247,Spiral Wound Gasket 4in 150#,Gasket,"4in, 150#, SS316+Graphite",PCS
+CPCL,CPCL-VLV-1284,Butterfly Valve 200 MM CI PN16,Valve,"CI, PN16, Wafer",PCS
+CPCL,CPCL/VLV/1291,Knife Gate Valve 250 MM SS,Valve,"SS gate, PN10, Lug",PCS
+CIL,CIL/FLG/1252,Slipon Flange 80mm PN16,Flange,"80 NB, PN16, MS",EA
+CIL,CIL-PMP-1255,Diaphragm Dosing Pump 0-100LPH,Pump,"0-100 LPH, PP head",EA
+IOCL,IOCL/FLG/1242,WN Flange 4 Inch 150# Carbon Steel,Flange,"100 NB, 150#, A105",EA
+CIL,CIL-BRG-1259,Taper Roller BRG 32210,Bearing,50x90x24.75,PCS
+NTPC,NTPC_PMP_1332,Slurry Pump 100mm HNBR,Pump,"100mm, HNBR lined",EA
+NTPC,NTPC_PMP_1338,Multistage Pump 65x50 30kW,Pump,"65x50, 30kW, 8 stage",EA
+IOCL,IOCL_BRG_1244,Spherical Roller Bearing 22218,Bearing,90x160x40,NOS
+NTPC,NTPC-FLG-1341,Blind Flange 50mm 300# SS316,Flange,"50 NB, 300#, SS316",NOS
+IOCL,IOCL_VLV_1247,Diaphragm Vlve 3 Inch PP,Valve,"PP body, EPDM diaphragm",EA
+SAIL,SAIL_BRG_1223,Deep Groove Ball Bearing 6205,Bearing,"25x52x15, SKF/equiv",EA
+IOCL,IOCL/BRG/1252,Needle Roller Bearing NK45/35,Bearing,45x55x35,NOS
+CPCL,CPCL_VLV_1298,Needle Valve 25 MM SS316 6000psi,Valve,"SS316, 6000 psi, NPT",PCS
+ONGC,ONGC-VLV-1318,BALL VALVE 50MM BRASS SCREWED,Valve,"Brass, Screwed BSP",PCS
+CPCL,CPCL-VLV-1305,Gate Valve 100 MM CS CL 150,Valve,"CS, 150#, Flanged",NOS
+CPCL,CPCL/VLV/1310,Gate Valve 200 MM CI PN10,Valve,"CI, PN10, Flanged",NOS
+ONGC,ONGC_VLV_1325,BUTTERFLY VALVE 200MM CI PN16,Valve,"CI, PN16, Wafer",
+CIL,CIL-PIP-1260,HDPE Pipe 110mm PN10,Pipe,"110mm OD, PN10, PE100",NOS
+ONGC,ONGC-MTR-1327,DC MOTOR 5KW 1500RPM,Motor,"5kW, 220V DC",EA
+CPCL,CPCL-PIP-1315,MS Pipe 100 MM NB ERW,Pipe,"100 NB, ERW, 6m",M
+NTPC,NTPC-PIP-1346,GI Pipe 25mm Medium,Pipe,"25mm, Medium, IS1239",NOS
+ONGC,ONGC-PIP-1332,MS PIPE 100MM NB ERW,Pipe,"100 NB, ERW, 6m",M
+NTPC,NTPC_BRG_1353,Needle Roller Bearing NK45/35,Bearing,45x55x35,NOS
+SAIL,SAIL-VLV-1229,Butterfly Valve 200mm CI PN16,Valve,"CI, PN16, Wafer",NOS
+CPCL,CPCL_PIP_1316,MS Pipe 100 MM NB ERW,Pipe,"100 NB, ERW, 6m",NOS
+SAIL,SAIL-PMP-1232,Gear Pump 2inch CI,Pump,"2 inch, CI, 1440rpm",PCS
+SAIL,SAIL-VLV-1234,Ball Valve 80mm AISI 304 Class 300,Valve,"SS304, Class 300, Screwed",PCS
+ONGC,ONGC/VLV/1337,GATE VALVE 100MM CS CL 150,Valve,"CS, 150#, Flanged",PCS
+CIL,CIL/BRG/1263,Taper Roller BRG 32210,Bearing,50x90x24.75,NOS
+IOCL,IOCL/PIP/1256,GI Pipe 25mm Medium,Pipe,"25mm, Medium, IS1239",NOS
+CPCL,CPCL-PMP-1318,Diaphragm Dosing Pump 0-100LPH,Pump,"0-100 LPH, PP head",EA
+CPCL,CPCL/GSK/1321,"Ring, Joint Gasket R37 SS316",Gasket,"R37, Octagonal, SS316",EA
+CIL,CIL/BRG/1270,Plummer Block UCP210,Bearing,"50mm bore, CI housing",NOS
+CIL,CIL_GSK_1277,Ring  Joint Gasket R37 SS316,Gasket,"R37, Octagonal, SS316",PCS
+ONGC,ONGC_BRG_1342,NEEDLE ROLLER BEARING NK45/35,Bearing,45x55x35,EA
+SAIL,SAIL-VLV-1237,Diaphragm Valve 80mm PP,Valve,"PP body, EPDM diaphragm",NOS
+SAIL,SAIL_VLV_1244,Ball Valve 80mm AISI 304 Class 300,Valve,"SS304, Class 300, Screwed",NOS
+IOCL,IOCL/BRG/1260,Plummer Block UCP210,Bearing,"50mm bore, CI housing",NOS
+ONGC,ONGC/VLV/1347,KNIFE GATE VALVE 250MM SS,Valve,"SS gate, PN10, Lug",NOS
+CPCL,CPCL/PIP/1327,"MS, Pipe 100 MM NB ERW",Pipe,"100 NB, ERW, 6m",NOS
+CPCL,CPCL-MTR-1334,DC Motor 5kW 1500rpm,Motor,"5kW, 220V DC",PCS
+CPCL,CPCL_BRG_1338,Thrust Ball Bearing 51108,Bearing,40x60x13,NOS
+CIL,CIL-FLG-1279,Blind Flange 50mm 300# SS316,Flange,"50 NB, 300#, SS316",NOS
+CPCL,CPCL_VLV_1342,Diaphragm Valve 80 MM PP,Valve,"PP body, EPDM diaphragm",NOS
+IOCL,IOCL_CBL_1265,Control Cable 12Cx2.5sqmm,Cable,"12Cx2.5 Cu, Unarm",MTR
+IOCL,IOCL_CBL_1267,HT Cable 3Cx300 11kV,Cable,3Cx300 Al XLPE 11kV,M
+CIL,CIL-VLV-1280,Check VLV 150mm CS Class 150,Valve,"CS, NACE, Flanged",EA
+NTPC,NTPC_FLG_1360,Blind Flange 50mm 300# SS316,Flange,"50 NB, 300#, SS316",NOS
+NTPC,NTPC-VLV-1361,Globe Valve 65mm CS 150# RF,Valve,"CS, 150#, Flanged",NOS
+SAIL,SAIL-BRG-1251,Spherical Roller Bearing 22218,Bearing,90x160x40,PCS
+SAIL,SAIL-PMP-1252,Vertical Turbine Pump 200mm,Pump,"200mm column, 75kW",EA
+CIL,CIL/VLV/1285,Safety Relief VLV 50mm SS,Valve,"SS, Set 10 barg, Flanged",NOS
+NTPC,NTPC/PMP/1365,Slurry Pump 100mm HNBR,Pump,"100mm, HNBR lined",SET
+ONGC,ONGC/VLV/1352,BALL VALVE 50MM BRASS SCREWED,Valve,"Brass, Screwed BSP",EA
+ONGC,ONGC_VLV_1356,GATE VALVE 50MM SS316 PN40,Valve,"SS316, PN40, Flanged RF",EA
+CIL,CIL_VLV_1288,BALL VLV 80mm SS304 Class 300,Valve,"SS304, Class 300, Screwed",EA
+IOCL,IOCL_PMP_1274,Diaphragm Dosing Pump 0-100LPH,Pump,"0-100 LPH, PP head",EA
+SAIL,SAIL/PMP/1258,Diaphragm Dosing Pump 0-100LPH,Pump,"0-100 LPH, PP head",PCS
+CIL,CIL-FLG-1289,Slipon Flange 80mm PN16,Flange,"80 NB, PN16, MS",PCS
+CIL,CIL_GSK_1293,Spiral Wound Gasket 4in 150#,Gasket,"4in, 150#, SS316+Graphite",NOS
+ONGC,ONGC-FLG-1359,WN  FLANGE 100MM 150# CS,Flange,"100 NB, 150#, A105",PCS
+SAIL,SAIL-BRG-1263,Spherical Roller Bearing 22218,Bearing,90x160x40,NOS
+SAIL,SAIL_VLV_1264,Knife Gate Valve 250mm SS,Valve,"SS gate, PN10, Lug",PCS
+IOCL,IOCL-VLV-1276,Ball Valve 2 Inch Brass Screwed,Valve,"Brass, Screwed BSP",EA
+SAIL,SAIL-PIP-1270,GI Pipe 25mm Medium,Pipe,"25mm, Medium, IS1239",MTR
+CPCL,CPCL-VLV-1345,Gate Valve 200 MM CI PN10,Valve,"CI, PN10, Flanged",PCS
+NTPC,NTPC-GSK-1370,Ring Joint Gasket R37 SS316,Gasket,"R37, Octagonal, SS316",PCS
+SAIL,SAIL/PMP/1275,Diaphragm Dosing Pump 0-100LPH,Pump,"0-100 LPH, PP head",PCS
+CPCL,CPCL_VLV_1349,Ball Valve 80 MM SS304 CL 300,Valve,"SS304, Class 300, Screwed",EA
+NTPC,NTPC_MTR_1372,DC Motor 5kW 1500rpm,Motor,"5kW, 220V DC",PCS
+ONGC,ONGC-VLV-1362,CHECK VALVE 150MM CS CL 150,Valve,"CS, NACE, Flanged",EA
+IOCL,IOCL-VLV-1279,Ball Valve 2 Inch Brass Screwed,Valve,"Brass, Screwed BSP",PCS
+NTPC,NTPC_PMP_1374,Vertical Turbine Pump 200mm,Pump,"200mm column, 75kW",SET
+SAIL,SAIL-MTR-1282,Flameproof Motor 30kW Exd,Motor,"30kW, Exd IIB, 415V",NOS
+SAIL,SAIL/PMP/1289,Vertical Turbine Pump 200mm,Pump,"200mm column, 75kW",EA
+CPCL,CPCL_VLV_1356,Gate Valve 150 MM CS 300#,Valve,"CS, 300#, RTJ",NOS
+NTPC,NTPC-VLV-1379,Knife Gate Valve 250mm SS RF,Valve,"SS gate, PN10, Lug",PCS
+ONGC,ONGC/PMP/1366,SUBMERSIBLE PUMP 10HP 100MM,Pump,"10HP, 100mm bore, 3ph",
+SAIL,SAIL_PMP_1291,Submersible Pump 10HP 100mm,Pump,"10HP, 100mm bore, 3ph",EA
+NTPC,NTPC_BRG_1383,Plummer Block UCP210,Bearing,"50mm bore, CI housing",EA
+SAIL,SAIL-BRG-1298,Needle Roller Bearing NK45/35,Bearing,45x55x35,PCS
+IOCL,IOCL-CBL-1285,XLPE Cable 3Cx120sqmm 1.1kV,Cable,"3Cx120, Al, Armoured",M
+CIL,CIL/CBL/1299,Control Cable 12Cx2.5sqmm,Cable,"12Cx2.5 Cu, Unarm",M
+CIL,CIL/CBL/1301,HT Cable 3Cx300 11kV,Cable,3Cx300 Al XLPE 11kV,M
+CPCL,CPCL/VLV/1363,Gate Valve 150 MM CS 300#,Valve,"CS, 300#, RTJ",
+IOCL,IOCL_VLV_1291,Knife Gate Valve 22 Inch SS,Valve,"SS gate, PN10, Lug",PCS
+NTPC,NTPC-PMP-1387,Multistage Pump 65x50 30kW,Pump,"65x50, 30kW, 8 stage",EA
+CIL,CIL/CBL/1304,XLPE Cable 3Cx120sqmm 1.1kV,Cable,"3Cx120, Al, Armoured",NOS
+CPCL,CPCL_VLV_1366,Gate Valve 150 MM CS 300#,Valve,"CS, 300#, RTJ",NOS
+CPCL,CPCL/VLV/1371,Foot Valve 100 MM CI,Valve,"CI, Flanged, With strainer",EA
+CPCL,CPCL_PIP_1377,SS316 Pipe 50 MM NB Sch40,Pipe,"50 NB, Sch40, Seamless",MTR
+NTPC,NTPC/PIP/1388,GI Pipe 25mm Medium,Pipe,"25mm, Medium, IS1239",NOS
+CIL,CIL/BRG/1308,Spherical Roller BRG 22218,Bearing,90x160x40,NOS
+IOCL,IOCL/VLV/1297,Gate Vlve 4 Inch Carbon Steel Class 150,Valve,"CS, 150#, Flanged",NOS
+SAIL,SAIL_BRG_1304,Thrust Ball Bearing 51108,Bearing,40x60x13,NOS
+NTPC,NTPC_VLV_1394,Gate Valve 50mm SS316 PN40 RF,Valve,"SS316, PN40, Flanged RF",NOS
+CPCL,CPCL-PIP-1380,SS316 Pipe 50 MM NB Sch40,Pipe,"50 NB, Sch40, Seamless",
+CPCL,???,Spiral Wound Gasket 4in 150#,Gasket,"4in, 150#, SS316+Graphite",EA
+CPCL,CPCL-CBL-1388,Control Cable 12Cx2.5sq MM,Cable,"12Cx2.5 Cu, Unarm",NOS
+IOCL,IOCL/PMP/1303,Slurry Pump 4 Inch HNBR,Pump,"100mm, HNBR lined",EA
+SAIL,SAIL/VLV/1310,Ball Valve 80mm AISI 304 Class 300,Valve,"SS304, Class 300, Screwed",EA
+ONGC,ONGC-MTR-1369,INDUCTION MOTOR 15KW 4P IE3,Motor,"15kW, 4P, 415V, IE3",PCS
+CPCL,CPCL_MTR_1389,DC Motor 5kW 1500rpm,Motor,"5kW, 220V DC",NOS
+CIL,CIL-PIP-1309,SS316 Pipe 50mm NB Sch40,Pipe,"50 NB, Sch40, Seamless",MTR
+CPCL,CPCL-MTR-1396,Flameproof Motor 30kW Exd,Motor,"30kW, Exd IIB, 415V",EA
+NTPC,NTPC-PMP-1396,Centrifugal - Pump 50x40 15kW,Pump,"50x40mm, 15kW, 2900rpm",EA
+IOCL,IOCL-PMP-1307,Submersible Pump 10HP 4 Inch,Pump,"10HP, 100mm bore, 3ph",SET
+IOCL,IOCL/VLV/1313,Gate Valve 4 Inch Carbon Steel Class 150,Valve,"CS, 150#, Flanged",NOS
+ONGC,ONGC/PMP/1375,MULTISTAGE PUMP 65X50 30KW,Pump,"65x50, 30kW, 8 stage",SET
+IOCL,IOCL-MTR-1316,DC Motor 5kW 1500rpm,Motor,"5kW, 220V DC",NOS
+ONGC,ONGC/VLV/1381,DIAPHRAGM VALVE 80MM PP,Valve,"PP body, EPDM diaphragm",PCS
+ONGC,ONGC_VLV_1384,FOOT VALVE 100MM CI,Valve,"CI, Flanged, With strainer",NOS
+IOCL,IOCL_VLV_1319,Gate Valve 12 Inch Carbon Steel 300#,Valve,"CS, 300#, RTJ",PCS
+CIL,CIL-BRG-1315,Thrust BALL BRG 51108,Bearing,40x60x13,EA
+CIL,CIL-BRG-1320,Spherical Roller BRG 22218,Bearing,90x160x40,PCS
+SAIL,SAIL-PIP-1315,HDPE Pipe 110mm PN10,Pipe,"110mm OD, PN10, PE100",M
+CIL,CIL_CBL_1321,XLPE Cable 3Cx120sqmm 1.1kV,Cable,"3Cx120, Al, Armoured",M
+SAIL,SAIL_PMP_1317,Screw Pump 5m3/hr SS,Pump,"5 m3/hr, SS wetted",PCS
+CIL,CIL_VLV_1322,BALL VLV 50mm Brass Screwed,Valve,"Brass, Screwed BSP",PCS
+IOCL,IOCL-CBL-1320,Control  Cable 12Cx2.5sqmm,Cable,"12Cx2.5 Cu, Unarm",NOS
+SAIL,SAIL-BRG-1320,Taper Roller Bearing 32210,,50x90x24.75,PCS
+ONGC,ONGC-CBL-1390,XLPE CABLE 3CX120SQMM 1.1KV,Cable,"3Cx120, Al, Armoured",M
+CIL,CIL/VLV/1327,Safety Relief VLV 50mm SS,Valve,"SS, Set 10 barg, Flanged",PCS
+SAIL,SAIL_PIP_1322,"MS, Pipe 100mm NB ERW",Pipe,"100 NB, ERW, 6m",M
+IOCL,IOCL/VLV/1325,Needle Valve 25mm SS316 6000psi,Valve,"SS316, 6000 psi, NPT",PCS
+CIL,CIL-VLV-1328,Needle VLV 25mm SS316 6000psi,Valve,"SS316, 6000 psi, NPT",NOS
+SAIL,SAIL/VLV/1325,Globe Valve 65mm CS 150#,Valve,"CS, 150#, Flanged",PCS
+NTPC,NTPC_PIP_1399,MS Pipe 100mm NB ERW,Pipe,"100 NB, ERW, 6m",MTR
+CPCL,CPCL/VLV/1400,Butterfly Valve 200 MM CI PN16,Valve,"CI, PN16, Wafer",
+CPCL,CPCL-FLG-1402,Blind Flange 50 MM 300# SS316,Flange,"50 NB, 300#, SS316",
+SAIL,SAIL_VLV_1330,Knife Gate Valve 250mm SS,Valve,"SS gate, PN10, Lug",EA
+SAIL,SAIL/VLV/1333,Globe Valve 65mm CS 150#,Valve,"CS, 150#, Flanged",EA
+CPCL,CPCL/VLV/1404,Knife Gate Valve 250 MM SS,Valve,"SS gate, PN10, Lug",PCS
+ONGC,ONGC/PMP/1395,SCREW PUMP 5M3/HR SS,Pump,"5 m3/hr, SS wetted",NOS
+NTPC,NTPC-PMP-1406,Slurry Pump 100mm HNBR,Pump,"100mm, HNBR lined",SET
+CIL,CIL_MTR_1331,Flameproof Motor 30kW Exd,Motor,"30kW, Exd IIB, 415V",NOS
+IOCL,IOCL/VLV/1331,Gate Vlve 2 Inch SS316 PN40,Valve,"SS316, PN40, Flanged RF",NOS
+NTPC,NTPC-PIP-1409,SS316 Pipe 50mm NB Sch40,Pipe,"50 NB, Sch40, Seamless",M
+SAIL,SAIL-PMP-1339,Diaphragm Dosing Pump 0-100LPH,Pump,"0-100 LPH, PP head",NOS
+SAIL,SAIL_VLV_1345,Gate Valve 100mm CS Class 150,Valve,"CS, 150#, Flanged",EA
+SAIL,SAIL/PIP/1349,"HDPE, Pipe 110mm PN10",Pipe,"110mm OD, PN10, PE100",M
+CPCL,CPCL_VLV_1407,Safety Relief Valve 50 MM SS,Valve,"SS, Set 10 barg, Flanged",NOS
+CIL,CIL_PMP_1338,Gear Pump 2inch CI,Pump,"2 inch, CI, 1440rpm",NOS
+CPCL,CPCL-CBL-1413,XLPE Cable 3Cx120sq MM 1.1kV,Cable,"3Cx120, Al, Armoured",M
+IOCL,IOCL/GSK/1338,Spiral Wound Gasket 4in 150#,Gasket,"4in, 150#, SS316+Graphite",PCS
+ONGC,ONGC_CBL_1401,XLPE CABLE 3CX120SQMM 1.1KV,Cable,"3Cx120, Al, Armoured",MTR
+CPCL,CPCL-PMP-1419,Submersible Pump 10HP 100 MM,Pump,"10HP, 100mm bore, 3ph",SET
+ONGC,ONGC_VLV_1408,GATE VALV 150MM CS 300#,Valve,"CS, 300#, RTJ",NOS
+CPCL,CPCL_PIP_1424,CS Pipe 150 MM NB Sch80,Pipe,"150 NB, Sch80, API 5L",MTR
+ONGC,ONGC/VLV/1413,GATE VALV 200MM CI PN10,Valve,"CI, PN10, Flanged",NOS
+CPCL,CPCL_PIP_1426,CS Pipe 150 MM NB Sch80,Pipe,"150 NB, Sch80, API 5L",M
+ONGC,ONGC-CBL-1416,XLPE CABLE 3CX120SQMM 1.1KV,Cable,"3Cx120, Al, Armoured",MTR
+SAIL,SAIL_VLV_1354,Gate Valve 100mm CS Class 150,Valve,"CS, 150#, Flanged",PCS
+SAIL,SAIL-FLG-1359,WN Flange 100mm 150# CS,Flange,"100 NB, 150#, A105",NOS
+IOCL,IOCL_VLV_1344,Plug Valve 4 Inch Carbon Steel PTFE,Valve,"CS+PTFE sleeve, 150#",EA
+SAIL,SAIL-BRG-1362,Spherical Roller Bearing 22218,Bearing,90x160x40,PCS
+IOCL,IOCL/FLG/1351,Blind Flange 2 Inch 300# SS316,Flange,"50 NB, 300#, SS316",EA
+CIL,CIL-GSK-1341,Ring Joint Gasket R37 SS316,Gasket,"R37, Octagonal, SS316",NOS
+CPCL,CPCL-FST-1431,Hex Bolt M20x80 8.8 HDG,Fastener,"M20x80, Gr 8.8, HDG+nut",SET
+IOCL,IOCL/CBL/1356,HT Cable 3Cx300 11kV,Cable,3Cx300 Al XLPE 11kV,NOS
+IOCL,IOCL/FLG/1357,Slipon Flange 3 Inch PN16,Flange,"80 NB, PN16, MS",NOS
+IOCL,IOCL-VLV-1358,Gate Valve 12 Inch Carbon Steel 300#,Valve,"CS, 300#, RTJ",NOS
+IOCL,IOCL-VLV-1365,Gate Valve 4 Inch Carbon Steel Class 150,Valve,"CS, 150#, Flanged",PCS
+CIL,CIL_VLV_1346,Foot VLV 100mm CI,Valve,"CI, Flanged, With strainer",PCS
+ONGC,ONGC_PIP_1418,HDPE PIPE 110MM PN10,Pipe,"110mm OD, PN10, PE100",NOS
+CIL,CIL/BRG/1348,Needle Roller BRG NK45/35,Bearing,45x55x35,EA
+NTPC,NTPC_PMP_1410,Gear Pump 2inch CI,Pump,"2 inch, CI, 1440rpm",PCS
+SAIL,SAIL_PMP_1368,"Gear, Pump 2inch CI",Pump,"2 inch, CI, 1440rpm",NOS
+CIL,CIL-VLV-1352,Globe VLV 65mm CS 150#,Valve,"CS, 150#, Flanged",NOS
+CIL,CIL/FST/1358,Hex  Bolt M20x80 8.8 HDG,Fastener,"M20x80, Gr 8.8, HDG+nut",EA
+SAIL,SAIL_FST_1372,Hex Bolt M20x80 8.8 HDG,Fastener,"M20x80, Gr 8.8, HDG+nut",EA
+IOCL,IOCL-VLV-1367,Plug Valve 4 Inch Carbon Steel PTFE,Valve,"CS+PTFE sleeve, 150#",PCS
+CPCL,CPCL-VLV-1432,Gate Valve 150 MM CS 300#,Valve,"CS, 300#, RTJ",
+NTPC,NTPC_VLV_1411,Ball Valve 80mm SS304 Class 300 RF,Valve,"SS304, Class 300, Screwed",EA
+ONGC,ONGC-VLV-1419,CHECK VALVE 150MM CS CL 150,Valve,"CS, NACE, Flanged",PCS
+IOCL,IOCL/PIP/1373,SS316 Pipe 2 Inch NB Sch40,Pipe,"50 NB, Sch40, Seamless",MTR
+CPCL,CPCL-PIP-1433,CS Pipe 150 MM NB Sch80,Pipe,"150 NB, Sch80, API 5L",M
+CIL,CIL_VLV_1365,Needle VLV 25mm SS316 6000psi,Valve,"SS316, 6000 psi, NPT",NOS
+CPCL,CPCL-CBL-1437,HT Cable 3Cx300 11kV,Cable,3Cx300 Al XLPE 11kV,M
+CPCL,CPCL_FLG_1441,Blind Flange 50 MM 300# SS316,Flange,"50 NB, 300#, SS316",NOS
+CIL,CIL/PMP/1366,Vertical Turbine Pump 200mm,Pump,"200mm column, 75kW",EA
+SAIL,SAIL_BRG_1374,Spherical Roller Bearing 22218,Bearing,90x160x40,PCS
+SAIL,SAIL-VLV-1377,Foot Valve 100mm CI,Valve,"CI, Flanged, With strainer",NOS
+IOCL,IOCL/MTR/1377,Induction Motor 15kW 4P IE3,Motor,"15kW, 4P, 415V, IE3",NOS
+CIL,CIL-GSK-1373,Spiral Wound Gasket 4in 150#,Gasket,"4in, 150#, SS316+Graphite",EA
+CPCL,CPCL_VLV_1447,Foot Valve 100 MM CI,Valve,"CI, Flanged, With strainer",PCS
+CIL,CIL-GSK-1377,Ring Joint Gasket R37 SS316,Gasket,"R37, Octagonal, SS316",PCS
+CPCL,CPCL/PMP/1454,Centrifugal Pump 50x40 15kW,Pump,"50x40mm, 15kW, 2900rpm",SET
+SAIL,SAIL_VLV_1382,Plug Vlve 100mm CS PTFE,Valve,"CS+PTFE sleeve, 150#",NOS
+CPCL,CPCL/BRG/1457,Thrust Ball Bearing 51108,Bearing,40x60x13,PCS
+ONGC,ONGC/PMP/1426,VERTICAL TURBINE PUMP 200MM,Pump,"200mm column, 75kW",EA
+CPCL,CPCL-PIP-1460,CS Pipe 150 MM NB Sch80,Pipe,"150 NB, Sch80, API 5L",NOS
+ONGC,ONGC/VLV/1427,DIAPHRAGM VALVE 80MM PP,Valve,"PP body, EPDM diaphragm",PCS
+CPCL,CPCL-PMP-1462,Screw Pump 5m3/hr SS,Pump,"5 m3/hr, SS wetted",PCS
+CIL,CIL-MTR-1378,DC Motor 5kW 1500rpm,Motor,"5kW, 220V DC",EA
+NTPC,NTPC_VLV_1412,Diaphragm Valve 80mm PP RF,Valve,"PP body, EPDM diaphragm",PCS
+IOCL,IOCL/VLV/1379,Globe Valve 65mm Carbon Steel 150#,Valve,"CS, 150#, Flanged",NOS
+IOCL,IOCL_PMP_1380,Centrifugal Pump 50x40 15kW,Pump,"50x40mm, 15kW, 2900rpm",SET
+CIL,CIL-PMP-1383,Vertical Turbine Pump 200mm,Pump,"200mm column, 75kW",SET
+IOCL,IOCL-PMP-1386,Screw Pump 5m3/hr SS,Pump,"5 m3/hr, SS wetted",NOS
+SAIL,SAIL_GSK_1388,Spiral Wound Gasket 4in 150#,Gasket,"4in, 150#, SS316+Graphite",EA
+CIL,CIL/VLV/1384,Knife GATE VLV 250mm SS,Valve,"SS gate, PN10, Lug",PCS
+NTPC,NTPC_VLV_1418,Globe Valve 65mm CS 150# RF,Valve,"CS, 150#, Flanged",NOS
+CPCL,CPCL-PMP-1466,Diaphragm Dosing Pump 0-100LPH,Pump,"0-100 LPH, PP head",PCS
+NTPC,NTPC-VLV-1422,Diaphragm Vlve 80mm PP RF,Valve,"PP body, EPDM diaphragm",NOS
+SAIL,SAIL_MTR_1392,DC  Motor 5kW 1500rpm,Motor,"5kW, 220V DC",NOS
+NTPC,NTPC_PMP_1424,Centrifugal Pump 50x40 15kW,Pump,"50x40mm, 15kW, 2900rpm",SET
+CIL,CIL/PMP/1391,Gear Pump 2inch CI,Pump,"2 inch, CI, 1440rpm",PCS
+ONGC,ONGC_BRG_1433,THRUST BALL BEARING 51108,Bearing,40x60x13,EA
+NTPC,NTPC-VLV-1428,Safety Relief Valve 50mm SS RF,Valve,"SS, Set 10 barg, Flanged",PCS
+NTPC,NTPC-GSK-1429,Ring Joint Gasket R37 SS316,Gasket,"R37, Octagonal, SS316",NOS
+ONGC,ONGC-MTR-1439,INDUCTION MOTOR 15KW 4P IE3,Motor,"15kW, 4P, 415V, IE3",EA
+CIL,CIL_VLV_1394,Safety Relief VLV 50mm SS,Valve,"SS, Set 10 barg, Flanged",PCS
+CPCL,CPCL-VLV-1471,Butterfly Valve 200 MM CI PN16,Valve,"CI, PN16, Wafer",PCS
+CPCL,CPCL-PMP-1472,Centrifugal Pump 50x40 15kW,Pump,"50x40mm, 15kW, 2900rpm",EA
+SAIL,SAIL_VLV_1395,Ball Valve 50mm Brass Screwed,Valve,"Brass, Screwed BSP",EA
+IOCL,IOCL/PMP/1390,Slurry Pump 4 Inch HNBR,Pump,"100mm, HNBR lined",EA
+ONGC,ONGC_PMP_1441,GEAR PUMP 2INCH CI,Pump,"2 inch, CI, 1440rpm",EA
+NTPC,NTPC_VLV_1436,Safety Relief Valve 50mm SS RF,Valve,"SS, Set 10 barg, Flanged",PCS
+NTPC,NTPC-PMP-1438,Slurry Pump 100mm HNBR,Pump,"100mm, HNBR lined",EA
+SAIL,SAIL_BRG_1400,Thrust Ball Bearing 51108,Bearing,40x60x13,EA
+SAIL,SAIL-FST-1406,Hex Bolt M20x80 8.8 HDG,Fastener,"M20x80, Gr 8.8, HDG+nut",SET
+CPCL,CPCL_FLG_1473,Slipon Flange 80 MM PN16,Flange,"80 NB, PN16, MS",PCS
+ONGC,ONGC_VLV_1446,CHECK VALVE 150MM CS CL 150,Valve,"CS, NACE, Flanged",EA
+SAIL,SAIL_GSK_1411,Spiral Wound Gasket 4in 150#,Gasket,"4in, 150#, SS316+Graphite",EA
+ONGC,ONGC_VLV_1451,BUTTERFLY VALVE 200MM CI PN16,Valve,"CI, PN16, Wafer",NOS
+IOCL,IOCL/PMP/1396,Submersible Pump 10HP 4 Inch,Pump,"10HP, 100mm bore, 3ph",SET
+CPCL,CPCL/VLV/1478,Diaphragm Valve 80 MM PP,,"PP body, EPDM diaphragm",NOS
+SAIL,SAIL/VLV/1417,Ball Valve 80mm AISI 304 Class 300,Valve,"SS304, Class 300, Screwed",EA
+SAIL,SAIL-VLV-1420,Globe Valve 65mm CS 150#,Valve,"CS, 150#, Flanged",EA
+NTPC,NTPC_VLV_1440,Gate Valve 200mm CI PN10 RF,Valve,"CI, PN10, Flanged",NOS
+ONGC,ONGC-CBL-1458,XLPE CABLE 3CX120SQMM 1.1KV,Cable,"3Cx120, Al, Armoured",MTR
+SAIL,SAIL_PMP_1426,Slurry Pump 100mm HNBR,Pump,"100mm, HNBR lined",EA
+NTPC,NTPC_FLG_1445,Blind Flange 50mm 300# SS316,Flange,"50 NB, 300#, SS316",NOS
+SAIL,SAIL/PMP/1433,Submersible Pump 10HP 100mm,Pump,"10HP, 100mm bore, 3ph",EA
+NTPC,NTPC-MTR-1451,Flameproof Motor 30kW Exd,Motor,"30kW, Exd IIB, 415V",PCS
+IOCL,IOCL_VLV_1397,Butterfly Valve 8 Inch CI PN16,,"CI, PN16, Wafer",EA
+NTPC,NTPC/PMP/1457,Gear Pump 2inch CI,Pump,"2 inch, CI, 1440rpm",EA
+CIL,CIL_VLV_1396,Needle VLV 25mm SS316 6000psi,Valve,"SS316, 6000 psi, NPT",PCS
+NTPC,NTPC_MTR_1463,Induction Motor 15kW 4P IE3,Motor,"15kW, 4P, 415V, IE3",NOS
+ONGC,ONGC/BRG/1461,THRUST BALL BEARING 51108,Bearing,40x60x13,PCS
+ONGC,ONGC/VLV/1462,BALL VALVE 80MM SS304 CL 300,Valve,"SS304, Class 300, Screwed",EA
+NTPC,NTPC/PMP/1468,Centrifugal  Pump 50x40 15kW,Pump,"50x40mm, 15kW, 2900rpm",SET
+SAIL,SAIL_FLG_1437,WN Flange 100mm 150# CS,Flange,"100 NB, 150#, A105",EA
+NTPC,NTPC-PMP-1472,Multistage Pump 65x50 30kW,Pump,"65x50, 30kW, 8 stage",SET
+NTPC,NTPC_PMP_1477,Slurry Pump 100mm HNBR,Pump,"100mm, HNBR lined",EA
+ONGC,ONGC/VLV/1463,CHECK VALVE 150MM CS CL 150,Valve,"CS, NACE, Flanged",PCS
+CPCL,CPCL/PMP/1481,Gear Pump 2inch CI,Pump,"2 inch, CI, 1440rpm",NOS
+CPCL,CPCL/VLV/1488,Check - Valve 150 MM CS CL 150,Valve,"CS, NACE, Flanged",PCS
+CPCL,CPCL_GSK_1489,Ring Joint Gasket R37 SS316,Gasket,"R37, Octagonal, SS316",PCS
+IOCL,IOCL_PMP_1398,Multistage Pump 65x50 30kW,Pump,"65x50, 30kW, 8 stage",SET
+SAIL,SAIL/VLV/1444,Diaphragm Valve 80mm PP,Valve,"PP body, EPDM diaphragm",EA
+ONGC,ONGC_VLV_1469,PLUG VALVE 100MM CS PTFE,Valve,"CS+PTFE sleeve, 150#",PCS
+SAIL,SAIL-FST-1445,Hex Bolt M20x80 8.8 HDG,,"M20x80, Gr 8.8, HDG+nut",SET
+IOCL,IOCL-PMP-1400,Multistage Pump 65x50 30kW,Pump,"65x50, 30kW, 8 stage",SET
+SAIL,SAIL-GSK-1450,Ring Joint Gasket R37 AISI 316,Gasket,"R37, Octagonal, SS316",NOS
+IOCL,IOCL_VLV_1407,Safety Relief Valve 2 Inch SS,Valve,"SS, Set 10 barg, Flanged",PCS
+CPCL,CPCL-VLV-1496,Gate Valve 100 MM CS CL 150,Valve,"CS, 150#, Flanged",EA
+NTPC,NTPC_PMP_1480,Centrifugal Pump 50x40 15kW,Pump,"50x40mm, 15kW, 2900rpm",SET
+CIL,???,Control Cable 12Cx2.5sqmm,Cable,"12Cx2.5 Cu, Unarm",MTR
+CIL,CIL/BRG/1406,Plummer Block UCP210,Bearing,"50mm bore, CI housing",PCS
+CIL,CIL/VLV/1410,Diaphragm VLV 80mm PP,Valve,"PP body, EPDM diaphragm",EA
+NTPC,NTPC_BRG_1481,Taper Roller Bearing 32210,,50x90x24.75,EA
+SAIL,SAIL/GSK/1455,Ring Joint Gasket R37 AISI 316,Gasket,"R37, Octagonal, SS316",PCS
+ONGC,ONGC-FST-1476,HEX BOLT M20X80 8.8 HDG,Fastener,"M20x80, Gr 8.8, HDG+nut",EA
+CPCL,CPCL/VLV/1500,Ball Valve 50 MM Brass Screwed,Valve,"Brass, Screwed BSP",EA
+ONGC,ONGC-MTR-1478,DC MOTOR 5KW 1500RPM,Motor,"5kW, 220V DC",NOS
+SAIL,SAIL-VLV-1459,Gate Valve 50mm AISI 316 PN40,Valve,"SS316, PN40, Flanged RF",PCS
+ONGC,ONGC-CBL-1482,HT CABLE 3CX300 11KV,Cable,3Cx300 Al XLPE 11kV,M
+NTPC,NTPC/PIP/1486,CS Pipe 150mm NB Sch80,Pipe,"150 NB, Sch80, API 5L",MTR
+CPCL,CPCL-VLV-1502,Knife Gate Valve 250 MM SS,Valve,"SS gate, PN10, Lug",PCS
+NTPC,NTPC-VLV-1489,Diaphragm Valve 80mm PP RF,Valve,"PP body, EPDM diaphragm",NOS
+IOCL,IOCL-VLV-1412,Check Valve 12 Inch Carbon Steel Class 150,Valve,"CS, NACE, Flanged",NOS
+NTPC,NTPC-VLV-1492,Gate Valve 50mm SS316 PN40 RF,Valve,"SS316, PN40, Flanged RF",PCS
+IOCL,IOCL-VLV-1417,Gate Valve 2 Inch SS316 PN40,Valve,"SS316, PN40, Flanged RF",PCS
+CIL,CIL/BRG/1411,Taper Roller BRG 32210,Bearing,50x90x24.75,PCS
+NTPC,NTPC-CBL-1497,Control Cable 12Cx2.5sqmm,Cable,"12Cx2.5 Cu, Unarm",NOS
+CIL,CIL/VLV/1412,Butterfly VLV 200mm CI PN16,Valve,"CI, PN16, Wafer",PCS
+ONGC,ONGC-MTR-1486,FLAMEPROOF MOTOR 30KW EXD,Motor,"30kW, Exd IIB, 415V",PCS
+CIL,CIL-VLV-1418,Check VLV 150mm CS Class 150,Valve,"CS, NACE, Flanged",EA
+CPCL,CPCL_VLV_1507,Needle Valve 25 MM SS316 6000psi,Valve,"SS316, 6000 psi, NPT",PCS
+CIL,CIL_VLV_1423,Diaphragm VLV 80mm PP,Valve,"PP body, EPDM diaphragm",NOS
+CPCL,CPCL_VLV_1513,Knife Gate Valve 250 MM SS,Valve,"SS gate, PN10, Lug",PCS
+IOCL,IOCL/PMP/1423,Centrifugal Pump 50x40 15kW,Pump,"50x40mm, 15kW, 2900rpm",SET
+SAIL,SAIL-VLV-1462,Gate Valve 50mm AISI 316 PN40,Valve,"SS316, PN40, Flanged RF",EA
+NTPC,NTPC_VLV_1503,Gate Valve 150mm CS 300# RF,Valve,"CS, 300#, RTJ",NOS
+ONGC,ONGC-FST-1490,HEX BOLT M20X80 8.8 HDG,Fastener,"M20x80, Gr 8.8, HDG+nut",SET
+IOCL,IOCL-VLV-1429,Gate Valve 4 Inch Carbon Steel Class 150,Valve,"CS, 150#, Flanged",NOS
+NTPC,NTPC-PMP-1508,Vertical Turbine Pump 200mm,Pump,"200mm column, 75kW",EA
+ONGC,ONGC-PMP-1497,CENTRIFUGAL PUMP 50X40 15KW,Pump,"50x40mm, 15kW, 2900rpm",EA
+SAIL,SAIL_PIP_1467,MS Pipe 100mm NB ERW,Pipe,"100 NB, ERW, 6m",M
+CPCL,CPCL/MTR/1516,Flameproof Motor 30kW Exd,Motor,"30kW, Exd IIB, 415V",NOS
+IOCL,IOCL-VLV-1432,Safety Relief Valve 2 Inch SS,Valve,"SS, Set 10 barg, Flanged",EA
+IOCL,IOCL-PIP-1437,HDPE - Pipe 110mm PN10,Pipe,"110mm OD, PN10, PE100",M
+CPCL,CPCL/PIP/1518,GI Pipe 25 MM Medium,Pipe,"25mm, Medium, IS1239",M
+NTPC,NTPC-CBL-1515,HT Cable 3Cx300 11kV,Cable,3Cx300 Al XLPE 11kV,M
+SAIL,SAIL/PMP/1473,Screw Pump 5m3/hr SS,Pump,"5 m3/hr, SS wetted",EA
+CIL,CIL_VLV_1428,Diaphragm VLV 80mm PP,Valve,"PP body, EPDM diaphragm",NOS
+CIL,CIL-VLV-1431,GATE VLV 100mm CS Class 150,Valve,"CS, 150#, Flanged",NOS
+SAIL,SAIL_VLV_1478,Plug Valve 100mm CS PTFE,Valve,"CS+PTFE sleeve, 150#",EA
+NTPC,NTPC_MTR_1516,Flameproof Motor 30kW Exd,Motor,"30kW, Exd IIB, 415V",EA
+CIL,CIL_FLG_1433,Blind Flange 50mm 300# SS316,Flange,"50 NB, 300#, SS316",EA
+NTPC,NTPC-BRG-1517,Needle Roller Bearing NK45/35,Bearing,45x55x35,PCS
+IOCL,IOCL_VLV_1441,Ball Valve 3 Inch SS304 Class 300,Valve,"SS304, Class 300, Screwed",EA
+NTPC,NTPC/FLG/1522,Blind Flange 50mm 300# SS316,Flange,"50 NB, 300#, SS316",NOS
+CPCL,CPCL/VLV/1523,Safety Relief Valve 50 MM SS,Valve,"SS, Set 10 barg, Flanged",PCS
+CPCL,CPCL/PMP/1524,Diaphragm Dosing Pump 0-100LPH,Pump,"0-100 LPH, PP head",PCS
+ONGC,ONGC_VLV_1500,BUTTERFLY VALVE 200MM CI PN16,Valve,"CI, PN16, Wafer",PCS
+NTPC,NTPC-VLV-1528,Gate Valve 200mm CI PN10 RF,Valve,"CI, PN10, Flanged",EA
+CIL,CIL_VLV_1437,GATE VLV 100mm CS Class 150,Valve,"CS, 150#, Flanged",NOS
+ONGC,ONGC_MTR_1506,INDUCTION MOTOR 15KW 4P IE3,Motor,"15kW, 4P, 415V, IE3",NOS
+CIL,CIL/MTR/1438,DC  Motor 5kW 1500rpm,Motor,"5kW, 220V DC",EA
+SAIL,SAIL_FLG_1479,Slipon Flange 80mm PN16,Flange,"80 NB, PN16, MS",NOS
+SAIL,SAIL_PIP_1482,CS Pipe 150mm NB Sch80,Pipe,"150 NB, Sch80, API 5L",M
+CPCL,CPCL-PMP-1525,Screw Pump 5m3/hr SS,Pump,"5 m3/hr, SS wetted",PCS
+IOCL,IOCL-VLV-1446,Foot  Valve 4 Inch CI,Valve,"CI, Flanged, With strainer",NOS
+SAIL,SAIL-CBL-1488,HT Cable 3Cx300 11kV,Cable,3Cx300 Al XLPE 11kV,M
+NTPC,NTPC/VLV/1534,Safety Relief Valve 50mm SS RF,Valve,"SS, Set 10 barg, Flanged",EA
+CPCL,CPCL-FST-1528,Hex Bolt M20x80 8.8 HDG,Fastener,"M20x80, Gr 8.8, HDG+nut",SET
+IOCL,IOCL/BRG/1447,Deep Groove Ball Bearing 6205,Bearing,"25x52x15, SKF/equiv",PCS
+NTPC,NTPC-PMP-1535,Diaphragm Dosing Pump 0-100LPH,Pump,"0-100 LPH, PP head",PCS
+ONGC,ONGC-PIP-1507,CS PIPE 150MM NB SCH80,Pipe,"150 NB, Sch80, API 5L",MTR
+CPCL,CPCL_VLV_1530,Gate Vlve 100 MM CS CL 150,Valve,"CS, 150#, Flanged",NOS
+CIL,CIL_PMP_1443,Multistage Pump 65x50 30kW,Pump,"65x50, 30kW, 8 stage",SET
+IOCL,IOCL_CBL_1449,Control Cable 12Cx2.5sqmm,Cable,"12Cx2.5 Cu, Unarm",MTR
+CIL,CIL_PMP_1449,Gear Pump 2inch CI,Pump,"2 inch, CI, 1440rpm",NOS
+NTPC,NTPC-PMP-1540,Submersible Pump 10HP 100mm,Pump,"10HP, 100mm bore, 3ph",EA
+IOCL,IOCL_VLV_1452,Globe Valve 65mm Carbon Steel 150#,Valve,"CS, 150#, Flanged",NOS
+CPCL,CPCL/VLV/1536,Ball Valve 50 MM Brass Screwed,Valve,"Brass, Screwed BSP",PCS
+NTPC,NTPC/FLG/1541,Blind Flange 50mm 300# SS316,,"50 NB, 300#, SS316",PCS
+NTPC,NTPC_VLV_1547,Plug Valve 100mm CS PTFE RF,Valve,"CS+PTFE sleeve, 150#",EA
+CIL,CIL-VLV-1451,Needle VLV 25mm SS316 6000psi,Valve,"SS316, 6000 psi, NPT",EA
+ONGC,ONGC_VLV_1511,BUTTERFLY VALVE 200MM CI PN16,Valve,"CI, PN16, Wafer",NOS
+CIL,CIL/FLG/1454,WN Flange 100mm 150# CS,Flange,"100 NB, 150#, A105",PCS
+NTPC,NTPC/FLG/1551,WN - Flange 100mm 150# CS,Flange,"100 NB, 150#, A105",NOS
+ONGC,ONGC-VLV-1512,FOOT VALVE 100MM CI,Valve,"CI, Flanged, With strainer",EA
+ONGC,ONGC/PIP/1517,MS PIPE 100MM NB ERW,Pipe,"100 NB, ERW, 6m",M
+CPCL,CPCL_VLV_1541,Gate Valve 50 MM SS316 PN40,Valve,"SS316, PN40, Flanged RF",EA
+NTPC,NTPC/VLV/1558,Foot Valve 100mm CI RF,Valve,"CI, Flanged, With strainer",EA
+CPCL,CPCL/MTR/1543,Induction Motor 15kW 4P IE3,Motor,"15kW, 4P, 415V, IE3",EA
+CIL,CIL_PIP_1459,SS316 Pipe 50mm NB Sch40,Pipe,"50 NB, Sch40, Seamless",NOS
+NTPC,NTPC/VLV/1563,Gate Valve 150mm CS 300# RF,Valve,"CS, 300#, RTJ",PCS
+SAIL,SAIL/PIP/1495,HDPE Pipe 110mm PN10,Pipe,"110mm OD, PN10, PE100",M
+NTPC,NTPC/BRG/1566,Spherical - Roller Bearing 22218,Bearing,90x160x40,EA
+ONGC,ONGC/PMP/1518,VERTICAL TURBINE PUMP 200MM,,"200mm column, 75kW",SET
+NTPC,NTPC/VLV/1570,Check Valve 150mm CS Class 150 RF,Valve,"CS, NACE, Flanged",NOS
+NTPC,NTPC/BRG/1571,Needle Roller Bearing NK45/35,Bearing,45x55x35,NOS
+CIL,CIL/PMP/1464,Submersible Pump 10HP 100mm,Pump,"10HP, 100mm bore, 3ph",EA
+ONGC,ONGC-VLV-1523,GATE VALVE 150MM CS 300#,Valve,"CS, 300#, RTJ",NOS
+SAIL,SAIL_VLV_1496,Foot Valve 100mm CI,Valve,"CI, Flanged, With strainer",PCS
+NTPC,NTPC-MTR-1574,Induction Motor 15kW 4P IE3,Motor,"15kW, 4P, 415V, IE3",PCS
+CPCL,CPCL/PMP/1547,Diaphragm Dosing Pump 0-100LPH,Pump,"0-100 LPH, PP head",PCS
+CIL,CIL-BRG-1471,Deep Groove BALL BRG 6205,Bearing,"25x52x15, SKF/equiv",PCS
+CPCL,CPCL_VLV_1552,Foot Valve 100 MM CI,Valve,"CI, Flanged, With strainer",EA
+NTPC,NTPC_VLV_1576,Check Valve 150mm CS Class 150 RF,Valve,"CS, NACE, Flanged",PCS
+ONGC,ONGC/PIP/1530,CS PIPE 150MM NB SCH80,Pipe,"150 NB, Sch80, API 5L",M
+NTPC,NTPC-VLV-1578,Globe Valve 65mm CS 150# RF,Valve,"CS, 150#, Flanged",EA
+NTPC,NTPC-PMP-1579,Gear Pump 2inch CI,Pump,"2 inch, CI, 1440rpm",NOS
+SAIL,SAIL-VLV-1503,Ball Valve 80mm AISI 304 Class 300,,"SS304, Class 300, Screwed",PCS
+SAIL,SAIL/PMP/1504,Gear Pump 2inch CI,Pump,"2 inch, CI, 1440rpm",EA
+IOCL,IOCL_VLV_1457,Gate Valve 8 Inch CI PN10,Valve,"CI, PN10, Flanged",PCS
+SAIL,SAIL-PIP-1505,MS Pipe 100mm NB ERW,Pipe,"100 NB, ERW, 6m",NOS
+NTPC,NTPC-PMP-1585,Submersible Pump 10HP 100mm,Pump,"10HP, 100mm bore, 3ph",EA
+NTPC,NTPC-FLG-1590,Slipon Flange 80mm PN16,Flange,"80 NB, PN16, MS",EA
+NTPC,NTPC-PMP-1593,Diaphragm Dosing Pump 0-100LPH,Pump,"0-100 LPH, PP head",EA
+SAIL,SAIL_BRG_1511,Deep Groove Ball Bearng 6205,Bearing,"25x52x15, SKF/equiv",NOS
+CPCL,CPCL/PIP/1558,HDPE Pipe 110 MM PN10,Pipe,"110mm OD, PN10, PE100",NOS
+NTPC,NTPC/MTR/1596,Induction Motor 15kW 4P IE3,Motor,"15kW, 4P, 415V, IE3",NOS
+IOCL,IOCL/BRG/1463,Plummer Block UCP210,Bearing,"50mm bore, CI housing",PCS
+NTPC,NTPC/PMP/1600,Screw Pump 5m3/hr SS,Pump,"5 m3/hr, SS wetted",PCS
+CPCL,CPCL/BRG/1561,Deep Groove Ball Bearing 6205,Bearing,"25x52x15, SKF/equiv",PCS
+ONGC,ONGC_VLV_1532,GATE VALVE 50MM SS316 PN40,Valve,"SS316, PN40, Flanged RF",NOS
+CPCL,CPCL-BRG-1562,Plu MMer Block UCP210,Bearing,"50mm bore, CI housing",NOS
+SAIL,SAIL/VLV/1518,Gate Valve 200mm CI PN10,Valve,"CI, PN10, Flanged",NOS
+CPCL,CPCL-MTR-1564,DC Motor 5kW 1500rpm,Motor,"5kW, 220V DC",EA
+SAIL,SAIL_PIP_1519,HDPE Pipe 110mm PN10,Pipe,"110mm OD, PN10, PE100",NOS
+CPCL,CPCL-PIP-1566,GI Pipe 25 MM Medium,Pipe,"25mm, Medium, IS1239",M
+IOCL,IOCL-PMP-1464,Diaphragm Dosing Pump 0-100LPH,Pump,"0-100 LPH, PP head",PCS
+NTPC,NTPC-VLV-1602,"Globe, Valve 65mm CS 150# RF",Valve,"CS, 150#, Flanged",NOS
+SAIL,SAIL/VLV/1526,Check Valve 150mm CS Class 150,Valve,"CS, NACE, Flanged",PCS
+CPCL,CPCL_BRG_1568,Deep Groove Ball Bearing 6205,Bearing,"25x52x15, SKF/equiv",EA
+ONGC,ONGC/CBL/1539,XLPE CABLE 3CX120SQMM 1.1KV,Cable,"3Cx120, Al, Armoured",NOS
+SAIL,SAIL_VLV_1527,Ball Valve 80mm AISI 304 Class 300,Valve,"SS304, Class 300, Screwed",NOS
+SAIL,SAIL_VLV_1534,Safety Relief Valve 50mm SS,Valve,"SS, Set 10 barg, Flanged",PCS
+CPCL,CPCL/VLV/1574,Check Valve 150 MM CS CL 150,Valve,"CS, NACE, Flanged",NOS
+SAIL,SAIL/CBL/1537,Control Cable 12Cx2.5sqmm,Cable,"12Cx2.5 Cu, Unarm",MTR
+CPCL,CPCL/VLV/1576,Needle Vlve 25 MM SS316 6000psi,Valve,"SS316, 6000 psi, NPT",EA
+SAIL,SAIL_BRG_1540,Thrust Ball Bearing 51108,Bearing,40x60x13,EA
+IOCL,IOCL_VLV_1470,Foot Valve 4 Inch CI,Valve,"CI, Flanged, With strainer",EA
+CPCL,CPCL/BRG/1580,Needle Roller Bearing NK45/35,Bearing,45x55x35,NOS
+CIL,CIL/VLV/1475,GATE VLV 100mm CS Class 150,Valve,"CS, 150#, Flanged",EA
+CPCL,CPCL_PIP_1582,GI Pipe 25 MM Medium,Pipe,"25mm, Medium, IS1239",NOS
+ONGC,ONGC-VLV-1544,DIAPHRAGM VALVE 80MM PP,Valve,"PP body, EPDM diaphragm",NOS
+CPCL,CPCL_CBL_1588,XLPE Cable 3Cx120sq MM 1.1kV,Cable,"3Cx120, Al, Armoured",MTR
+IOCL,IOCL_BRG_1474,Plummer Block UCP210,Bearing,"50mm bore, CI housing",PCS
+CPCL,CPCL_BRG_1594,Taper Roller Bearing 32210,Bearing,50x90x24.75,EA
+SAIL,SAIL_PIP_1547,CS  Pipe 150mm NB Sch80,Pipe,"150 NB, Sch80, API 5L",M
+NTPC,NTPC-VLV-1604,Diaphragm - Valve 80mm PP RF,Valve,"PP body, EPDM diaphragm",NOS
+CPCL,CPCL-MTR-1600,Flameproof Motor 30kW Exd,Motor,"30kW, Exd IIB, 415V",NOS
+CIL,CIL_VLV_1478,GATE VLV 50mm SS316 PN40,Valve,"SS316, PN40, Flanged RF",EA
+NTPC,NTPC/VLV/1609,Plug Valve 100mm CS PTFE RF,Valve,"CS+PTFE sleeve, 150#",EA
+NTPC,NTPC/FLG/1612,"Slipon, Flange 80mm PN16",Flange,"80 NB, PN16, MS",PCS
+CIL,CIL/VLV/1479,GATE VLV 100mm CS Class 150,Valve,"CS, 150#, Flanged",NOS
+IOCL,IOCL-PMP-1477,Vertical Turbine Pump 8 Inch,Pump,"200mm column, 75kW",EA
+ONGC,ONGC-MTR-1548,FLAMEPROOF MOTOR 30KW EXD,Motor,"30kW, Exd IIB, 415V",EA
+ONGC,ONGC-CBL-1549,HT CABLE 3CX300 11KV,Cable,3Cx300 Al XLPE 11kV,NOS
+ONGC,ONGC/VLV/1555,CHECK VALVE 150MM CS CL 150,Valve,"CS, NACE, Flanged",EA
+CPCL,CPCL-PIP-1607,HDPE Pipe 110 MM PN10,Pipe,"110mm OD, PN10, PE100",MTR
+ONGC,ONGC-PMP-1556,MULTISTAGE PUMP 65X50 30KW,Pump,"65x50, 30kW, 8 stage",EA
+CIL,CIL_VLV_1484,BALL VLV 50mm Brass Screwed,Valve,"Brass, Screwed BSP",EA
+CIL,CIL/VLV/1491,Safety Relief VLV 50mm SS,,"SS, Set 10 barg, Flanged",EA
+ONGC,ONGC-VLV-1562,NEEDLE VALVE 25MM SS316 6000PSI,Valve,"SS316, 6000 psi, NPT",PCS
+ONGC,ONGC-VLV-1566,GATE VALVE 200MM CI PN10,Valve,"CI, PN10, Flanged",NOS
+NTPC,NTPC-VLV-1616,Knife Gate Valve 250mm SS RF,Valve,"SS gate, PN10, Lug",NOS
+ONGC,ONGC_BRG_1567,PLUMMER BLOCK UCP210,Bearing,"50mm bore, CI housing",PCS
+CIL,CIL-VLV-1494,BALL VLV 50mm Brass Screwed,Valve,"Brass, Screwed BSP",EA
+NTPC,NTPC_BRG_1617,Deep Groove Ball Bearing 6205,Bearing,"25x52x15, SKF/equiv",NOS
+NTPC,NTPC/VLV/1618,Check Valve 150mm CS Class 150 RF,Valve,"CS, NACE, Flanged",PCS
+CPCL,CPCL/VLV/1611,Gate Valve 150 MM CS 300#,Valve,"CS, 300#, RTJ",NOS
+SAIL,SAIL_PMP_1553,Centrifugal Pump 50x40 15kW,Pump,"50x40mm, 15kW, 2900rpm",EA
+CIL,CIL/VLV/1497,BALL VLV 50mm Brass Screwed,Valve,"Brass, Screwed BSP",NOS
+IOCL,IOCL_VLV_1479,Globe Valve 65mm Carbon Steel 150#,Valve,"CS, 150#, Flanged",NOS
+IOCL,IOCL/VLV/1480,Ball Valve 2 Inch Brass Screwed,Valve,"Brass, Screwed BSP",EA
+ONGC,ONGC/VLV/1570,KNIFE GATE VALVE 250MM SS,Valve,"SS gate, PN10, Lug",EA
+CPCL,CPCL-PMP-1618,Diaphragm Dosing Pump 0-100LPH,Pump,"0-100 LPH, PP head",PCS
+CIL,CIL/VLV/1501,GATE  VLV 200mm CI PN10,Valve,"CI, PN10, Flanged",EA
+ONGC,ONGC_VLV_1571,KNIFE GATE VALVE 250MM SS,Valve,"SS gate, PN10, Lug",EA
+CIL,CIL_VLV_1505,Safety Relief VLV 50mm SS,Valve,"SS, Set 10 barg, Flanged",NOS
+IOCL,IOCL/VLV/1484,Globe  Valve 65mm Carbon Steel 150#,Valve,"CS, 150#, Flanged",EA
+ONGC,ONGC/VLV/1577,GATE VALVE 50MM SS316 PN40,Valve,"SS316, PN40, Flanged RF",NOS
+IOCL,IOCL/BRG/1488,Taper - Roller Bearing 32210,Bearing,50x90x24.75,EA
+NTPC,NTPC_PIP_1619,GI Pipe 25mm Medium,Pipe,"25mm, Medium, IS1239",NOS
+IOCL,IOCL-VLV-1492,Butterfly Valve 8 Inch CI PN16,Valve,"CI, PN16, Wafer",PCS
+CIL,CIL/PMP/1510,Centrifugal Pump 50x40 15kW,Pump,"50x40mm, 15kW, 2900rpm",EA
+CIL,CIL-VLV-1513,BALL VLV 80mm SS304 Class 300,Valve,"SS304, Class 300, Screwed",EA
+CIL,CIL_VLV_1518,Foot VLV 100mm CI,Valve,"CI, Flanged, With strainer",PCS
+NTPC,NTPC-PMP-1622,Slurry Pump 100mm HNBR,Pump,"100mm, HNBR lined",SET
+SAIL,SAIL-PMP-1556,Slurry Pump 100mm HNBR,Pump,"100mm, HNBR lined",SET
+ONGC,ONGC_PMP_1584,SLURRY PUMP 100MM HNBR,Pump,"100mm, HNBR lined",EA
+ONGC,ONGC/VLV/1591,GATE VALVE 150MM CS 300#,Valve,"CS, 300#, RTJ",NOS
+ONGC,ONGC_VLV_1596,GATE VALVE 150MM CS 300#,Valve,"CS, 300#, RTJ",EA
+SAIL,SAIL_BRG_1562,Needle Roller Bearing NK45/35,Bearing,45x55x35,PCS
+CIL,CIL_BRG_1520,Needle Roller BRG NK45/35,Bearing,45x55x35,EA
+CPCL,CPCL_VLV_1620,Gate Valve 200 MM CI PN10,Valve,"CI, PN10, Flanged",NOS
+NTPC,NTPC/PMP/1623,Screw Pump 5m3/hr SS,Pump,"5 m3/hr, SS wetted",PCS
+CPCL,CPCL/GSK/1626,Spiral Wound Gasket 4in 150#,Gasket,"4in, 150#, SS316+Graphite",EA
+IOCL,IOCL/MTR/1494,DC Motor 5kW 1500rpm,Motor,"5kW, 220V DC",PCS
+CIL,CIL-PMP-1524,Vertical Turbine Pump 200mm,Pump,"200mm column, 75kW",SET
+NTPC,NTPC/VLV/1628,Needle - Valve 25mm SS316 6000psi RF,Valve,"SS316, 6000 psi, NPT",NOS
+CPCL,CPCL-PMP-1633,Submersible Pump 10HP 100 MM,Pump,"10HP, 100mm bore, 3ph",SET
+CPCL,CPCL_VLV_1640,Butterfly Valve 200 MM CI PN16,Valve,"CI, PN16, Wafer",
+NTPC,NTPC/MTR/1633,Flameproof Motor 30kW Exd,Motor,"30kW, Exd IIB, 415V",EA
+IOCL,IOCL/PMP/1498,Diaphragm Dosing Pump 0-100LPH,Pump,"0-100 LPH, PP head",PCS
+CIL,CIL-FLG-1528,Slipon Flange 80mm PN16,Flange,"80 NB, PN16, MS",EA
+CPCL,CPCL-PMP-1647,Vertical Turbine Pump 200 MM,Pump,"200mm column, 75kW",SET
+ONGC,ONGC-BRG-1597,SPHERICAL ROLLER BEARING 22218,Bearing,90x160x40,PCS
+NTPC,NTPC-FLG-1634,WN Flange 100mm 150# CS,Flange,"100 NB, 150#, A105",PCS
+IOCL,IOCL_FST_1505,Hex Bolt M20x80 8.8 HDG,Fastener,"M20x80, Gr 8.8, HDG+nut",EA
+NTPC,NTPC/PIP/1635,SS316 Pipe 50mm NB Sch40,Pipe,"50 NB, Sch40, Seamless",M
+ONGC,ONGC-PMP-1602,SCREW  PUMP 5M3/HR SS,Pump,"5 m3/hr, SS wetted",EA
+NTPC,NTPC_FLG_1636,WN Flange 100mm 150# CS,Flange,"100 NB, 150#, A105",EA
+IOCL,IOCL/PIP/1508,SS316 Pipe 2 Inch NB Sch40,Pipe,"50 NB, Sch40, Seamless",M
+SAIL,SAIL_PMP_1566,Screw Pump 5m3/hr SS,Pump,"5 m3/hr, SS wetted",PCS
+NTPC,NTPC_VLV_1640,Gate  Valve 200mm CI PN10 RF,,"CI, PN10, Flanged",EA
+ONGC,ONGC_MTR_1607,INDUCTION MOTOR 15KW 4P IE3,Motor,"15kW, 4P, 415V, IE3",NOS
+IOCL,IOCL/VLV/1510,Needle Valve 25mm SS316 6000psi,Valve,"SS316, 6000 psi, NPT",PCS
+SAIL,???,GI Pipe 25mm Medium,Pipe,"25mm, Medium, IS1239",NOS
+NTPC,NTPC_CBL_1643,HT Cable 3Cx300 11kV,Cable,3Cx300 Al XLPE 11kV,M
+CPCL,CPCL_PIP_1653,MS Pipe 100 MM NB ERW,Pipe,"100 NB, ERW, 6m",NOS
+CIL,CIL/PMP/1531,Screw Pump 5m3/hr SS,Pump,"5 m3/hr, SS wetted",NOS
+CPCL,CPCL_FST_1660,Hex Bolt M20x80 8.8 HDG,Fastener,"M20x80, Gr 8.8, HDG+nut",EA
+SAIL,???,Knife Gate Valve 250mm SS,Valve,"SS gate, PN10, Lug",PCS
+NTPC,NTPC_VLV_1649,Foot Valve 100mm CI RF,Valve,"CI, Flanged, With strainer",EA
+ONGC,ONGC_FLG_1614,BLIND FLANGE 50MM 300# SS316,Flange,"50 NB, 300#, SS316",EA
+CPCL,CPCL_VLV_1667,Gate Valve 150 MM CS 300#,Valve,"CS, 300#, RTJ",EA
+ONGC,ONGC_BRG_1620,SPHERICAL ROLLER BEARING 22218,Bearing,90x160x40,EA
+IOCL,IOCL/BRG/1514,Taper Roller Bearing 32210,Bearing,50x90x24.75,NOS
+IOCL,IOCL/VLV/1520,Safety Relief Valve 2 Inch SS,Valve,"SS, Set 10 barg, Flanged",EA
+CIL,CIL_VLV_1537,GATE VLV 200mm CI PN10,Valve,"CI, PN10, Flanged",PCS
+CPCL,CPCL-PMP-1674,Vertical Turbine Pump 200 MM,Pump,"200mm column, 75kW",EA
+SAIL,SAIL_VLV_1579,Gate Valve 200mm CI PN10,Valve,"CI, PN10, Flanged",
+CPCL,CPCL/PMP/1678,Screw Pump 5m3/hr SS,Pump,"5 m3/hr, SS wetted",NOS
+CIL,CIL/PMP/1540,Diaphragm Dosing Pump 0-100LPH,,"0-100 LPH, PP head",PCS
+SAIL,SAIL-PMP-1585,Slurry Pump 100mm HNBR,Pump,"100mm, HNBR lined",EA
+ONGC,ONGC-PIP-1621,HDPE PIPE 110MM PN10,Pipe,"110mm OD, PN10, PE100",M
+CPCL,CPCL-PMP-1682,Diaphragm Dosing Pump 0-100LPH,Pump,"0-100 LPH, PP head",EA
+ONGC,ONGC/PMP/1626,GEAR PUMP 2INCH CI,Pump,"2 inch, CI, 1440rpm",NOS
+ONGC,ONGC_FLG_1633,BLIND FLANGE 50MM 300# SS316,Flange,"50 NB, 300#, SS316",NOS
+SAIL,SAIL-PMP-1586,Centrifugal Pump 50x40 15kW,Pump,"50x40mm, 15kW, 2900rpm",SET
+NTPC,NTPC_BRG_1654,Thrust Ball Bearing 51108,Bearing,40x60x13,
+SAIL,SAIL-VLV-1592,"Plug, Valve 100mm CS PTFE",Valve,"CS+PTFE sleeve, 150#",NOS
+ONGC,ONGC-BRG-1640,SPHERICAL ROLLER BEARING 22218,Bearing,90x160x40,PCS
+SAIL,SAIL-PMP-1594,Slurry Pump 100mm HNBR,Pump,"100mm, HNBR lined",SET
+CPCL,CPCL-GSK-1687,Ring Joint Gasket R37 SS316,Gasket,"R37, Octagonal, SS316",NOS
+SAIL,SAIL-VLV-1600,Plug Valve 100mm CS PTFE,Valve,"CS+PTFE sleeve, 150#",EA
+CPCL,CPCL_VLV_1689,Ball Valve 50 MM Brass Screwed,Valve,"Brass, Screwed BSP",NOS
+NTPC,NTPC_PMP_1657,Multistage Pump 65x50 30kW,Pump,"65x50, 30kW, 8 stage",EA
+ONGC,ONGC_VLV_1641,BALL VALVE 50MM BRASS SCREWED,Valve,"Brass, Screwed BSP",NOS
+CPCL,CPCL-PMP-1693,Gear Pump 2inch CI,Pump,"2 inch, CI, 1440rpm",EA
+ONGC,ONGC/VLV/1643,BUTTERFLY VALVE 200MM CI PN16,Valve,"CI, PN16, Wafer",NOS
+ONGC,ONGC-PMP-1646,VERTICAL TURBINE PUMP 200MM,Pump,"200mm column, 75kW",SET
+IOCL,IOCL/VLV/1522,Plug Valve 4 Inch Carbon Steel PTFE,Valve,"CS+PTFE sleeve, 150#",
+ONGC,ONGC/PIP/1648,CS PIPE 150MM NB SCH80,Pipe,"150 NB, Sch80, API 5L",M
+SAIL,SAIL-VLV-1606,Gate Valve 100mm CS Class 150,Valve,"CS, 150#, Flanged",EA
+NTPC,NTPC_PMP_1660,Slurry Pump 100mm HNBR,Pump,"100mm, HNBR lined",EA
+IOCL,IOCL-VLV-1525,Plug Valve 4 Inch Carbon Steel PTFE,Valve,"CS+PTFE sleeve, 150#",NOS
+SAIL,SAIL-VLV-1610,Ball Valve 80mm AISI 304 Class 300,Valve,"SS304, Class 300, Screwed",PCS
+SAIL,SAIL_PMP_1616,Submersible Pump 10HP 100mm,Pump,"10HP, 100mm bore, 3ph",EA
+CIL,CIL/PMP/1544,Gear Pump 2inch CI,Pump,"2 inch, CI, 1440rpm",EA
+IOCL,IOCL/BRG/1527,Taper Roller Bearing 32210,Bearing,50x90x24.75,NOS
+CPCL,CPCL-BRG-1694,Plu MMer Block UCP210,Bearing,"50mm bore, CI housing",NOS
+SAIL,SAIL/VLV/1620,Needle Valve 25mm AISI 316 6000psi,Valve,"SS316, 6000 psi, NPT",EA
+ONGC,ONGC/VLV/1650,BALL VALVE 50MM BRASS SCREWED,Valve,"Brass, Screwed BSP",PCS
+SAIL,SAIL/BRG/1627,Plummer Block UCP210,Bearing,"50mm bore, CI housing",NOS
+IOCL,IOCL/VLV/1530,Knife Gate Valve 22 Inch SS,Valve,"SS gate, PN10, Lug",PCS
+IOCL,IOCL_VLV_1537,Needle Valve 25mm SS316 6000psi,Valve,"SS316, 6000 psi, NPT",PCS
+CPCL,CPCL/VLV/1698,Safety Relief Valve 50 MM SS,,"SS, Set 10 barg, Flanged",PCS
+IOCL,IOCL-VLV-1539,Knife Gate Valve 22 Inch SS,Valve,"SS gate, PN10, Lug",PCS
+NTPC,NTPC/PMP/1664,Vertical Turbine Pump 200mm,Pump,"200mm column, 75kW",SET
+IOCL,IOCL_VLV_1546,Gate Valve 8 Inch CI PN10,Valve,"CI, PN10, Flanged",EA
+ONGC,ONGC/VLV/1656,GATE VALVE 100MM CS CL 150,Valve,"CS, 150#, Flanged",NOS
+CIL,CIL_VLV_1547,Diaphragm VLV 80mm PP,Valve,"PP body, EPDM diaphragm",EA
+CPCL,CPCL_GSK_1705,Spiral Wound Gasket 4in 150#,Gasket,"4in, 150#, SS316+Graphite",PCS
+ONGC,ONGC/BRG/1658,DEEP GROOVE BALL BEARING 6205,Bearing,"25x52x15, SKF/equiv",NOS
+IOCL,IOCL-VLV-1548,"Check, Valve 12 Inch Carbon Steel Class 150",Valve,"CS, NACE, Flanged",PCS
+NTPC,NTPC/BRG/1666,Thrust Ball Bearing 51108,Bearing,40x60x13,PCS
+NTPC,NTPC-VLV-1667,Safety Relief Valve 50mm SS RF,Valve,"SS, Set 10 barg, Flanged",PCS
+IOCL,IOCL/FST/1551,Hex  Bolt M20x80 8.8 HDG,Fastener,"M20x80, Gr 8.8, HDG+nut",EA
+CIL,CIL-FLG-1550,WN Flange 100mm 150# CS,Flange,"100 NB, 150#, A105",NOS
+IOCL,IOCL/VLV/1556,Globe Valve 65mm Carbon Steel 150#,Valve,"CS, 150#, Flanged",NOS
+NTPC,NTPC_GSK_1674,Spiral Wound Gasket 4in 150#,Gasket,"4in, 150#, SS316+Graphite",EA
+IOCL,IOCL/MTR/1562,Induction Motor 15kW 4P IE3,Motor,"15kW, 4P, 415V, IE3",EA
+CIL,CIL-VLV-1552,Foot VLV 100mm CI,Valve,"CI, Flanged, With strainer",EA
+CIL,CIL/VLV/1554,Butterfly VLV 200mm CI PN16,Valve,"CI, PN16, Wafer",NOS
+ONGC,ONGC/GSK/1665,RING JOINT GASKET R37 SS316,Gasket,"R37, Octagonal, SS316",EA
+ONGC,ONGC_PIP_1671,SS316 PIPE 50MM NB SCH40,Pipe,"50 NB, Sch40, Seamless",M
+ONGC,ONGC-VLV-1677,KNIFE GATE VALVE 250MM SS,Valve,"SS gate, PN10, Lug",NOS
+CIL,CIL-BRG-1065,BALL VLV 50mm Brass Screwed,Valve,"Brass, Screwed BSP",EA
+IOCL,IOCL_PMP_1567,Multistage Pump 65x50 30kW,Pump,"65x50, 30kW, 8 stage",EA
+NTPC,NTPC_VLV_1676,Globe Valve 65mm CS 150# RF,Valve,"CS, 150#, Flanged",EA
+CIL,CIL_PMP_1564,Vertical Turbine Pump 200mm,Pump,"200mm column, 75kW",SET
+NTPC,NTPC/VLV/1678,Diaphragm Valve 80mm PP RF,,"PP body, EPDM diaphragm",EA
+IOCL,IOCL-PIP-1568,HDPE Pipe 110mm PN10,Pipe,"110mm OD, PN10, PE100",MTR
+NTPC,NTPC/VLV/1685,Gate Valve 200mm CI PN10 RF,Valve,"CI, PN10, Flanged",NOS
+NTPC,NTPC/BRG/1686,Needle  Roller Bearing NK45/35,Bearing,45x55x35,EA
+NTPC,NTPC/FLG/1692,WN Flange 100mm 150# CS,Flange,"100 NB, 150#, A105",PCS
+SAIL,SAIL_VLV_1628,Needle Valve 25mm AISI 316 6000psi,Valve,"SS316, 6000 psi, NPT",PCS
+ONGC,ONGC_MTR_1683,FLAMEPROOF MOTOR 30KW EXD,Motor,"30kW, Exd IIB, 415V",EA
+CIL,CIL/BRG/1570,Thrust BALL BRG 51108,Bearing,40x60x13,PCS
+NTPC,NTPC-PMP-1698,Slurry Pump 100mm HNBR,Pump,"100mm, HNBR lined",SET
+CIL,CIL_VLV_1572,Check VLV 150mm CS Class 150,Valve,"CS, NACE, Flanged",NOS
+IOCL,IOCL_VLV_1570,Gate Valve 4 Inch Carbon Steel Class 150,Valve,"CS, 150#, Flanged",PCS
+CPCL,CPCL-VLV-1712,Ball Valve 50 MM Brass Screwed,Valve,"Brass, Screwed BSP",PCS
+IOCL,IOCL/VLV/1573,Check Valve 12 Inch Carbon Steel Class 150,Valve,"CS, NACE, Flanged",NOS
+CIL,CIL_VLV_1574,Butterfly VLV 200mm CI PN16,Valve,"CI, PN16, Wafer",NOS
+NTPC,NTPC_BRG_1699,Taper  Roller Bearing 32210,Bearing,50x90x24.75,NOS
+IOCL,IOCL/PMP/1574,Screw Pump 5m3/hr SS,Pump,"5 m3/hr, SS wetted",PCS
+SAIL,SAIL_BRG_1631,Deep Groove Ball Bearing 6205,Bearing,"25x52x15, SKF/equiv",EA
+CPCL,CPCL/BRG/1714,Thrust Ball Bearing 51108,Bearing,40x60x13,EA
+NTPC,NTPC/VLV/1703,Ball Vlve 80mm SS304 Class 300 RF,Valve,"SS304, Class 300, Screwed",NOS
+CIL,CIL/PIP/1578,MS Pipe 100mm NB ERW,Pipe,"100 NB, ERW, 6m",M
+IOCL,IOCL-PMP-1576,Screw Pump 5m3/hr SS,Pump,"5 m3/hr, SS wetted",
+NTPC,NTPC_VLV_1707,Gate Valve 200mm CI PN10 RF,Valve,"CI, PN10, Flanged",NOS
+ONGC,ONGC/PMP/1684,SLURRY PUMP 100MM HNBR,Pump,"100mm, HNBR lined",SET
+CIL,CIL/VLV/1584,GATE VLV 200mm CI PN10,Valve,"CI, PN10, Flanged",PCS
+CIL,CIL-VLV-1588,Plug VLV 100mm CS PTFE,Valve,"CS+PTFE sleeve, 150#",NOS
+CPCL,CPCL-VLV-1720,Gate Valve 50 MM SS316 PN40,Valve,"SS316, PN40, Flanged RF",NOS
+ONGC,ONGC_MTR_1690,INDUCTION MOTOR 15KW 4P IE3,Motor,"15kW, 4P, 415V, IE3",EA
+IOCL,IOCL/CBL/1578,XLPE Cable 3Cx120sqmm 1.1kV,Cable,"3Cx120, Al, Armoured",M
+SAIL,SAIL_VLV_1635,Butterfly Valve 200mm CI PN16,Valve,"CI, PN16, Wafer",EA
+CPCL,CPCL/PMP/1726,Submersible Pump 10HP 100 MM,Pump,"10HP, 100mm bore, 3ph",
+CIL,CIL_CBL_1592,HT Cable 3Cx300 11kV,Cable,3Cx300 Al XLPE 11kV,M
+IOCL,IOCL-VLV-1583,Gate Valve 2 Inch SS316 PN40,Valve,"SS316, PN40, Flanged RF",NOS
+IOCL,IOCL/PMP/1590,Centrifugal Pump 50x40 15kW,Pump,"50x40mm, 15kW, 2900rpm",EA
+CPCL,CPCL-VLV-1729,Butterfly  Valve 200 MM CI PN16,Valve,"CI, PN16, Wafer",
+ONGC,???,SPHERICAL  ROLLER BEARING 22218,Bearing,90x160x40,NOS
+CPCL,CPCL/CBL/1733,Control Cable 12Cx2.5sq MM,Cable,"12Cx2.5 Cu, Unarm",NOS
+IOCL,IOCL/PMP/1596,Diaphragm Dosing Pump 0-100LPH,Pump,"0-100 LPH, PP head",EA
+ONGC,ONGC/PMP/1702,CENTRIFUGAL PUMP 50X40 15KW,Pump,"50x40mm, 15kW, 2900rpm",
+IOCL,IOCL_PMP_1398,Diaphragm Valve 3 Inch PP,Valve,"PP body, EPDM diaphragm",PCS
+CPCL,CPCL-PMP-1736,Centrifugal Pump 50x40 15kW,Pump,"50x40mm, 15kW, 2900rpm",EA
+ONGC,ONGC_CBL_1706,XLPE CABLE 3CX120SQMM 1.1KV,Cable,"3Cx120, Al, Armoured",NOS
+IOCL,IOCL_VLV_1606,Butterfly Valve 8 Inch CI PN16,Valve,"CI, PN16, Wafer",PCS
+SAIL,SAIL-VLV-1639,Needle Valve 25mm AISI 316 6000psi,Valve,"SS316, 6000 psi, NPT",EA
+IOCL,IOCL_VLV_1612,Globe Valve 65mm Carbon Steel 150#,Valve,"CS, 150#, Flanged",EA
+CPCL,CPCL/VLV/1743,Safety Relief Valve 50 MM SS,Valve,"SS, Set 10 barg, Flanged",EA
+CIL,CIL_BRG_1598,"Deep, Groove BALL BRG 6205",Bearing,"25x52x15, SKF/equiv",EA
+SAIL,SAIL_VLV_1643,Gate - Valve 50mm AISI 316 PN40,Valve,"SS316, PN40, Flanged RF",PCS
+NTPC,NTPC/CBL/1709,Control Cable 12Cx2.5sqmm,Cable,"12Cx2.5 Cu, Unarm",MTR
+IOCL,IOCL_CBL_1613,Control Cable 12Cx2.5sqmm,Cable,"12Cx2.5 Cu, Unarm",M
+CPCL,CPCL/GSK/1745,"Spiral, Wound Gasket 4in 150#",Gasket,"4in, 150#, SS316+Graphite",EA
+SAIL,SAIL-VLV-1648,Gate Valve 50mm AISI 316 PN40,Valve,"SS316, PN40, Flanged RF",EA
+CPCL,CPCL_PIP_1749,GI Pipe 25 MM Medium,Pipe,"25mm, Medium, IS1239",M
+CIL,CIL/CBL/1601,HT Cable 3Cx300 11kV,Cable,3Cx300 Al XLPE 11kV,NOS
+NTPC,NTPC/VLV/1711,Foot Valve 100mm CI RF,Valve,"CI, Flanged, With strainer",EA
+CIL,CIL-PIP-1607,CS Pipe 150mm NB Sch80,Pipe,"150 NB, Sch80, API 5L",NOS
+CIL,CIL_PMP_1614,Multistage Pump 65x50 30kW,Pump,"65x50, 30kW, 8 stage",SET
+CPCL,CPCL-CBL-1753,HT Cable 3Cx300 11kV,Cable,3Cx300 Al XLPE 11kV,NOS
+SAIL,SAIL/VLV/1650,Check Valve 150mm CS Class 150,Valve,"CS, NACE, Flanged",PCS
+CIL,CIL/PMP/1616,Screw Pump 5m3/hr SS,Pump,"5 m3/hr, SS wetted",PCS
+IOCL,IOCL/VLV/1614,Plug Valve 4 Inch Carbon Steel PTFE,Valve,"CS+PTFE sleeve, 150#",PCS
+NTPC,NTPC_VLV_1715,Needle Valve 25mm SS316 6000psi RF,Valve,"SS316, 6000 psi, NPT",NOS
+ONGC,ONGC/PMP/1712,"VERTICAL, TURBINE PUMP 200MM",Pump,"200mm column, 75kW",EA
+IOCL,IOCL_PIP_1617,SS316 Pipe 2 Inch NB Sch40,Pipe,"50 NB, Sch40, Seamless",NOS
+CIL,CIL/VLV/1623,Globe VLV 65mm CS 150#,Valve,"CS, 150#, Flanged",PCS
+ONGC,ONGC_PIP_1718,"HDPE, PIPE 110MM PN10",Pipe,"110mm OD, PN10, PE100",
+CIL,CIL/FLG/1625,"Slipon, Flange 80mm PN16",Flange,"80 NB, PN16, MS",EA
+CPCL,CPCL/VLV/1755,"Globe, Valve 65 MM CS 150#",Valve,"CS, 150#, Flanged",
+NTPC,NTPC_VLV_1720,"Ball, Valve 80mm SS304 Class 300 RF",Valve,"SS304, Class 300, Screwed",PCS
+IOCL,IOCL-PMP-1623,Multistage Pump 65x50 30kW,Pump,"65x50, 30kW, 8 stage",SET
+IOCL,IOCL_PIP_1624,SS316 Pipe 2 Inch NB Sch40,Pipe,"50 NB, Sch40, Seamless",M
+CPCL,CPCL/CBL/1757,Control Cable 12Cx2.5sq MM,Cable,"12Cx2.5 Cu, Unarm",
+CPCL,CPCL-FLG-1761,Slipon Flange 80 MM PN16,Flange,"80 NB, PN16, MS",PCS
+SAIL,SAIL_PMP_1652,Screw Pump 5m3/hr SS,Pump,"5 m3/hr, SS wetted",NOS
+IOCL,IOCL_VLV_1629,Plug Valve 4 Inch Carbon Steel PTFE,Valve,"CS+PTFE sleeve, 150#",EA
+SAIL,SAIL_PMP_1656,Centrifugal Pump 50x40 15kW,Pump,"50x40mm, 15kW, 2900rpm",SET
+CIL,CIL-MTR-1627,DC Motor 5kW 1500rpm,Motor,"5kW, 220V DC",PCS
+CPCL,CPCL_BRG_1767,Taper Roller Bearing 32210,Bearing,50x90x24.75,PCS
+NTPC,NTPC-VLV-1725,Plug Vlve 100mm CS PTFE RF,Valve,"CS+PTFE sleeve, 150#",EA
+CPCL,CPCL/VLV/1770,Gate Valve 200 MM CI PN10,Valve,"CI, PN10, Flanged",NOS
+IOCL,IOCL-VLV-1630,Gate Valve 12 Inch Carbon Steel 300#,Valve,"CS, 300#, RTJ",EA
+ONGC,ONGC_PMP_1724,GEAR PUMP 2INCH CI,Pump,"2 inch, CI, 1440rpm",EA
+NTPC,NTPC_VLV_1732,Safety Relief Valve 50mm SS RF,Valve,"SS, Set 10 barg, Flanged",PCS
+NTPC,NTPC-PMP-1735,Multistage Pump 65x50 30kW,Pump,"65x50, 30kW, 8 stage",SET
+CIL,CIL_PMP_1630,Multistage Pump 65x50 30kW,Pump,"65x50, 30kW, 8 stage",SET
+CPCL,CPCL/VLV/1775,Foot Valve 100 MM CI,Valve,"CI, Flanged, With strainer",EA
+IOCL,IOCL-BRG-1637,Deep Groove Ball Bearing 6205,Bearing,"25x52x15, SKF/equiv",EA
+CIL,CIL-PMP-1631,Centrifugal Pump 50x40 15kW,Pump,"50x40mm, 15kW, 2900rpm",SET
+ONGC,ONGC_PMP_1728,MULTISTAGE PUMP 65X50 30KW,Pump,"65x50, 30kW, 8 stage",SET
+CIL,CIL-VLV-1636,BALL  VLV 80mm SS304 Class 300,Valve,"SS304, Class 300, Screwed",
+CIL,CIL_PMP_1643,Submersible Pump 10HP 100mm,Pump,"10HP, 100mm bore, 3ph",SET
+SAIL,SAIL-PMP-1658,Screw Pump 5m3/hr SS,Pump,"5 m3/hr, SS wetted",EA
+NTPC,NTPC/PMP/1736,Multistage Pump 65x50 30kW,Pump,"65x50, 30kW, 8 stage",SET
+NTPC,NTPC-VLV-1738,Gate Valve 100mm CS Class 150 RF,Valve,"CS, 150#, Flanged",PCS
+CIL,???,BALL VLV 80mm SS304 Class 300,Valve,"SS304, Class 300, Screwed",PCS
+CPCL,CPCL/PMP/1776,Slurry Pump 100 MM HNBR,,"100mm, HNBR lined",SET
+SAIL,SAIL/GSK/1660,Ring Joint Gasket R37 AISI 316,,"R37, Octagonal, SS316",NOS
+NTPC,NTPC/VLV/1741,Plug Valve 100mm CS PTFE RF,Valve,"CS+PTFE sleeve, 150#",NOS
+CIL,CIL-FST-1646,Hex Bolt M20x80 8.8 HDG,,"M20x80, Gr 8.8, HDG+nut",EA
+ONGC,ONGC-PMP-1729,MULTISTAGE PUMP 65X50 30KW,Pump,"65x50, 30kW, 8 stage",EA
+NTPC,NTPC-BRG-1744,Needle Roller Bearing NK45/35,Bearing,45x55x35,EA
+NTPC,NTPC/VLV/1750,Ball Valve 50mm Brass Screwed RF,Valve,"Brass, Screwed BSP",NOS
+SAIL,SAIL-BRG-1666,Deep Groove Ball Bearng 6205,Bearing,"25x52x15, SKF/equiv",NOS
+NTPC,NTPC/VLV/1753,Gate Valve 150mm CS 300# RF,Valve,"CS, 300#, RTJ",EA
+IOCL,IOCL/PMP/1638,Gear Pump 2inch CI,Pump,"2 inch, CI, 1440rpm",PCS
+ONGC,ONGC_PIP_1734,MS PIPE 100MM NB ERW,Pipe,"100 NB, ERW, 6m",MTR
+ONGC,ONGC-FLG-1737,SLIPON  FLANGE 80MM PN16,Flange,"80 NB, PN16, MS",NOS
+NTPC,NTPC_VLV_1759,Needle Valve 25mm SS316 6000psi RF,Valve,"SS316, 6000 psi, NPT",NOS
+ONGC,ONGC/MTR/1740,INDUCTION MOTOR 15KW 4P IE3,Motor,"15kW, 4P, 415V, IE3",EA
+IOCL,IOCL_VLV_1639,Foot Vlve 4 Inch CI,Valve,"CI, Flanged, With strainer",PCS
+NTPC,NTPC/PMP/1763,Submersible Pump 10HP 100mm,Pump,"10HP, 100mm bore, 3ph",EA
+IOCL,IOCL/PMP/1645,Submersible Pump 10HP 4 Inch,Pump,"10HP, 100mm bore, 3ph",EA
+ONGC,ONGC-PMP-1745,"DIAPHRAGM, DOSING PUMP 0-100LPH",Pump,"0-100 LPH, PP head",NOS
+CIL,CIL-FLG-1647,Slipon Flange 80mm PN16,Flange,"80 NB, PN16, MS",PCS
+SAIL,SAIL-PMP-1667,Gear Pump 2inch CI,Pump,"2 inch, CI, 1440rpm",NOS
+SAIL,SAIL/PMP/1670,Screw Pump 5m3/hr SS,Pump,"5 m3/hr, SS wetted",PCS
+SAIL,SAIL_VLV_1672,Gate Valve 50mm AISI 316 PN40,Valve,"SS316, PN40, Flanged RF",NOS
+CIL,CIL/FLG/1654,WN Flange 100mm 150# CS,Flange,"100 NB, 150#, A105",EA
+SAIL,???,Vertical Turbine Pump 200mm,Pump,"200mm column, 75kW",EA
+SAIL,SAIL_VLV_1686,Needle Valve 25mm AISI 316 6000psi,Valve,"SS316, 6000 psi, NPT",EA
+CPCL,CPCL-PMP-1781,Submersible Pump 10HP 100 MM,Pump,"10HP, 100mm bore, 3ph",SET
+CPCL,CPCL-VLV-1784,Globe Valve 65 MM CS 150#,Valve,"CS, 150#, Flanged",PCS
+CIL,CIL/BRG/1659,Plummer Block UCP210,Bearing,"50mm bore, CI housing",EA
+NTPC,NTPC/VLV/1766,Gate Valve 150mm CS 300# RF,,"CS, 300#, RTJ",EA
+CPCL,CPCL_PMP_1785,Multistage Pump 65x50 30kW,Pump,"65x50, 30kW, 8 stage",SET
+CIL,CIL-PIP-1664,SS316 Pipe 50mm NB Sch40,Pipe,"50 NB, Sch40, Seamless",M
+NTPC,NTPC_PMP_1768,Submersible Pump 10HP 100mm,Pump,"10HP, 100mm bore, 3ph",EA
+IOCL,IOCL-VLV-1647,Gate Valve 2 Inch SS316 PN40,Valve,"SS316, PN40, Flanged RF",PCS
+IOCL,IOCL/GSK/1654,Spiral Wound Gasket 4in 150#,Gasket,"4in, 150#, SS316+Graphite",PCS
+CIL,CIL_VLV_1665,BALL VLV 80mm SS304 Class 300,Valve,"SS304, Class 300, Screwed",PCS
+NTPC,NTPC-VLV-1775,Foot Vlve 100mm CI RF,Valve,"CI, Flanged, With strainer",PCS
+CIL,CIL-PMP-1672,Gear Pump 2inch CI,Pump,"2 inch, CI, 1440rpm",NOS
+IOCL,IOCL/PIP/1659,GI Pipe 25mm Medium,Pipe,"25mm, Medium, IS1239",MTR
+CPCL,CPCL-PIP-1786,GI Pipe 25 MM Medium,Pipe,"25mm, Medium, IS1239",MTR
+IOCL,IOCL-MTR-1661,Flameproof Motor 30kW Exd,Motor,"30kW, Exd IIB, 415V",NOS
+CIL,CIL-VLV-1678,Knife GATE VLV 250mm SS,Valve,"SS gate, PN10, Lug",NOS
+CPCL,CPCL/PMP/1787,Submersible - Pump 10HP 100 MM,Pump,"10HP, 100mm bore, 3ph",SET
+SAIL,SAIL-BRG-1690,Taper Roller Bearing 32210,Bearing,50x90x24.75,PCS
+CPCL,CPCL/PMP/1793,Vertical Turbine Pump 200 MM,Pump,"200mm column, 75kW",EA
+CIL,CIL/VLV/1680,Plug VLV 100mm CS PTFE,Valve,"CS+PTFE sleeve, 150#",NOS
+SAIL,SAIL/PIP/1696,CS Pipe 150mm NB Sch80,Pipe,"150 NB, Sch80, API 5L",MTR
+CPCL,CPCL_BRG_1797,Plu MMer Block UCP210,Bearing,"50mm bore, CI housing",EA
+IOCL,IOCL/PMP/1666,Centrifugal Pump 50x40 15kW,Pump,"50x40mm, 15kW, 2900rpm",EA
+NTPC,???,Slurry Pump 100mm HNBR,Pump,"100mm, HNBR lined",SET
+ONGC,ONGC-FLG-1749,WN FLANGE 100MM 150# CS,Flange,"100 NB, 150#, A105",NOS
+IOCL,IOCL_VLV_1668,Gate Valve 2 Inch SS316 PN40,Valve,"SS316, PN40, Flanged RF",NOS
+CIL,CIL_VLV_1684,GATE VLV 150mm CS 300#,Valve,"CS, 300#, RTJ",EA
+SAIL,SAIL-VLV-1703,"Plug, Valve 100mm CS PTFE",Valve,"CS+PTFE sleeve, 150#",EA
+IOCL,IOCL_GSK_1672,Spiral Wound Gasket 4in 150#,Gasket,"4in, 150#, SS316+Graphite",NOS
+CPCL,CPCL_VLV_1803,Butterfly Valve 200 MM CI PN16,Valve,"CI, PN16, Wafer",EA
+IOCL,IOCL/VLV/1673,Knife Gate Valve 22 Inch SS,Valve,"SS gate, PN10, Lug",NOS
+SAIL,SAIL-FLG-1709,Slipon Flange 80mm PN16,Flange,"80 NB, PN16, MS",EA
+IOCL,IOCL_PMP_1677,Diaphragm Dosing Pump 0-100LPH,Pump,"0-100 LPH, PP head",NOS
+ONGC,ONGC/FLG/1753,WN FLANGE 100MM 150# CS,Flange,"100 NB, 150#, A105",EA
+CPCL,CPCL/BRG/1805,Taper Roller Bearing 32210,Bearing,50x90x24.75,NOS
+IOCL,IOCL-PMP-1682,Slurry Pump 4 Inch HNBR,,"100mm, HNBR lined",SET
+IOCL,IOCL-PMP-1683,Multistage Pump 65x50 30kW,Pump,"65x50, 30kW, 8 stage",EA
+NTPC,NTPC-BRG-1785,Spherical Roller Bearng 22218,Bearing,90x160x40,
+IOCL,IOCL_FLG_1687,Blind Flange 2 Inch 300# SS316,Flange,"50 NB, 300#, SS316",EA
+CIL,CIL-VLV-1689,Diaphragm VLV 80mm PP,Valve,"PP body, EPDM diaphragm",EA
+CPCL,CPCL/BRG/1811,Deep Groove Ball Bearing 6205,Bearing,"25x52x15, SKF/equiv",NOS
+CIL,CIL_BRG_1696,Needle Roller BRG NK45/35,Bearing,45x55x35,NOS
+SAIL,SAIL/VLV/1712,Needle Valve 25mm AISI 316 6000psi,Valve,"SS316, 6000 psi, NPT",NOS
+CIL,CIL-VLV-1700,BALL VLV 50mm Brass Screwed,Valve,"Brass, Screwed BSP",NOS
+NTPC,NTPC/VLV/1787,Gate  Valve 100mm CS Class 150 RF,Valve,"CS, 150#, Flanged",PCS
+NTPC,NTPC-VLV-1790,Gate Valve 200mm CI PN10 RF,Valve,"CI, PN10, Flanged",EA
+NTPC,NTPC/VLV/1794,Butterfly Valve 200mm CI PN16 RF,Valve,"CI, PN16, Wafer",NOS
+ONGC,ONGC/PIP/1756,HDPE PIPE 110MM PN10,Pipe,"110mm OD, PN10, PE100",M
+SAIL,SAIL-MTR-1715,DC Motor 5kW 1500rpm,Motor,"5kW, 220V DC",PCS
+ONGC,ONGC-PIP-1762,MS PIPE 100MM NB ERW,Pipe,"100 NB, ERW, 6m",NOS
+ONGC,ONGC_PIP_1764,GI PIPE 25MM MEDIUM,Pipe,"25mm, Medium, IS1239",M
+CPCL,CPCL_PIP_1817,MS Pipe 100 MM NB ERW,Pipe,"100 NB, ERW, 6m",M
+NTPC,NTPC/BRG/1796,Needle Roller Bearing NK45/35,Bearing,45x55x35,EA
+CIL,CIL/VLV/1703,Butterfly VLV 200mm CI PN16,Valve,"CI, PN16, Wafer",EA
+SAIL,SAIL/PIP/1720,MS Pipe 100mm NB ERW,Pipe,"100 NB, ERW, 6m",MTR
+ONGC,ONGC_PMP_1765,GEAR PUMP 2INCH CI,Pump,"2 inch, CI, 1440rpm",EA
+NTPC,NTPC/VLV/1800,"Ball, Valve 80mm SS304 Class 300 RF",Valve,"SS304, Class 300, Screwed",PCS
+NTPC,NTPC/VLV/1807,Gate Valve 100mm CS Class 150 RF,Valve,"CS, 150#, Flanged",EA
+IOCL,IOCL/BRG/1691,Taper Roller Bearing 32210,Bearing,50x90x24.75,PCS
+IOCL,IOCL_PIP_1696,"GI, Pipe 25mm Medium",Pipe,"25mm, Medium, IS1239",MTR
+CIL,CIL-PMP-1704,Diaphragm Dosing Pump 0-100LPH,Pump,"0-100 LPH, PP head",EA
+CIL,CIL_GSK_1709,Ring Joint Gasket R37 SS316,Gasket,"R37, Octagonal, SS316",NOS
+CIL,CIL-BRG-1710,Plummer Block UCP210,Bearing,"50mm bore, CI housing",NOS
+SAIL,SAIL-GSK-1723,Ring Joint Gasket R37 AISI 316,Gasket,"R37, Octagonal, SS316",NOS
+ONGC,ONGC_BRG_1768,NEEDLE ROLLER BEARING NK45/35,Bearing,45x55x35,NOS
+CPCL,CPCL_VLV_1821,Diaphragm Valve 80 MM PP,Valve,"PP body, EPDM diaphragm",NOS
+SAIL,SAIL/VLV/1727,Ball Valve 80mm AISI 304 Class 300,Valve,"SS304, Class 300, Screwed",EA
+SAIL,SAIL-BRG-1734,Plummer Block UCP210,Bearing,"50mm bore, CI housing",NOS
+NTPC,NTPC_VLV_1814,"Knife, Gate Valve 250mm SS RF",Valve,"SS gate, PN10, Lug",PCS
+CPCL,CPCL-PIP-1823,MS Pipe 100 MM NB ERW,Pipe,"100 NB, ERW, 6m",M
+CPCL,???,DC Motor 5kW 1500rpm,Motor,"5kW, 220V DC",PCS
+IOCL,IOCL_BRG_1699,Thrust Ball Bearing 51108,Bearing,40x60x13,EA
+ONGC,ONGC-FLG-1772,BLIND FLANGE 50MM 300# SS316,Flange,"50 NB, 300#, SS316",
+CIL,CIL-VLV-1713,Diaphragm VLV 80mm PP,Valve,"PP body, EPDM diaphragm",PCS
+CIL,CIL_CBL_1714,Control Cable 12Cx2.5sqmm,Cable,"12Cx2.5 Cu, Unarm",M
+CPCL,CPCL-CBL-1831,HT Cable 3Cx300 11kV,Cable,3Cx300 Al XLPE 11kV,MTR
+NTPC,NTPC/VLV/1820,Check Valve 150mm CS Class 150 RF,Valve,"CS, NACE, Flanged",PCS
+ONGC,ONGC-FLG-1777,BLIND FLANGE 50MM 300# SS316,Flange,"50 NB, 300#, SS316",NOS
+ONGC,ONGC/VLV/1779,GLOBE VALVE 65MM CS 150#,Valve,"CS, 150#, Flanged",PCS
+CPCL,CPCL-BRG-1838,Spherical Roller Bearing 22218,Bearing,90x160x40,PCS
+CPCL,CPCL-PMP-1844,Vertical  Turbine Pump 200 MM,Pump,"200mm column, 75kW",SET
+CPCL,CPCL-VLV-1845,Safety Relief Valve 50 MM SS,Valve,"SS, Set 10 barg, Flanged",NOS
+ONGC,ONGC_PMP_1783,SLURRY PUMP 100MM HNBR,Pump,"100mm, HNBR lined",SET
+NTPC,NTPC/VLV/1822,Ball Valve 50mm Brass Screwed RF,Valve,"Brass, Screwed BSP",NOS
+ONGC,ONGC/VLV/1786,GATE VALVE 50MM SS316 PN40,,"SS316, PN40, Flanged RF",PCS
+ONGC,ONGC_VLV_1787,BALL VALVE 80MM SS304 CL 300,Valve,"SS304, Class 300, Screwed",NOS
+IOCL,IOCL-PMP-1701,Diaphragm Dosing Pump 0-100LPH,Pump,"0-100 LPH, PP head",NOS
+ONGC,ONGC_PMP_1792,DIAPHRAGM DOSING PUMP 0-100LPH,Pump,"0-100 LPH, PP head",EA
+IOCL,IOCL_FLG_1703,Slipon Flange 3 Inch PN16,Flange,"80 NB, PN16, MS",PCS
+CPCL,CPCL_GSK_1847,Spiral Wound Gasket 4in 150#,Gasket,"4in, 150#, SS316+Graphite",EA
+CPCL,CPCL/FLG/1852,WN Flange 100 MM 150# CS,Flange,"100 NB, 150#, A105",EA
+NTPC,NTPC_BRG_1823,Spherical Roller Bearing 22218,Bearing,90x160x40,EA
+SAIL,SAIL-VLV-1735,Knife Gate Valve 250mm SS,Valve,"SS gate, PN10, Lug",EA
+IOCL,IOCL-VLV-1706,Ball Valve 2 Inch Brass Screwed,Valve,"Brass, Screwed BSP",EA
+NTPC,NTPC-PIP-1826,GI Pipe 25mm Medium,Pipe,"25mm, Medium, IS1239",NOS
+SAIL,SAIL_VLV_1740,Gate Valve 200mm CI PN10,Valve,"CI, PN10, Flanged",EA
+CPCL,CPCL/GSK/1853,Ring Joint Gasket R37 SS316,Gasket,"R37, Octagonal, SS316",EA
+SAIL,SAIL-PMP-1744,Diaphragm Dosing Pump 0-100LPH,,"0-100 LPH, PP head",
+ONGC,ONGC-VLV-1795,BALL VALVE 80MM SS304 CL 300,Valve,"SS304, Class 300, Screwed",EA
+ONGC,ONGC/MTR/1802,DC  MOTOR 5KW 1500RPM,Motor,"5kW, 220V DC",PCS
+CPCL,CPCL/VLV/1854,Check Valve 150 MM CS CL 150,Valve,"CS, NACE, Flanged",EA
+ONGC,ONGC-VLV-1807,BALL VALVE 50MM BRASS SCREWED,Valve,"Brass, Screwed BSP",NOS
+CIL,CIL-PMP-1716,Vertical Turbine Pump 200mm,Pump,"200mm column, 75kW",SET
+ONGC,ONGC-MTR-1814,FLAMEPROOF MOTOR 30KW EXD,Motor,"30kW, Exd IIB, 415V",EA
+CPCL,CPCL/PMP/1859,Vertical Turbine Pump 200 MM,Pump,"200mm column, 75kW",EA
+CPCL,CPCL_VLV_1866,Gate Valve 150 MM CS 300#,Valve,"CS, 300#, RTJ",NOS
+NTPC,NTPC/VLV/1829,Knife Gate Valve 250mm SS RF,Valve,"SS gate, PN10, Lug",PCS
+CPCL,CPCL-PMP-1873,Submersible Pump 10HP 100 MM,Pump,"10HP, 100mm bore, 3ph",SET
+CIL,CIL/PMP/1723,Submersible Pump 10HP 100mm,Pump,"10HP, 100mm bore, 3ph",SET
+SAIL,SAIL/BRG/1751,Plummer Block UCP210,Bearing,"50mm bore, CI housing",PCS
+IOCL,IOCL/BRG/1710,Needle Roller Bearing NK45/35,Bearing,45x55x35,PCS
+IOCL,IOCL_CBL_1717,XLPE Cable 3Cx120sqmm 1.1kV,Cable,"3Cx120, Al, Armoured",NOS
+ONGC,ONGC/CBL/1816,CONTROL CABLE 12CX2.5SQMM,Cable,"12Cx2.5 Cu, Unarm",MTR
+SAIL,SAIL-CBL-1753,HT - Cable 3Cx300 11kV,Cable,3Cx300 Al XLPE 11kV,M
+ONGC,ONGC_VLV_1820,GATE VALV 150MM CS 300#,Valve,"CS, 300#, RTJ",NOS
+SAIL,SAIL-VLV-1757,Knife Gate Valve 250mm SS,Valve,"SS gate, PN10, Lug",PCS
+ONGC,ONGC-PMP-1822,MULTISTAGE PUMP 65X50 30KW,Pump,"65x50, 30kW, 8 stage",SET
+NTPC,NTPC_CBL_1836,"XLPE, Cable 3Cx120sqmm 1.1kV",Cable,"3Cx120, Al, Armoured",M
+CIL,CIL-VLV-1729,GATE VLV 150mm CS 300#,Valve,"CS, 300#, RTJ",EA
+CIL,CIL_VLV_1732,Foot VLV 100mm CI,Valve,"CI, Flanged, With strainer",NOS
+CIL,CIL-PIP-1735,SS316 Pipe 50mm NB Sch40,Pipe,"50 NB, Sch40, Seamless",MTR
+ONGC,ONGC_PIP_1826,GI PIPE 25MM MEDIUM,Pipe,"25mm, Medium, IS1239",MTR
+SAIL,SAIL-BRG-1760,Spherical Roller Bearing 22218,Bearing,90x160x40,PCS
+CIL,CIL_VLV_1739,GATE VLV 100mm CS Class 150,Valve,"CS, 150#, Flanged",NOS
+ONGC,ONGC_BRG_1829,THRUST BALL BEARING 51108,Bearing,40x60x13,EA
+SAIL,SAIL_VLV_1763,Gate Valve 50mm AISI 316 PN40,Valve,"SS316, PN40, Flanged RF",PCS
+CIL,CIL/PIP/1742,SS316 Pipe 50mm NB Sch40,Pipe,"50 NB, Sch40, Seamless",MTR
+CIL,CIL-GSK-1748,Spiral - Wound Gasket 4in 150#,Gasket,"4in, 150#, SS316+Graphite",EA
+SAIL,SAIL/CBL/1769,Control Cable 12Cx2.5sqmm,Cable,"12Cx2.5 Cu, Unarm",M
+ONGC,ONGC/PMP/1835,SLURRY PUMP 100MM HNBR,Pump,"100mm, HNBR lined",SET
+CPCL,CPCL_VLV_1877,Ball  Valve 80 MM SS304 CL 300,Valve,"SS304, Class 300, Screwed",NOS
+CIL,CIL/MTR/1752,Induction Motor 15kW 4P IE3,,"15kW, 4P, 415V, IE3",NOS
+SAIL,SAIL-MTR-1772,DC - Motor 5kW 1500rpm,Motor,"5kW, 220V DC",EA
+CPCL,CPCL_PIP_1882,SS316 Pipe 50 MM NB Sch40,Pipe,"50 NB, Sch40, Seamless",NOS
+IOCL,IOCL/MTR/1718,Flameproof Motor 30kW Exd,Motor,"30kW, Exd IIB, 415V",NOS
+NTPC,NTPC/PMP/1837,Centrifugal Pump 50x40 15kW,Pump,"50x40mm, 15kW, 2900rpm",EA
+SAIL,SAIL-PMP-1775,Submersible  Pump 10HP 100mm,Pump,"10HP, 100mm bore, 3ph",EA
+CIL,CIL/VLV/1754,GATE VLV 100mm CS Class 150,Valve,"CS, 150#, Flanged",NOS
+CIL,CIL/PMP/1758,Multistage Pump 65x50 30kW,Pump,"65x50, 30kW, 8 stage",EA
+ONGC,ONGC-MTR-1839,DC MOTOR 5KW 1500RPM,Motor,"5kW, 220V DC",NOS
+IOCL,IOCL/VLV/1723,Diaphragm Valve 3 Inch PP,Valve,"PP body, EPDM diaphragm",EA
+NTPC,NTPC-VLV-1838,Foot Valve 100mm CI RF,Valve,"CI, Flanged, With strainer",EA
+CPCL,CPCL/VLV/1888,Gate Valve 150 MM CS 300#,Valve,"CS, 300#, RTJ",EA
+CIL,CIL_BRG_1760,Thrust BALL BRG 51108,Bearing,40x60x13,PCS
+IOCL,IOCL_BRG_1726,Spherical Roller Bearing 22218,Bearing,90x160x40,NOS
+IOCL,IOCL_PIP_1727,HDPE Pipe 110mm PN10,Pipe,"110mm OD, PN10, PE100",MTR
+NTPC,NTPC/CBL/1839,XLPE Cable 3Cx120sqmm 1.1kV,Cable,"3Cx120, Al, Armoured",M
+CPCL,CPCL/PMP/1894,Screw Pump 5m3/hr SS,Pump,"5 m3/hr, SS wetted",PCS
+CIL,CIL_VLV_1762,BALL VLV 50mm Brass Screwed,Valve,"Brass, Screwed BSP",PCS
+ONGC,ONGC/CBL/1843,CONTROL CABLE 12CX2.5SQMM,Cable,"12Cx2.5 Cu, Unarm",NOS
+NTPC,NTPC/BRG/1842,Taper Roller Bearing 32210,,50x90x24.75,NOS
+CIL,CIL/CBL/1763,XLPE Cable 3Cx120sqmm 1.1kV,Cable,"3Cx120, Al, Armoured",MTR
+CPCL,CPCL_VLV_1901,Safety Relief Valve 50 MM SS,Valve,"SS, Set 10 barg, Flanged",EA
+CIL,CIL_PIP_1769,MS Pipe 100mm NB ERW,Pipe,"100 NB, ERW, 6m",NOS
+CIL,CIL-VLV-1773,Needle VLV 25mm SS316 6000psi,Valve,"SS316, 6000 psi, NPT",PCS
+CIL,CIL_VLV_1780,Needle VLV 25mm SS316 6000psi,Valve,"SS316, 6000 psi, NPT",PCS
+SAIL,SAIL-VLV-1779,Globe Valve 65mm CS 150#,Valve,"CS, 150#, Flanged",
+NTPC,NTPC/PIP/1846,MS Pipe 100mm NB ERW,Pipe,"100 NB, ERW, 6m",MTR
+IOCL,IOCL/VLV/1731,Butterfly Valve 8 Inch CI PN16,Valve,"CI, PN16, Wafer",EA
+NTPC,NTPC_FLG_1851,Blind Flange 50mm 300# SS316,Flange,"50 NB, 300#, SS316",NOS
+CIL,CIL-VLV-1782,Knife GATE VLV 250mm SS,Valve,"SS gate, PN10, Lug",NOS
+NTPC,NTPC-VLV-1858,Globe Valve 65mm CS 150# RF,Valve,"CS, 150#, Flanged",EA
+IOCL,IOCL/VLV/1734,Knife Gate Valve 22 Inch SS,Valve,"SS gate, PN10, Lug",PCS
+CIL,CIL-PMP-1786,Screw Pump 5m3/hr SS,Pump,"5 m3/hr, SS wetted",NOS
+SAIL,SAIL-PMP-1786,Slurry Pump 100mm HNBR,Pump,"100mm, HNBR lined",EA
+SAIL,SAIL/MTR/1787,Flameproof Motor 30kW Exd,Motor,"30kW, Exd IIB, 415V",NOS
+CPCL,CPCL/VLV/1904,Gate Valve 50 MM SS316 PN40,Valve,"SS316, PN40, Flanged RF",PCS
+SAIL,SAIL_PIP_1794,AISI 316 Pipe 50mm NB Sch40,Pipe,"50 NB, Sch40, Seamless",NOS
+ONGC,ONGC_PMP_1846,DIAPHRAGM DOSING PUMP 0-100LPH,Pump,"0-100 LPH, PP head",NOS
+ONGC,ONGC_VLV_1853,"GATE, VALVE 100MM CS CL 150",Valve,"CS, 150#, Flanged",NOS
+ONGC,ONGC_PIP_1858,HDPE PIPE 110MM PN10,Pipe,"110mm OD, PN10, PE100",NOS
+NTPC,NTPC-VLV-1863,Safety Relief Valve 50mm SS RF,Valve,"SS, Set 10 barg, Flanged",PCS
+NTPC,NTPC/PMP/1869,Gear Pump 2inch CI,Pump,"2 inch, CI, 1440rpm",EA
+ONGC,ONGC-CBL-1865,XLPE CABLE 3CX120SQMM 1.1KV,Cable,"3Cx120, Al, Armoured",NOS
+ONGC,ONGC_GSK_1869,SPIRAL WOUND GASKET 4IN 150#,Gasket,"4in, 150#, SS316+Graphite",NOS
+SAIL,SAIL/CBL/1797,XLPE Cable 3Cx120sqmm 1.1kV,Cable,"3Cx120, Al, Armoured",MTR
+ONGC,ONGC_PMP_1875,SUBMERSIBLE PUMP 10HP 100MM,,"10HP, 100mm bore, 3ph",SET
+ONGC,ONGC-VLV-1879,GATE VALV 150MM CS 300#,Valve,"CS, 300#, RTJ",NOS
+CPCL,CPCL_PIP_1908,CS - Pipe 150 MM NB Sch80,Pipe,"150 NB, Sch80, API 5L",MTR
+CIL,CIL-VLV-1789,GATE VLV 200mm CI PN10,Valve,"CI, PN10, Flanged",NOS
+CIL,CIL/PIP/1792,CS Pipe 150mm NB Sch80,Pipe,"150 NB, Sch80, API 5L",NOS
+SAIL,SAIL-CBL-1798,XLPE Cable 3Cx120sqmm 1.1kV,Cable,"3Cx120, Al, Armoured",MTR
+ONGC,ONGC-VLV-1886,GATE VALVE 100MM CS CL 150,Valve,"CS, 150#, Flanged",EA
+ONGC,ONGC-FLG-1893,WN FLANGE 100MM 150# CS,Flange,"100 NB, 150#, A105",EA
+CPCL,CPCL/VLV/1912,Plug Valve 100 MM CS PTFE,Valve,"CS+PTFE sleeve, 150#",EA
+IOCL,IOCL-BRG-1739,Spherical Roller Bearing 22218,Bearing,90x160x40,PCS
+SAIL,SAIL/FLG/1801,Blind Flange 50mm 300# AISI 316,Flange,"50 NB, 300#, SS316",PCS
+NTPC,NTPC-GSK-1875,Ring Joint Gasket R37 SS316,Gasket,"R37, Octagonal, SS316",NOS
+SAIL,SAIL_FST_1806,Hex Bolt M20x80 8.8 HDG,Fastener,"M20x80, Gr 8.8, HDG+nut",EA
+IOCL,IOCL_CBL_1742,HT Cable 3Cx300 11kV,Cable,3Cx300 Al XLPE 11kV,M
+NTPC,NTPC/FLG/1878,Slipon Flange 80mm PN16,Flange,"80 NB, PN16, MS",EA
+ONGC,ONGC_PMP_1083,GATE VALVE 150MM CS 300#,Valve,"CS, 300#, RTJ",NOS
+CPCL,CPCL_VLV_1919,Gate Valve 100 MM CS CL 150,Valve,"CS, 150#, Flanged",EA
+SAIL,SAIL/VLV/1807,Foot Valve 100mm CI,Valve,"CI, Flanged, With strainer",NOS
+IOCL,IOCL_PIP_1744,HDPE Pipe 110mm PN10,Pipe,"110mm OD, PN10, PE100",NOS
+NTPC,NTPC_BRG_1879,Needle Roller Bearing NK45/35,Bearing,45x55x35,PCS
+ONGC,ONGC/PMP/1906,GEAR PUMP 2INCH CI,Pump,"2 inch, CI, 1440rpm",PCS
+NTPC,NTPC-PMP-1881,Gear  Pump 2inch CI,Pump,"2 inch, CI, 1440rpm",EA
+NTPC,NTPC-VLV-1883,Globe Valve 65mm CS 150# RF,Valve,"CS, 150#, Flanged",NOS
+CPCL,CPCL_FST_1922,Hex Bolt M20x80 8.8 HDG,Fastener,"M20x80, Gr 8.8, HDG+nut",SET
+ONGC,ONGC/FST/1913,HEX  BOLT M20X80 8.8 HDG,Fastener,"M20x80, Gr 8.8, HDG+nut",EA
+IOCL,IOCL-VLV-1750,Plug Valve 4 Inch Carbon Steel PTFE,Valve,"CS+PTFE sleeve, 150#",EA
+CIL,CIL_VLV_1796,GATE VLV 150mm CS 300#,Valve,"CS, 300#, RTJ",PCS
+CIL,CIL/VLV/1800,BALL VLV 80mm SS304 Class 300,Valve,"SS304, Class 300, Screwed",EA
+CPCL,CPCL_VLV_1925,Check Valve 150 MM CS CL 150,Valve,"CS, NACE, Flanged",NOS
+ONGC,ONGC-PIP-1918,SS316 PIPE 50MM NB SCH40,Pipe,"50 NB, Sch40, Seamless",M
+SAIL,SAIL_PIP_1809,CS Pipe 150mm NB Sch80,Pipe,"150 NB, Sch80, API 5L",MTR
+CPCL,CPCL/VLV/1928,Needle Valve 25 MM SS316 6000psi,Valve,"SS316, 6000 psi, NPT",NOS
+CIL,CIL-CBL-1802,HT Cable 3Cx300 11kV,Cable,3Cx300 Al XLPE 11kV,
+NTPC,NTPC-FLG-1885,Blind Flange 50mm 300# SS316,Flange,"50 NB, 300#, SS316",
+SAIL,SAIL/PMP/1813,Vertical Turbine Pump 200mm,Pump,"200mm column, 75kW",SET
+CPCL,CPCL-BRG-1933,Spherical Roller Bearing 22218,Bearing,90x160x40,PCS
+NTPC,NTPC/VLV/1891,Foot Valve 100mm CI RF,Valve,"CI, Flanged, With strainer",EA
+SAIL,SAIL-MTR-1818,Induction Motor 15kW 4P IE3,Motor,"15kW, 4P, 415V, IE3",NOS
+NTPC,NTPC_GSK_1893,Spiral Wound Gasket 4in 150#,Gasket,"4in, 150#, SS316+Graphite",PCS
+CPCL,CPCL_VLV_1938,Foot Vlve 100 MM CI,Valve,"CI, Flanged, With strainer",PCS
+IOCL,IOCL_GSK_1751,Ring Joint Gasket R37 SS316,Gasket,"R37, Octagonal, SS316",PCS
+ONGC,ONGC-PMP-1920,CENTRIFUGAL PUMP 50X40 15KW,Pump,"50x40mm, 15kW, 2900rpm",EA
+CPCL,CPCL-VLV-1945,Plug Valve 100 MM CS PTFE,Valve,"CS+PTFE sleeve, 150#",EA
+IOCL,IOCL_BRG_1752,Thrust Ball Bearng 51108,,40x60x13,PCS
+IOCL,IOCL/PMP/1757,Vertical Turbine Pump 8 Inch,Pump,"200mm column, 75kW",EA
+CIL,CIL/PIP/1803,CS Pipe 150mm NB Sch80,Pipe,"150 NB, Sch80, API 5L",M
+CIL,CIL-VLV-1810,Diaphragm - VLV 80mm PP,Valve,"PP body, EPDM diaphragm",PCS
+CPCL,CPCL_PMP_1951,Screw Pump 5m3/hr SS,Pump,"5 m3/hr, SS wetted",PCS
+NTPC,NTPC_MTR_1900,"DC, Motor 5kW 1500rpm",Motor,"5kW, 220V DC",EA
+CIL,CIL-VLV-1812,Diaphragm VLV 80mm PP,Valve,"PP body, EPDM diaphragm",PCS
+IOCL,IOCL_VLV_1759,Globe Valve 65mm Carbon Steel 150#,Valve,"CS, 150#, Flanged",NOS
+CIL,CIL/PMP/1813,Centrifugal Pump 50x40 15kW,Pump,"50x40mm, 15kW, 2900rpm",SET
+CIL,CIL_PMP_1817,Vertical Turbine Pump 200mm,Pump,"200mm column, 75kW",SET
+CPCL,CPCL_PMP_1954,Screw Pump 5m3/hr SS,Pump,"5 m3/hr, SS wetted",EA
+CPCL,CPCL/GSK/1961,Spiral  Wound Gasket 4in 150#,Gasket,"4in, 150#, SS316+Graphite",EA
+NTPC,NTPC-VLV-1906,Knife Gate Valve 250mm SS RF,Valve,"SS gate, PN10, Lug",NOS
+NTPC,NTPC-VLV-1912,Globe Valve 65mm CS 150# RF,Valve,"CS, 150#, Flanged",EA
+ONGC,ONGC/PMP/1923,DIAPHRAGM DOSING PUMP 0-100LPH,Pump,"0-100 LPH, PP head",PCS
+ONGC,ONGC-VLV-1929,DIAPHRAGM VALVE 80MM PP,Valve,"PP body, EPDM diaphragm",NOS
+IOCL,IOCL_MTR_1766,DC Motor 5kW 1500rpm,Motor,"5kW, 220V DC",NOS
+ONGC,ONGC/PMP/1930,CENTRIFUGAL PUMP 50X40 15KW,Pump,"50x40mm, 15kW, 2900rpm",SET
+ONGC,ONGC-PMP-1935,GEAR PUMP 2INCH CI,Pump,"2 inch, CI, 1440rpm",EA
+CIL,CIL-BRG-1824,Thrust BALL BRG 51108,Bearing,40x60x13,EA
+ONGC,ONGC_VLV_1942,SAFETY RELIEF VALVE 50MM SS,Valve,"SS, Set 10 barg, Flanged",EA
+ONGC,ONGC_GSK_1949,RING JOINT GASKET R37 SS316,Gasket,"R37, Octagonal, SS316",NOS
+NTPC,NTPC-MTR-1915,"Induction, Motor 15kW 4P IE3",Motor,"15kW, 4P, 415V, IE3",NOS
+ONGC,ONGC_VLV_1954,SAFETY RELIEF VALVE 50MM SS,Valve,"SS, Set 10 barg, Flanged",EA
+CPCL,CPCL_VLV_1965,Butterfly Valve 200 MM CI PN16,Valve,"CI, PN16, Wafer",
+CIL,CIL/PMP/1828,Centrifugal Pump 50x40 15kW,Pump,"50x40mm, 15kW, 2900rpm",EA
+CIL,CIL/VLV/1830,BALL VLV 50mm Brass Screwed,Valve,"Brass, Screwed BSP",NOS
+CIL,CIL-PMP-1835,Slurry  Pump 100mm HNBR,Pump,"100mm, HNBR lined",EA
+CPCL,CPCL_PMP_1972,Gear Pump 2inch CI,Pump,"2 inch, CI, 1440rpm",NOS
+IOCL,IOCL/VLV/1771,Safety - Relief Valve 2 Inch SS,Valve,"SS, Set 10 barg, Flanged",PCS
+CPCL,CPCL/PMP/1978,Slurry Pump 100 MM HNBR,Pump,"100mm, HNBR lined",SET
+CPCL,CPCL_BRG_1985,Thrust Ball Bearing 51108,Bearing,40x60x13,EA
+CIL,CIL_FST_1840,Hex Bolt M20x80 8.8 HDG,Fastener,"M20x80, Gr 8.8, HDG+nut",SET
+ONGC,ONGC-FLG-1960,SLIPON FLANGE 80MM PN16,Flange,"80 NB, PN16, MS",NOS
+NTPC,NTPC_VLV_1922,Check Valve 150mm CS Class 150 RF,Valve,"CS, NACE, Flanged",EA
+NTPC,NTPC_GSK_1928,Spiral Wound Gasket 4in 150#,Gasket,"4in, 150#, SS316+Graphite",EA
+IOCL,IOCL-VLV-1777,Butterfly Valve 8 Inch CI PN16,Valve,"CI, PN16, Wafer",PCS
+IOCL,IOCL_PMP_1783,Submersible Pump 10HP 4 Inch,Pump,"10HP, 100mm bore, 3ph",SET
+IOCL,IOCL-VLV-1784,Diaphragm Valve 3 Inch PP,Valve,"PP body, EPDM diaphragm",NOS
+ONGC,ONGC-VLV-1965,BALL - VALVE 80MM SS304 CL 300,Valve,"SS304, Class 300, Screwed",NOS
+IOCL,IOCL/VLV/1791,Globe Valve 65mm Carbon Steel 150#,Valve,"CS, 150#, Flanged",PCS
+SAIL,SAIL-VLV-1824,Gate Valve 200mm CI PN10,Valve,"CI, PN10, Flanged",EA
+SAIL,SAIL_CBL_1829,"XLPE, Cable 3Cx120sqmm 1.1kV",Cable,"3Cx120, Al, Armoured",M
+CIL,CIL/PMP/1846,Slurry Pump 100mm HNBR,Pump,"100mm, HNBR lined",SET
+SAIL,SAIL/FLG/1831,Blind Flange 50mm 300# AISI 316,Flange,"50 NB, 300#, SS316",NOS
+NTPC,NTPC/PMP/1932,Submersible Pump 10HP 100mm,Pump,"10HP, 100mm bore, 3ph",EA
+NTPC,NTPC/MTR/1935,Flameproof Motor 30kW Exd,Motor,"30kW, Exd IIB, 415V",PCS
+IOCL,IOCL/VLV/1798,Butterfly Valve 8 Inch CI PN16,Valve,"CI, PN16, Wafer",PCS
+CPCL,CPCL/PMP/1990,Gear Pump 2inch CI,Pump,"2 inch, CI, 1440rpm",PCS
+CIL,CIL-VLV-1850,Needle VLV 25mm SS316 6000psi,Valve,"SS316, 6000 psi, NPT",PCS
+IOCL,IOCL-MTR-1799,Induction Motor 15kW 4P IE3,Motor,"15kW, 4P, 415V, IE3",EA
+CPCL,CPCL-BRG-1995,Thrust Ball Bearing 51108,Bearing,40x60x13,PCS
+CIL,CIL_VLV_1853,BALL VLV 80mm SS304 Class 300,Valve,"SS304, Class 300, Screwed",NOS
+SAIL,SAIL-PMP-1835,Centrifugal Pump 50x40 15kW,Pump,"50x40mm, 15kW, 2900rpm",EA
+CPCL,CPCL-FLG-2001,WN Flange 100 MM 150# CS,Flange,"100 NB, 150#, A105",PCS
+ONGC,ONGC_PMP_1971,MULTISTAGE PUMP 65X50 30KW,Pump,"65x50, 30kW, 8 stage",SET
+CIL,CIL/PMP/1854,Slurry Pump 100mm HNBR,Pump,"100mm, HNBR lined",EA
+CPCL,CPCL/VLV/2007,Check Valve 150 MM CS CL 150,Valve,"CS, NACE, Flanged",EA
+SAIL,SAIL-PMP-1838,Gear Pump 2inch CI,Pump,"2 inch, CI, 1440rpm",NOS
+IOCL,IOCL-VLV-1806,Check Valve 12 Inch Carbon Steel Class 150,Valve,"CS, NACE, Flanged",EA
+CIL,CIL-GSK-1855,Ring - Joint Gasket R37 SS316,Gasket,"R37, Octagonal, SS316",NOS
+ONGC,ONGC-PMP-1978,MULTISTAGE PUMP 65X50 30KW,Pump,"65x50, 30kW, 8 stage",SET
+CPCL,CPCL-VLV-2013,Diaphragm Valve 80 MM PP,Valve,"PP body, EPDM diaphragm",PCS
+IOCL,IOCL/VLV/1811,Plug Valve 4 Inch Carbon Steel PTFE,Valve,"CS+PTFE sleeve, 150#",NOS
+CPCL,CPCL/FST/2017,Hex Bolt M20x80 8.8 HDG,Fastener,"M20x80, Gr 8.8, HDG+nut",SET
+NTPC,NTPC-PMP-1941,Multistage Pump 65x50 30kW,Pump,"65x50, 30kW, 8 stage",SET
+CIL,CIL_GSK_1861,Ring Joint Gasket R37 SS316,Gasket,"R37, Octagonal, SS316",EA
+CPCL,CPCL-VLV-2020,Safety  Relief Valve 50 MM SS,Valve,"SS, Set 10 barg, Flanged",NOS
+NTPC,NTPC/VLV/1944,"Gate, Valve 100mm CS Class 150 RF",Valve,"CS, 150#, Flanged",PCS
+CIL,CIL-PMP-1862,Centrifugal Pump 50x40 15kW,Pump,"50x40mm, 15kW, 2900rpm",EA
+CPCL,CPCL_CBL_2024,Control Cable 12Cx2.5sq MM,Cable,"12Cx2.5 Cu, Unarm",MTR
+CIL,CIL/BRG/1866,Plummer Block UCP210,Bearing,"50mm bore, CI housing",NOS
+CPCL,CPCL_VLV_2026,Diaphragm Vlve 80 MM PP,Valve,"PP body, EPDM diaphragm",EA
+ONGC,ONGC/BRG/1980,TAPER ROLLER BEARING 32210,Bearing,50x90x24.75,PCS
+IOCL,IOCL-GSK-1818,Ring - Joint Gasket R37 SS316,Gasket,"R37, Octagonal, SS316",NOS
+IOCL,IOCL-FST-1824,Hex Bolt M20x80 8.8 HDG,Fastener,"M20x80, Gr 8.8, HDG+nut",SET
+IOCL,IOCL-VLV-1830,Ball Valve 2 Inch Brass Screwed,Valve,"Brass, Screwed BSP",NOS
+CPCL,CPCL/MTR/2032,"DC, Motor 5kW 1500rpm",Motor,"5kW, 220V DC",PCS
+IOCL,IOCL/VLV/1831,Gate Valve 2 Inch SS316 PN40,Valve,"SS316, PN40, Flanged RF",EA
+CPCL,CPCL/CBL/2038,HT Cable 3Cx300 11kV,Cable,3Cx300 Al XLPE 11kV,NOS
+SAIL,SAIL-PIP-1843,CS Pipe 150mm NB Sch80,Pipe,"150 NB, Sch80, API 5L",MTR
+NTPC,NTPC-VLV-1950,Knife Gate Valve 250mm SS RF,Valve,"SS gate, PN10, Lug",EA
+NTPC,NTPC-VLV-1954,Diaphragm Valve 80mm PP RF,Valve,"PP body, EPDM diaphragm",NOS
+NTPC,NTPC_VLV_1958,Check Valve 150mm CS Class 150 RF,Valve,"CS, NACE, Flanged",PCS
+ONGC,ONGC-VLV-1984,GATE VALVE 50MM SS316 PN40,Valve,"SS316, PN40, Flanged RF",EA
+NTPC,NTPC/VLV/1964,Gate Valve 50mm SS316 PN40 RF,Valve,"SS316, PN40, Flanged RF",NOS
+SAIL,SAIL_BRG_1847,Taper Roller Bearing 32210,Bearing,50x90x24.75,EA
+ONGC,???,CONTROL CABLE 12CX2.5SQMM,Cable,"12Cx2.5 Cu, Unarm",M
+CIL,CIL_VLV_1868,Butterfly VLV 200mm CI PN16,Valve,"CI, PN16, Wafer",PCS
+ONGC,ONGC/MTR/1992,FLAMEPROOF MOTOR 30KW EXD,Motor,"30kW, Exd IIB, 415V",NOS
+CPCL,CPCL_VLV_2039,Check Valve 150 MM CS CL 150,Valve,"CS, NACE, Flanged",EA
+CIL,CIL/VLV/1869,Needle VLV 25mm SS316 6000psi,Valve,"SS316, 6000 psi, NPT",PCS
+ONGC,ONGC/VLV/1998,DIAPHRAGM  VALVE 80MM PP,Valve,"PP body, EPDM diaphragm",NOS
+CIL,CIL/VLV/1874,Knife GATE VLV 250mm SS,Valve,"SS gate, PN10, Lug",EA
+CIL,CIL/PMP/1875,Centrifugal Pump 50x40 15kW,Pump,"50x40mm, 15kW, 2900rpm",SET
+IOCL,IOCL_VLV_1834,Gate Valve 2 Inch SS316 PN40,Valve,"SS316, PN40, Flanged RF",PCS
+IOCL,IOCL_VLV_1837,Gate Valve 12 Inch Carbon Steel 300#,Valve,"CS, 300#, RTJ",PCS
+SAIL,SAIL/FST/1854,Hex Bolt M20x80 8.8 HDG,Fastener,"M20x80, Gr 8.8, HDG+nut",EA
+SAIL,SAIL_VLV_1856,Gate Valve 100mm CS Class 150,Valve,"CS, 150#, Flanged",NOS
+IOCL,IOCL_PMP_1841,Vertical Turbine Pump 8 Inch,Pump,"200mm column, 75kW",EA
+SAIL,SAIL_PMP_1862,Centrifugal Pump 50x40 15kW,Pump,"50x40mm, 15kW, 2900rpm",EA
+SAIL,SAIL/PIP/1865,MS Pipe 100mm NB ERW,Pipe,"100 NB, ERW, 6m",M
+SAIL,SAIL/MTR/1871,Flameproof Motor 30kW Exd,Motor,"30kW, Exd IIB, 415V",EA
+NTPC,NTPC-VLV-1967,Safety Relief Valve 50mm SS RF,Valve,"SS, Set 10 barg, Flanged",EA
+NTPC,NTPC-PIP-1968,HDPE Pipe 110mm PN10,Pipe,"110mm OD, PN10, PE100",NOS
+ONGC,ONGC_PIP_2001,GI PIPE 25MM MEDIUM,Pipe,"25mm, Medium, IS1239",NOS
+SAIL,SAIL-CBL-1872,HT Cable 3Cx300 11kV,Cable,3Cx300 Al XLPE 11kV,M
+IOCL,IOCL/PMP/1847,Screw Pump 5m3/hr SS,Pump,"5 m3/hr, SS wetted",PCS
+CPCL,CPCL-VLV-2045,Diaphragm Valve 80 MM PP,Valve,"PP body, EPDM diaphragm",PCS
+SAIL,SAIL/VLV/1874,Gate Valve 100mm CS Class 150,Valve,"CS, 150#, Flanged",NOS
+IOCL,IOCL_VLV_1848,Plug Valve 4 Inch Carbon Steel PTFE,Valve,"CS+PTFE sleeve, 150#",NOS
+SAIL,SAIL/MTR/1878,Flameproof Motor 30kW Exd,Motor,"30kW, Exd IIB, 415V",NOS
+ONGC,ONGC/FLG/2007,BLIND FLANGE 50MM 300# SS316,Flange,"50 NB, 300#, SS316",NOS
+ONGC,ONGC_BRG_2008,NEEDLE ROLLER BEARING NK45/35,Bearing,45x55x35,PCS
+IOCL,IOCL-VLV-1854,Ball Valve 3 Inch SS304 Class 300,Valve,"SS304, Class 300, Screwed",NOS
+ONGC,ONGC_FLG_2010,BLIND FLANGE 50MM 300# SS316,Flange,"50 NB, 300#, SS316",EA
+IOCL,IOCL_VLV_1859,Safety Relief Valve 2 Inch SS,Valve,"SS, Set 10 barg, Flanged",EA
+IOCL,IOCL-PMP-1860,Diaphragm Dosing Pump 0-100LPH,Pump,"0-100 LPH, PP head",PCS
+NTPC,NTPC_VLV_1971,Butterfly - Valve 200mm CI PN16 RF,Valve,"CI, PN16, Wafer",PCS
+ONGC,ONGC_VLV_2017,GATE VALVE 200MM CI PN10,Valve,"CI, PN10, Flanged",EA
+CPCL,CPCL_VLV_2050,Gate Valve 100 MM CS CL 150,Valve,"CS, 150#, Flanged",PCS
+SAIL,SAIL_MTR_1879,Induction Motor 15kW 4P IE3,Motor,"15kW, 4P, 415V, IE3",NOS
+NTPC,NTPC/MTR/1972,DC Motor 5kW 1500rpm,Motor,"5kW, 220V DC",PCS
+CPCL,CPCL/FLG/2056,Slipon Flange 80 MM PN16,Flange,"80 NB, PN16, MS",EA
+IOCL,IOCL-PIP-1863,Carbon Steel Pipe 12 Inch NB Sch80,Pipe,"150 NB, Sch80, API 5L",MTR
+CIL,CIL/PMP/1881,Screw Pump 5m3/hr SS,Pump,"5 m3/hr, SS wetted",EA
+IOCL,IOCL/VLV/1866,Foot Valve 4 Inch CI,Valve,"CI, Flanged, With strainer",EA
+SAIL,SAIL_CBL_1882,HT Cable 3Cx300 11kV,Cable,3Cx300 Al XLPE 11kV,NOS
+IOCL,IOCL-VLV-1872,Safety Relief Valve 2 Inch SS,Valve,"SS, Set 10 barg, Flanged",PCS
+NTPC,NTPC_FST_1979,Hex Bolt M20x80 8.8 HDG,Fastener,"M20x80, Gr 8.8, HDG+nut",EA
+CPCL,CPCL-BRG-2058,Deep Groove Ball Bearing 6205,Bearing,"25x52x15, SKF/equiv",NOS
+CPCL,CPCL_PMP_2063,Diaphragm Dosing Pump 0-100LPH,Pump,"0-100 LPH, PP head",NOS
+IOCL,IOCL_PIP_1875,Carbon Steel Pipe 12 Inch NB Sch80,Pipe,"150 NB, Sch80, API 5L",MTR
+SAIL,SAIL_VLV_1889,Gate Valve 100mm CS Class 150,Valve,"CS, 150#, Flanged",PCS
+IOCL,IOCL_PMP_1882,Multistage Pump 65x50 30kW,Pump,"65x50, 30kW, 8 stage",SET
+NTPC,NTPC/CBL/1984,Control Cable 12Cx2.5sqmm,Cable,"12Cx2.5 Cu, Unarm",NOS
+IOCL,IOCL-PMP-1883,Gear Pump 2inch CI,Pump,"2 inch, CI, 1440rpm",NOS
+ONGC,ONGC-PMP-2023,SUBMERSIBLE PUMP 10HP 100MM,Pump,"10HP, 100mm bore, 3ph",SET
+SAIL,SAIL/VLV/1893,Globe Valve 65mm CS 150#,Valve,"CS, 150#, Flanged",
+NTPC,???,Ball Valve 50mm Brass Screwed RF,Valve,"Brass, Screwed BSP",PCS
+SAIL,SAIL-FLG-1899,Blind Flange 50mm 300# AISI 316,Flange,"50 NB, 300#, SS316",EA
+SAIL,SAIL_VLV_1902,Plug Valve 100mm CS PTFE,Valve,"CS+PTFE sleeve, 150#",PCS
+IOCL,IOCL_VLV_1886,Needle Valve 25mm SS316 6000psi,Valve,"SS316, 6000 psi, NPT",EA
+ONGC,ONGC/VLV/2027,BUTTERFLY VALVE 200MM CI PN16,Valve,"CI, PN16, Wafer",PCS
+IOCL,IOCL/FLG/1891,WN Flange 4 Inch 150# Carbon Steel,Flange,"100 NB, 150#, A105",EA
+IOCL,IOCL/FLG/1893,WN Flange 4 Inch 150# Carbon Steel,Flange,"100 NB, 150#, A105",NOS
+CIL,CIL/VLV/1886,Foot VLV 100mm CI,Valve,"CI, Flanged, With strainer",PCS
+CPCL,CPCL/PIP/2070,MS Pipe 100 MM NB ERW,Pipe,"100 NB, ERW, 6m",M
+NTPC,NTPC/VLV/1991,Gate Valve 50mm SS316 PN40 RF,Valve,"SS316, PN40, Flanged RF",
+CIL,CIL/VLV/1890,Foot VLV 100mm CI,Valve,"CI, Flanged, With strainer",NOS
+CPCL,CPCL/MTR/2074,Induction Motor 15kW 4P IE3,Motor,"15kW, 4P, 415V, IE3",EA
+NTPC,NTPC-PIP-1992,SS316 Pipe 50mm NB Sch40,Pipe,"50 NB, Sch40, Seamless",MTR
+ONGC,ONGC_VLV_2031,GATE VALVE 150MM CS 300#,Valve,"CS, 300#, RTJ",PCS
+ONGC,ONGC/PIP/2034,HDPE PIPE 110MM PN10,Pipe,"110mm OD, PN10, PE100",NOS
+CIL,CIL-BRG-1894,"Spherical, Roller BRG 22218",Bearing,90x160x40,NOS
+CPCL,CPCL_PMP_2081,Vertical Turbine Pump 200 MM,Pump,"200mm column, 75kW",EA
+ONGC,ONGC_VLV_2040,CHECK VALVE 150MM CS CL 150,Valve,"CS, NACE, Flanged",PCS
+IOCL,IOCL-BRG-1897,Needle Roller Bearing NK45/35,Bearing,45x55x35,EA
+SAIL,SAIL-PMP-1903,Submersible Pump 10HP 100mm,Pump,"10HP, 100mm bore, 3ph",SET
+SAIL,SAIL-VLV-1906,"Gate, Valve 150mm CS 300#",Valve,"CS, 300#, RTJ",PCS
+SAIL,SAIL/VLV/1911,Foot Valve 100mm CI,Valve,"CI, Flanged, With strainer",PCS
+ONGC,ONGC_MTR_2047,INDUCTION MOTOR 15KW 4P IE3,Motor,"15kW, 4P, 415V, IE3",NOS
+ONGC,ONGC/PMP/2051,DIAPHRAGM DOSING PUMP 0-100LPH,Pump,"0-100 LPH, PP head",EA
+ONGC,ONGC/BRG/2056,DEEP GROOVE BALL BEARING 6205,Bearing,"25x52x15, SKF/equiv",EA
+ONGC,ONGC-VLV-2059,FOOT VALVE 100MM CI,,"CI, Flanged, With strainer",PCS
+CPCL,CPCL_VLV_2086,Check Valve 150 MM CS CL 150,Valve,"CS, NACE, Flanged",EA
+CPCL,CPCL_PIP_2092,CS Pipe 150 MM NB Sch80,Pipe,"150 NB, Sch80, API 5L",MTR
+SAIL,SAIL-VLV-1918,Globe Valve 65mm CS 150#,Valve,"CS, 150#, Flanged",EA
+IOCL,IOCL/PMP/1899,Gear Pump 2inch CI,Pump,"2 inch, CI, 1440rpm",NOS
+CPCL,CPCL-VLV-2096,Ball Vlve 80 MM SS304 CL 300,Valve,"SS304, Class 300, Screwed",
+ONGC,ONGC-PMP-2063,GEAR PUMP 2INCH CI,Pump,"2 inch, CI, 1440rpm",NOS
+SAIL,SAIL_VLV_1924,Gate Valve 200mm CI PN10,Valve,"CI, PN10, Flanged",EA
+CPCL,CPCL/PIP/2099,MS Pipe 100 MM NB ERW,Pipe,"100 NB, ERW, 6m",MTR
+SAIL,SAIL-PMP-1925,Submersible - Pump 10HP 100mm,Pump,"10HP, 100mm bore, 3ph",EA
+CPCL,CPCL_FLG_2103,Slipon Flange 80 MM PN16,Flange,"80 NB, PN16, MS",EA
+NTPC,NTPC_PMP_1995,Diaphragm Dosing Pump 0-100LPH,Pump,"0-100 LPH, PP head",PCS
+ONGC,ONGC_BRG_2065,DEEP  GROOVE BALL BEARING 6205,Bearing,"25x52x15, SKF/equiv",EA
+CIL,CIL/PIP/1899,HDPE Pipe 110mm PN10,Pipe,"110mm OD, PN10, PE100",MTR
+CIL,CIL-MTR-1900,Induction Motor 15kW 4P IE3,Motor,"15kW, 4P, 415V, IE3",NOS
+CPCL,CPCL-BRG-2104,Plu MMer Block UCP210,Bearing,"50mm bore, CI housing",
+NTPC,NTPC_PMP_1999,Screw Pump 5m3/hr SS,Pump,"5 m3/hr, SS wetted",PCS
+ONGC,ONGC-BRG-2066,DEEP GROOVE BALL BEARING 6205,Bearing,"25x52x15, SKF/equiv",EA
+SAIL,SAIL/VLV/1926,Gate Valve 50mm AISI 316 PN40,Valve,"SS316, PN40, Flanged RF",NOS
+CPCL,CPCL_BRG_2110,Plu MMer Block UCP210,Bearing,"50mm bore, CI housing",NOS
+IOCL,IOCL-VLV-1906,Gate Valve 8 Inch CI PN10,Valve,"CI, PN10, Flanged",EA
+SAIL,SAIL-MTR-1929,DC  Motor 5kW 1500rpm,Motor,"5kW, 220V DC",PCS
+SAIL,SAIL-PIP-1932,HDPE Pipe 110mm PN10,Pipe,"110mm OD, PN10, PE100",M
+ONGC,ONGC/PIP/2073,GI PIPE 25MM MEDIUM,Pipe,"25mm, Medium, IS1239",NOS
+ONGC,ONGC-PMP-2075,DIAPHRAGM DOSING PUMP 0-100LPH,Pump,"0-100 LPH, PP head",EA
+CIL,CIL/VLV/1905,Globe VLV 65mm CS 150#,Valve,"CS, 150#, Flanged",NOS
+CIL,CIL_VLV_1912,Check VLV 150mm CS Class 150,Valve,"CS, NACE, Flanged",EA
+NTPC,NTPC_BRG_2003,Deep Groove Ball Bearing 6205,Bearing,"25x52x15, SKF/equiv",NOS
+CPCL,CPCL_CBL_2111,XLPE Cable 3Cx120sq MM 1.1kV,Cable,"3Cx120, Al, Armoured",MTR
+CIL,CIL/VLV/1919,BALL VLV 80mm SS304 Class 300,Valve,"SS304, Class 300, Screwed",EA
+SAIL,SAIL_VLV_1939,Safety Relief Valve 50mm SS,Valve,"SS, Set 10 barg, Flanged",EA
+CIL,CIL-VLV-1924,Check VLV 150mm CS Class 150,Valve,"CS, NACE, Flanged",PCS
+IOCL,IOCL-CBL-1911,Control Cable 12Cx2.5sqmm,Cable,"12Cx2.5 Cu, Unarm",M
+IOCL,IOCL_VLV_1918,Needle Valve 25mm SS316 6000psi,Valve,"SS316, 6000 psi, NPT",NOS
+ONGC,ONGC/BRG/2079,THRUST BALL BEARING 51108,Bearing,40x60x13,EA
+IOCL,IOCL-VLV-1921,Foot Valve 4 Inch CI,Valve,"CI, Flanged, With strainer",NOS
+SAIL,SAIL-BRG-1940,Needle Roller Bearing NK45/35,Bearing,45x55x35,EA
+IOCL,IOCL_VLV_1923,Gate Valve 4 Inch Carbon Steel Class 150,Valve,"CS, 150#, Flanged",NOS
+CPCL,CPCL-PIP-2115,GI Pipe 25 MM Medium,Pipe,"25mm, Medium, IS1239",NOS
+CIL,CIL-VLV-1927,Diaphragm VLV 80mm PP,Valve,"PP body, EPDM diaphragm",PCS
+NTPC,NTPC/CBL/2007,XLPE Cable 3Cx120sqmm 1.1kV,Cable,"3Cx120, Al, Armoured",MTR
+CIL,CIL-BRG-1930,Plummer Block UCP210,Bearing,"50mm bore, CI housing",EA
+IOCL,IOCL/BRG/1929,Taper Roller Bearing 32210,Bearing,50x90x24.75,EA
+SAIL,SAIL_PIP_1942,CS Pipe 150mm NB Sch80,Pipe,"150 NB, Sch80, API 5L",M
+CPCL,CPCL/VLV/2121,Diaphragm Valve 80 MM PP,Valve,"PP body, EPDM diaphragm",NOS
+CPCL,CPCL/MTR/2127,Flameproof  Motor 30kW Exd,Motor,"30kW, Exd IIB, 415V",NOS
+CIL,CIL_VLV_1935,GATE VLV 50mm SS316 PN40,Valve,"SS316, PN40, Flanged RF",NOS
+ONGC,ONGC_VLV_2086,PLUG VALVE 100MM CS PTFE,Valve,"CS+PTFE sleeve, 150#",EA
+CIL,CIL/FLG/1940,Slipon Flange 80mm PN16,Flange,"80 NB, PN16, MS",EA
+NTPC,NTPC-VLV-2012,Gate Valve 100mm CS Class 150 RF,Valve,"CS, 150#, Flanged",NOS
+ONGC,ONGC-PMP-2088,VERTICAL TURBINE PUMP 200MM,Pump,"200mm column, 75kW",EA
+CPCL,CPCL/MTR/2133,Flameproof Motor 30kW Exd,Motor,"30kW, Exd IIB, 415V",EA
+NTPC,NTPC/CBL/2018,HT Cable 3Cx300 11kV,Cable,3Cx300 Al XLPE 11kV,MTR
+NTPC,NTPC-VLV-2025,Check Valve 150mm CS Class 150 RF,Valve,"CS, NACE, Flanged",EA

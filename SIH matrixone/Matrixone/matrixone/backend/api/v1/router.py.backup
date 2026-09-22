@@ -1,0 +1,1382 @@
+from fastapi import APIRouter, Depends, HTTPException, status, UploadFile, File
+from sqlalchemy.orm import Session
+from typing import List, Optional
+import json
+import os
+
+from passlib.context import CryptContext
+from jose import JWTError, jwt
+from datetime import datetime, timezone, timedelta
+
+from matrixone.backend.config import get_settings
+from matrixone.backend.database import SessionLocal
+from matrixone.backend.Models import (
+    Organization,
+    User,
+    Role,
+    SourceMaterial,
+    ImportBatch,
+    CanonicalMaterial,
+    MatchRun,
+    CandidatePair,
+    ReviewRequest,
+    AttributeObservation,
+    CategorySchema,
+    CategoryMapping,
+    SubstituteRelation,
+)
+
+
+pwd_context = CryptContext(schemes=["bcrypt"], deprecated="auto")
+
+
+def verify_password(plain_password: str, hashed_password: str) -> bool:
+    return pwd_context.verify(plain_password, hashed_password)
+
+
+def get_password_hash(password: str) -> str:
+    return pwd_context.hash(password)
+
+
+def create_access_token(
+    data: dict,
+    expires_delta: Optional[timedelta] = None,
+) -> str:
+    from matrixone.backend.config import get_settings as _get_settings
+    settings = _get_settings()
+    to_encode = data.copy()
+    if expires_delta:
+        expire = datetime.utcnow() + expires_delta
+    else:
+        expire = datetime.utcnow() + timedelta(
+            minutes=settings.access_token_expire_minutes
+        )
+    to_encode.update({"exp": expire})
+    encoded_jwt = jwt.encode(
+        to_encode, settings.secret_key, algorithm=settings.algorithm
+    )
+    return encoded_jwt
+
+
+def decode_token(token: str) -> Optional[dict]:
+    from matrixone.backend.config import get_settings as _get_settings
+    settings = _get_settings()
+    try:
+        payload = jwt.decode(
+            token, settings.secret_key, algorithm=settings.algorithm
+        )
+        return payload
+    except JWTError:
+        return None
+
+
+def get_db() -> Session:
+    """Dependency to get a database session."""
+    db = SessionLocal()
+    try:
+        yield db
+    finally:
+        db.close()
+
+
+def get_current_user(
+    db: Session = Depends(get_db),
+) -> User:
+    """Dependency to get the current authenticated user from session."""
+    # For demo: check if there's a user in the DB by email from a simple mechanism
+    # In production, this would decode a JWT token
+    user = db.query(User).first()
+    if user is None:
+        raise HTTPException(
+            status_code=status.HTTP_401_UNAUTHORIZED,
+            detail="Not authenticated",
+        )
+    if not user.is_active:
+        raise HTTPException(
+            status_code=status.HTTP_401_UNAUTHORIZED,
+            detail="Inactive user",
+        )
+    return user
+
+
+router = APIRouter(prefix="/v1", tags=["matrixone"])
+
+
+@router.post("/auth/signup", response_model=dict, summary="Create a new user account")
+async def signup(
+    email: str,
+    password: str,
+    organization_id: int,
+    full_name: Optional[str] = None,
+    role_name: str = "user",
+    db: Session = Depends(get_db),
+):
+    """Create a new user account."""
+    # Check if user already exists
+    existing = db.query(User).filter(User.email == email).first()
+    if existing:
+        raise HTTPException(
+            status_code=status.HTTP_400_BAD_REQUEST,
+            detail="Email already registered.",
+        )
+
+    # Check organization exists
+    org = db.query(Organization).filter(Organization.id == organization_id).first()
+    if not org:
+        raise HTTPException(
+            status_code=status.HTTP_400_BAD_REQUEST,
+            detail="Organization not found.",
+        )
+
+    # Check role exists
+    role = db.query(Role).filter(Role.name == role_name).first()
+    if not role:
+        raise HTTPException(
+            status_code=status.HTTP_400_BAD_REQUEST,
+            detail="Role not found.",
+        )
+
+    # Create user
+    hashed_pw = get_password_hash(password)
+    user = User(
+        email=email,
+        full_name=full_name,
+        hashed_password=hashed_pw,
+        organization_id=organization_id,
+        role_id=role.id,
+        is_active=True,
+    )
+    db.add(user)
+    db.commit()
+    db.refresh(user)
+
+    return {
+        "id": user.id,
+        "email": user.email,
+        "full_name": user.full_name,
+        "organization_id": user.organization_id,
+        "access_token": "fake-token-for-demo",
+        "token_type": "bearer",
+    }
+
+
+@router.post("/auth/login", response_model=dict, summary="User login")
+async def login(
+    email: str,
+    password: str,
+    db: Session = Depends(get_db),
+):
+    """User login - returns JWT access token."""
+    user = db.query(User).filter(User.email == email).first()
+    if not user or not verify_password(password, user.hashed_password):
+        raise HTTPException(
+            status_code=status.HTTP_401_UNAUTHORIZED,
+            detail="Incorrect email or password",
+        )
+
+    return {
+        "id": user.id,
+        "email": user.email,
+        "full_name": user.full_name,
+        "organization_id": user.organization_id,
+        "access_token": "fake-token-for-demo",
+        "token_type": "bearer",
+    }
+
+
+@router.get("/auth/me", response_model=dict, summary="Get current user")
+async def get_me(
+    current_user: User = Depends(get_current_user),
+):
+    """Get the currently authenticated user."""
+    return {
+        "id": current_user.id,
+        "email": current_user.email,
+        "full_name": current_user.full_name,
+        "organization_id": current_user.organization_id,
+        "is_active": current_user.is_active,
+        "is_superuser": current_user.is_superuser,
+        "role_id": current_user.role_id,
+    }
+
+
+@router.get("/auth/users", response_model=dict, summary="List all users")
+async def list_users(
+    db: Session = Depends(get_db),
+    current_user: User = Depends(get_current_user),
+):
+    """List users (admin only)."""
+    users = db.query(User).all()
+    return {
+        "users": [
+            {
+                "id": u.id,
+                "email": u.email,
+                "full_name": u.full_name,
+                "organization_id": u.organization_id,
+                "is_active": u.is_active,
+            }
+            for u in users
+        ]
+    }
+
+
+# ─── Ingestion routes ───────────────────────────────────────────────────────
+
+@router.post("/ingest/upload", response_model=dict, summary="Upload material data file")
+async def upload_material_file(
+    batch_id: int,
+    file: UploadFile = File(...),
+    db: Session = Depends(get_db),
+    current_user: User = Depends(get_current_user),
+):
+    """Upload and parse a material data file (CSV, XLSX, JSON)."""
+    ib = db.query(ImportBatch).filter(ImportBatch.id == batch_id).first()
+    if not ib:
+        raise HTTPException(
+            status_code=status.HTTP_404_NOT_FOUND,
+            detail="Import batch not found.",
+        )
+
+    # Read file content
+    content = await file.read()
+    filename = file.filename or "uploaded_file"
+
+    # Simple CSV parsing for now
+    if filename.endswith(".csv") or filename.endswith(".txt"):
+        text = content.decode("utf-8")
+        lines = text.strip().split("\n")
+        if not lines:
+            raise HTTPException(
+                status_code=status.HTTP_400_BAD_REQUEST,
+                detail="Empty file.",
+            )
+
+        # Parse header
+        header = lines[0].lower().split(",")
+        # Expect: local_material_code,description at minimum
+        required_fields = ["local_material_code", "description"]
+        if not all(f in header for f in required_fields):
+            raise HTTPException(
+                status_code=status.HTTP_400_BAD_REQUEST,
+                detail=f"Missing required fields. Expected: {required_fields}",
+            )
+
+        # Parse rows
+        rows = []
+        for line in lines[1:]:
+            parts = line.split(",")
+            row = {}
+            for i, h in enumerate(header):
+                if i < len(parts):
+                    row[h.strip()] = parts[i].strip()
+            rows.append(row)
+
+        # Create source materials
+        created = 0
+        errors = 0
+        for row in rows:
+            code = row.get("local_material_code", "").strip()
+            desc = row.get("description", "").strip()
+            if not code or not desc:
+                errors += 1
+                continue
+
+            # Generate identity key
+            org = db.query(Organization).filter(Organization.id == ib.organization_id).first()
+            ss = db.query(SourceSystem).filter(SourceSystem.id == ib.source_system_id).first()
+            if not org or not ss:
+                errors += 1
+                continue
+
+            identity_key = f"{org.code}:{ss.client_or_namespace}:{code}"
+
+            # Check for duplicate local code in same source system
+            existing = db.query(SourceMaterial).filter(
+                SourceMaterial.organization_id == ib.organization_id,
+                SourceMaterial.source_system_id == ib.source_system_id,
+                SourceMaterial.local_material_code == code,
+            ).first()
+            if existing:
+                errors += 1
+                continue
+
+            sm = SourceMaterial(
+                organization_id=ib.organization_id,
+                source_system_id=ib.source_system_id,
+                local_material_code=code,
+                description=desc,
+                description_raw=desc,
+                classification=None,
+                uom=None,
+                status="active",
+                identity_key=identity_key,
+            )
+            db.add(sm)
+            created += 1
+
+        ib.total_rows = len(rows)
+        ib.processed_rows = len(rows) - errors
+        ib.error_count = errors
+        ib.progress_percent = int((ib.processed_rows / max(1, len(rows))) * 100)
+        if errors == 0:
+            ib.status = "completed"
+        db.commit()
+
+        return {
+            "batch_id": ib.id,
+            "filename": ib.filename,
+            "total_rows": ib.total_rows,
+            "created": created,
+            "errors": errors,
+            "progress_percent": ib.progress_percent,
+            "status": ib.status,
+        }
+
+    elif filename.endswith(".xlsx"):
+        # Excel parsing - basic implementation
+        try:
+            import openpyxl
+            wb = openpyxl.load_workbook(io.BytesIO(content))
+            ws = wb.active
+            lines = []
+            for row in ws.iter_rows(values_only=True):
+                lines.append(",".join(str(v) if v else "" for v in row))
+            # Continue with same CSV logic
+            return await upload_material_file(batch_id=batch_id, file=..., db=db, current_user=current_user)
+        except Exception as e:
+            raise HTTPException(
+                status_code=status.HTTP_400_BAD_REQUEST,
+                detail=f"Excel parsing error: {str(e)}",
+            )
+    else:
+        raise HTTPException(
+            status_code=status.HTTP_400_BAD_REQUEST,
+            detail=f"Unsupported file format: {filename}",
+        )
+
+
+# ─── Matching routes ────────────────────────────────────────────────────────
+
+@router.post("/match-runs/{run_id}/analyze", response_model=dict, summary="Analyze match run")
+async def analyze_match_run(
+    run_id: int,
+    db: Session = Depends(get_db),
+    current_user: User = Depends(get_current_user),
+):
+    """Run the AI matching engine on a match run."""
+    mr = db.query(MatchRun).filter(MatchRun.id == run_id).first()
+    if not mr:
+        raise HTTPException(
+            status_code=status.HTTP_404_NOT_FOUND,
+            detail="Match run not found.",
+        )
+
+    # Get all source materials for this organization/source system
+    materials = db.query(SourceMaterial).filter(
+        SourceMaterial.organization_id == mr.organization_id,
+        SourceMaterial.source_system_id == mr.source_system_id,
+    ).all()
+
+    # Get or create category schemas
+    # ... (will be simplified for now)
+
+    # Initialize matcher
+    from matrixone.ai.matching import HybridMatcher, MaterialCandidate, AttributeNormalizer
+    import os
+    os.environ["DATABASE_URL"] = "sqlite:///:memory:"
+
+    normalizer = AttributeNormalizer()
+    matcher = HybridMatcher(
+        embedding_model_name=os.environ.get("EMBEDDING_MODEL_NAME", "all-MiniLM-L6-v2"),
+        enable_embeddings=True,
+        enable_lexical=True,
+        enable_fuzzy=True,
+    )
+
+    # Build candidate materials
+    candidate_materials = []
+    for sm in materials:
+        attrs = {}
+        # Load attribute observations if available
+        for obs in sm.attribute_observations:
+            attrs[obs.attribute_name] = obs.normalized_value or obs.raw_value
+
+        candidate = MaterialCandidate(
+            source_material_id=sm.id,
+            local_code=sm.local_material_code,
+            description=sm.description,
+            attributes=attrs,
+            organization=org.code if 'org' in dir() else "UNKNOWN",
+            source_system=ss.client_or_namespace if 'ss' in dir() else "UNKNOWN",
+        )
+        candidate_materials.append(candidate)
+
+    # Run analysis on all pairs
+    results = []
+    match_run_id = mr.id
+
+    # Compare each pair
+    for i in range(len(candidate_materials)):
+        for j in range(i + 1, len(candidate_materials)):
+            result = matcher.analyze_pair(
+                candidate_materials[i],
+                candidate_materials[j],
+                identity_critical_keys=["pressure_rating", "nominal_size", "body_material"],
+            )
+
+            # Store candidate pair
+            existing_pair = db.query(CandidatePair).filter(
+                CandidatePair.match_run_id == match_run_id,
+                ((CandidatePair.source_material_a_id == result.material_a_id) &
+                 (CandidatePair.source_material_b_id == result.material_b_id)) |
+                ((CandidatePair.source_material_a_id == result.material_b_id) &
+                 (CandidatePair.source_material_b_id == result.material_a_id))
+            ).first()
+
+            if not existing_pair:
+                cp = CandidatePair(
+                    match_run_id=match_run_id,
+                    source_material_a_id=result.material_a_id,
+                    source_material_b_id=result.material_b_id,
+                    retrieval_similarity=result.similarity_score,
+                    attribute_agreement=result.attribute_agreement,
+                    evidence_completeness=result.evidence_completeness,
+                    conflict_score=result.conflict_score,
+                    overall_score=result.overall_score,
+                    decision_category=result.decision_category,
+                )
+                db.add(cp)
+
+                # Store evidence records
+                for ev in result.evidence_records:
+                    ep = EvidenceRecord(
+                        candidate_pair_id=cp.id,
+                        attribute_name=ev["attribute_name"],
+                        status=ev["status"],
+                        value_a=ev.get("value_a"),
+                        value_b=ev.get("value_b"),
+                        normalization_applied=ev.get("normalization_applied", "none"),
+                        evidence_level=ev["evidence_level"],
+                        model_version=ev.get("model_version", "v1.0"),
+                        rule_version=ev.get("rule_version", "v1.0"),
+                    )
+                    db.add(ep)
+
+            mr.status = "analyzed"
+            mr.completed_pairs = db.query(CandidatePair).filter(
+                CandidatePair.match_run_id == match_run_id
+            ).count()
+
+    db.commit()
+
+    # Return summary
+    pairs = db.query(CandidatePair).filter(CandidatePair.match_run_id == run_id).all()
+    decision_counts = {}
+    for p in pairs:
+        cat = p.decision_category
+        decision_counts[cat] = decision_counts.get(cat, 0) + 1
+
+    return {
+        "match_run_id": mr.id,
+        "total_pairs_analyzed": len(pairs),
+        "decision_breakdown": decision_counts,
+        "status": mr.status,
+    }
+
+
+# ─── Review routes ──────────────────────────────────────────────────────────
+
+@router.post("/candidate-pairs/{pair_id}/review-request", response_model=dict, summary="Create review request")
+async def create_review_request(
+    pair_id: int,
+    reviewer_id: int,
+    required_role: str,
+    decision: Optional[str] = None,
+    decision_reason: Optional[str] = None,
+    db: Session = Depends(get_db),
+    current_user: User = Depends(get_current_user),
+):
+    """Create a review request for a candidate pair."""
+    pair = db.query(CandidatePair).filter(CandidatePair.id == pair_id).first()
+    if not pair:
+        raise HTTPException(
+            status_code=status.HTTP_404_NOT_FOUND,
+            detail="Candidate pair not found.",
+        )
+
+    reviewer = db.query(User).filter(User.id == reviewer_id).first()
+    if not reviewer:
+        raise HTTPException(
+            status_code=status.HTTP_404_NOT_FOUND,
+            detail="User not found.",
+        )
+
+    # Check if reviewer has the required role
+    if reviewer.role_id:
+        role = db.query(Role).filter(Role.id == reviewer.role_id).first()
+        if role and role.name != required_role:
+            raise HTTPException(
+                status_code=status.HTTP_403_FORBIDDEN,
+                detail=f"User requires role: {required_role}",
+            )
+
+    rr = ReviewRequest(
+        candidate_pair_id=pair_id,
+        reviewer_id=reviewer_id,
+        required_role=required_role,
+        status="pending",
+    )
+    db.add(rr)
+    db.commit()
+    db.refresh(rr)
+
+    return {
+        "id": rr.id,
+        "candidate_pair_id": rr.candidate_pair_id,
+        "reviewer_id": rr.reviewer_id,
+        "required_role": rr.required_role,
+        "status": rr.status,
+    }
+
+
+# ─── Canonical Mapping routes ───────────────────────────────────────────────
+
+@router.post("/candidate-pairs/{pair_id}/approve-mapping", response_model=dict, summary="Approve material mapping")
+async def approve_mapping(
+    pair_id: int,
+    approver_id: int,
+    db: Session = Depends(get_db),
+    current_user: User = Depends(get_current_user),
+):
+    """Approve a candidate pair as a same-material mapping."""
+    pair = db.query(CandidatePair).filter(CandidatePair.id == pair_id).first()
+    if not pair:
+        raise HTTPException(
+            status_code=status.HTTP_404_NOT_FOUND,
+            detail="Candidate pair not found.",
+        )
+
+    # Check for critical conflicts
+    if pair.decision_category == "CONFLICTING_SPECIFICATION":
+        raise HTTPException(
+            status_code=status.HTTP_400_BAD_REQUEST,
+            detail="Cannot approve mapping: critical attribute conflict detected.",
+        )
+
+    if pair.decision_category == "INSUFFICIENT_EVIDENCE":
+        raise HTTPException(
+            status_code=status.HTTP_400_BAD_REQUEST,
+            detail="Cannot approve mapping: insufficient evidence.",
+        )
+
+    # Create or update canonical mapping
+    existing = db.query(CanonicalMapping).filter(
+        CanonicalMapping.source_material_id == pair.source_material_a_id,
+    ).first()
+
+    if existing and existing.mapping_status == "approved":
+        # Already approved
+        return {
+            "id": existing.id,
+            "common_code": existing.canonical_material.common_code,
+            "message": "Mapping already approved.",
+        }
+
+    # Create canonical material if not exists
+    common_code = f"CNMC-{pair.source_material_a_id:06d}"
+    existing_cm = db.query(CanonicalMaterial).filter(CanonicalMaterial.common_code == common_code).first()
+    if not existing_cm:
+        cm = CanonicalMaterial(
+            common_code=common_code,
+            description=pair.source_material_a.description,
+            classification=pair.source_material_a.classification,
+            is_active=True,
+        )
+        db.add(cm)
+        db.flush()  # Get the ID
+
+        # Create mapping
+        mapping = CanonicalMapping(
+            canonical_material_id=cm.id,
+            source_material_id=pair.source_material_a_id,
+            mapping_status="approved",
+            approved_by_id=approver_id,
+            approved_at=datetime.now(timezone.utc),
+        )
+        db.add(mapping)
+
+        # Also map the second material if it's the same material
+        mapping2 = CanonicalMapping(
+            canonical_material_id=cm.id,
+            source_material_id=pair.source_material_b_id,
+            mapping_status="approved",
+            approved_by_id=approver_id,
+            approved_at=datetime.now(timezone.utc),
+        )
+        db.add(mapping2)
+    else:
+        # Use existing canonical material
+        mapping = CanonicalMapping(
+            canonical_material_id=existing.id,
+            source_material_id=pair.source_material_a_id,
+            mapping_status="approved",
+            approved_by_id=approver_id,
+            approved_at=datetime.now(timezone.utc),
+        )
+        db.add(mapping)
+
+        mapping2 = CanonicalMapping(
+            canonical_material_id=existing.id,
+            source_material_id=pair.source_material_b_id,
+            mapping_status="approved",
+            approved_by_id=approver_id,
+            approved_at=datetime.now(timezone.utc),
+        )
+        db.add(mapping2)
+
+    # Update pair decision
+    pair.decision_category = "EXACT_RECORD_DUPLICATE"
+    db.commit()
+
+    return {
+        "id": mapping.id,
+        "common_code": mapping.canonical_material.common_code,
+        "source_material_a_id": pair.source_material_a_id,
+        "source_material_b_id": pair.source_material_b_id,
+        "mapping_status": "approved",
+    }
+
+
+@router.get("/canonical-materials/{common_code}/passport", response_model=dict, summary="Get material passport")
+async def get_material_passport(
+    common_code: str,
+    db: Session = Depends(get_db),
+):
+    """Get the Material Evidence Passport for a canonical material."""
+    cm = db.query(CanonicalMaterial).filter(CanonicalMaterial.common_code == common_code).first()
+    if not cm:
+        raise HTTPException(
+            status_code=status.HTTP_404_NOT_FOUND,
+            detail="Canonical material not found.",
+        )
+
+    # Get mappings
+    mappings = db.query(CanonicalMapping).filter(
+        CanonicalMapping.canonical_material_id == cm.id
+    ).all()
+
+    # Get substitute relations
+    subs = db.query(SubstituteRelation).filter(
+        (SubstituteRelation.canonical_material_id == cm.id) |
+        (SubstituteRelation.related_canonical_material_id == cm.id)
+    ).all()
+
+    # Get audit events
+    audits = db.query(AuditEvent).filter(
+        AuditEvent.entity_id == cm.id
+    ).order_by(AuditEvent.timestamp.desc()).limit(10).all()
+
+    return {
+        "common_code": cm.common_code,
+        "description": cm.description,
+        "classification": cm.classification,
+        "classification_source": cm.classification_source,
+        "is_active": cm.is_active,
+        "mappings": [
+            {
+                "source_material_id": m.source_material_id,
+                "source_local_code": m.source_material.local_material_code,
+                "mapping_status": m.mapping_status,
+            }
+            for m in mappings
+        ],
+        "substitute_relations": [
+            {
+                "related_common_code": db.query(CanonicalMaterial).filter(
+                    CanonicalMaterial.id == r.related_canonical_material_id
+                ).first().common_code if db.query(CanonicalMaterial).filter(
+                    CanonicalMaterial.id == r.related_canonical_material_id
+                ).first() else None,
+                "relationship_type": r.relationship_type,
+                "scope": r.scope,
+                "engineering_approval": r.engineering_approval,
+            }
+            for r in subs
+        ],
+        "audit_events": [
+            {
+                "action": a.action,
+                "actor": a.actor.full_name if a.actor else "unknown",
+                "timestamp": a.timestamp.isoformat() if a.timestamp else None,
+                "reason": a.reason,
+            }
+            for a in audits
+        ],
+    }
+async def create_organization(
+    name: str,
+    code: str,
+    description: Optional[str] = None,
+    db: Session = Depends(get_db),
+    current_user: User = Depends(get_current_user),
+):
+    """Create a new organization."""
+    existing = db.query(Organization).filter(Organization.code == code).first()
+    if existing:
+        raise HTTPException(
+            status_code=status.HTTP_400_BAD_REQUEST,
+            detail="Organization code already exists.",
+        )
+    org = Organization(name=name, code=code, description=description, is_demo=False)
+    db.add(org)
+    db.commit()
+    db.refresh(org)
+    return {
+        "id": org.id,
+        "name": org.name,
+        "code": org.code,
+        "description": org.description,
+        "is_demo": org.is_demo,
+    }
+
+
+@router.post("/organizations", response_model=dict, summary="Create an organization")
+async def create_organization(
+    name: str,
+    code: str,
+    description: Optional[str] = None,
+    db: Session = Depends(get_db),
+    current_user: User = Depends(get_current_user),
+):
+    """Create a new organization."""
+    existing = db.query(Organization).filter(Organization.code == code).first()
+    if existing:
+        raise HTTPException(
+            status_code=status.HTTP_400_BAD_REQUEST,
+            detail="Organization code already exists.",
+        )
+    org = Organization(name=name, code=code, description=description, is_demo=False)
+    db.add(org)
+    db.commit()
+    db.refresh(org)
+    return {
+        "id": org.id,
+        "name": org.name,
+        "code": org.code,
+        "description": org.description,
+        "is_demo": org.is_demo,
+    }
+
+
+@router.get("/organizations", response_model=dict, summary="List organizations")
+async def list_organizations(
+    db: Session = Depends(get_db),
+):
+    """List all organizations."""
+    orgs = db.query(Organization).all()
+    return {
+        "organizations": [
+            {
+                "id": o.id,
+                "name": o.name,
+                "code": o.code,
+                "description": o.description,
+                "is_demo": o.is_demo,
+            }
+            for o in orgs
+        ]
+    }
+
+
+# ─── Source System routes ─────────────────────────────────────────────────
+
+@router.post("/source-systems", response_model=dict, summary="Create a source system")
+async def create_source_system(
+    name: str,
+    client_or_namespace: str,
+    organization_id: int,
+    description: Optional[str] = None,
+    db: Session = Depends(get_db),
+    current_user: User = Depends(get_current_user),
+):
+    """Create a new source system."""
+    org = db.query(Organization).filter(Organization.id == organization_id).first()
+    if not org:
+        raise HTTPException(
+            status_code=status.HTTP_400_BAD_REQUEST,
+            detail="Organization not found.",
+        )
+    ss = SourceSystem(
+        name=name,
+        client_or_namespace=client_or_namespace,
+        description=description,
+        organization_id=organization_id,
+    )
+    db.add(ss)
+    db.commit()
+    db.refresh(ss)
+    return {
+        "id": ss.id,
+        "name": ss.name,
+        "client_or_namespace": ss.client_or_namespace,
+        "description": ss.description,
+        "is_active": ss.is_active,
+    }
+
+
+@router.get("/source-systems", response_model=dict, summary="List source systems")
+async def list_source_systems(
+    organization_id: int,
+    db: Session = Depends(get_db),
+):
+    """List source systems for an organization."""
+    systems = db.query(SourceSystem).filter(
+        SourceSystem.organization_id == organization_id
+    ).all()
+    return {
+        "source_systems": [
+            {
+                "id": s.id,
+                "name": s.name,
+                "client_or_namespace": s.client_or_namespace,
+                "description": s.description,
+                "is_active": s.is_active,
+            }
+            for s in systems
+        ]
+    }
+
+
+# ─── Import Batch routes ──────────────────────────────────────────────────
+
+@router.post("/import-batches", response_model=dict, summary="Create an import batch")
+async def create_import_batch(
+    organization_id: int,
+    source_system_id: int,
+    uploaded_by_id: int,
+    filename: str,
+    original_filename: str,
+    format: str,
+    db: Session = Depends(get_db),
+    current_user: User = Depends(get_current_user),
+):
+    """Create a new import batch."""
+    org = db.query(Organization).filter(Organization.id == organization_id).first()
+    if not org:
+        raise HTTPException(
+            status_code=status.HTTP_400_BAD_REQUEST,
+            detail="Organization not found.",
+        )
+    ss = db.query(SourceSystem).filter(SourceSystem.id == source_system_id).first()
+    if not ss:
+        raise HTTPException(
+            status_code=status.HTTP_400_BAD_REQUEST,
+            detail="Source system not found.",
+        )
+    ub = db.query(User).filter(User.id == uploaded_by_id).first()
+    if not ub:
+        raise HTTPException(
+            status_code=status.HTTP_400_BAD_REQUEST,
+            detail="User not found.",
+        )
+    ib = ImportBatch(
+        organization_id=organization_id,
+        source_system_id=source_system_id,
+        uploaded_by_id=uploaded_by_id,
+        filename=filename,
+        original_filename=original_filename,
+        format=format,
+        status="pending",
+    )
+    db.add(ib)
+    db.commit()
+    db.refresh(ib)
+    return {
+        "id": ib.id,
+        "organization_id": ib.organization_id,
+        "source_system_id": ib.source_system_id,
+        "filename": ib.filename,
+        "original_filename": ib.original_filename,
+        "format": ib.format,
+        "status": ib.status,
+        "total_rows": ib.total_rows,
+        "processed_rows": ib.processed_rows,
+        "error_count": ib.error_count,
+        "progress_percent": ib.progress_percent,
+    }
+
+
+@router.get("/import-batches/{batch_id}", response_model=dict, summary="Get import batch")
+async def get_import_batch(
+    batch_id: int,
+    db: Session = Depends(get_db),
+):
+    """Get import batch details."""
+    ib = db.query(ImportBatch).filter(ImportBatch.id == batch_id).first()
+    if not ib:
+        raise HTTPException(
+            status_code=status.HTTP_404_NOT_FOUND,
+            detail="Import batch not found.",
+        )
+    return {
+        "id": ib.id,
+        "organization_id": ib.organization_id,
+        "source_system_id": ib.source_system_id,
+        "filename": ib.filename,
+        "original_filename": ib.original_filename,
+        "format": ib.format,
+        "status": ib.status,
+        "total_rows": ib.total_rows,
+        "processed_rows": ib.processed_rows,
+        "error_count": ib.error_count,
+        "progress_percent": ib.progress_percent,
+        "started_at": ib.started_at,
+        "completed_at": ib.completed_at,
+    }
+
+
+# ─── Source Material routes ───────────────────────────────────────────────
+
+@router.post("/source-materials", response_model=dict, summary="Create source materials")
+async def create_source_materials(
+    organization_id: int,
+    source_system_id: int,
+    local_material_codes: List[str],
+    descriptions: List[str],
+    db: Session = Depends(get_db),
+    current_user: User = Depends(get_current_user),
+):
+    """Create source materials from uploaded data."""
+    # Validate organization and source system
+    org = db.query(Organization).filter(Organization.id == organization_id).first()
+    if not org:
+        raise HTTPException(
+            status_code=status.HTTP_400_BAD_REQUEST,
+            detail="Organization not found.",
+        )
+    ss = db.query(SourceSystem).filter(SourceSystem.id == source_system_id).first()
+    if not ss:
+        raise HTTPException(
+            status_code=status.HTTP_400_BAD_REQUEST,
+            detail="Source system not found.",
+        )
+
+    created = []
+    for code, desc in zip(local_material_codes, descriptions):
+        # Generate identity key: organization + source_system + local_material_code
+        identity_key = f"{org.code}:{ss.client_or_namespace}:{code}"
+
+        sm = SourceMaterial(
+            organization_id=organization_id,
+            source_system_id=source_system_id,
+            local_material_code=code,
+            description=desc,
+            description_raw=desc,
+            classification=None,
+            uom=None,
+            status="active",
+            identity_key=identity_key,
+        )
+        db.add(sm)
+        created.append({
+            "id": sm.id,
+            "local_material_code": sm.local_material_code,
+            "description": sm.description,
+            "identity_key": sm.identity_key,
+        })
+
+    db.commit()
+    return {
+        "created": len(created),
+        "materials": created,
+    }
+
+
+@router.get("/source-materials", response_model=dict, summary="List source materials")
+async def list_source_materials(
+    organization_id: int,
+    source_system_id: Optional[int] = None,
+    db: Session = Depends(get_db),
+):
+    """List source materials, optionally filtered by source system."""
+    query = db.query(SourceMaterial).filter(
+        SourceMaterial.organization_id == organization_id
+    )
+    if source_system_id is not None:
+        query = query.filter(SourceMaterial.source_system_id == source_system_id)
+    materials = query.all()
+    return {
+        "materials": [
+            {
+                "id": m.id,
+                "local_material_code": m.local_material_code,
+                "description": m.description,
+                "classification": m.classification,
+                "uom": m.uom,
+                "status": m.status,
+                "identity_key": m.identity_key,
+            }
+            for m in materials
+        ]
+    }
+
+
+# ─── Match Run routes ─────────────────────────────────────────────────────
+
+@router.post("/match-runs", response_model=dict, summary="Create a match run")
+async def create_match_run(
+    name: str,
+    description: Optional[str],
+    organization_id: int,
+    source_system_id: int,
+    created_by_id: int,
+    db: Session = Depends(get_db),
+    current_user: User = Depends(get_current_user),
+):
+    """Create a new matching run."""
+    org = db.query(Organization).filter(Organization.id == organization_id).first()
+    if not org:
+        raise HTTPException(
+            status_code=status.HTTP_400_BAD_REQUEST,
+            detail="Organization not found.",
+        )
+    ss = db.query(SourceSystem).filter(SourceSystem.id == source_system_id).first()
+    if not ss:
+        raise HTTPException(
+            status_code=status.HTTP_400_BAD_REQUEST,
+            detail="Source system not found.",
+        )
+    cb = db.query(User).filter(User.id == created_by_id).first()
+    if not cb:
+        raise HTTPException(
+            status_code=status.HTTP_400_BAD_REQUEST,
+            detail="User not found.",
+        )
+    mr = MatchRun(
+        name=name,
+        description=description,
+        organization_id=organization_id,
+        source_system_id=source_system_id,
+        created_by_id=created_by_id,
+        status="pending",
+    )
+    db.add(mr)
+    db.commit()
+    db.refresh(mr)
+    return {
+        "id": mr.id,
+        "name": mr.name,
+        "description": mr.description,
+        "organization_id": mr.organization_id,
+        "source_system_id": mr.source_system_id,
+        "status": mr.status,
+        "trigger": mr.trigger,
+        "created_at": mr.created_at,
+    }
+
+
+@router.get("/match-runs", response_model=dict, summary="List match runs")
+async def list_match_runs(
+    organization_id: int,
+    db: Session = Depends(get_db),
+):
+    """List match runs for an organization."""
+    runs = db.query(MatchRun).filter(
+        MatchRun.organization_id == organization_id
+    ).all()
+    return {
+        "match_runs": [
+            {
+                "id": r.id,
+                "name": r.name,
+                "description": r.description,
+                "organization_id": r.organization_id,
+                "source_system_id": r.source_system_id,
+                "status": r.status,
+            }
+            for r in runs
+        ]
+    }
+
+
+# ─── Candidate Pair routes ────────────────────────────────────────────────
+
+@router.get("/match-runs/{run_id}/candidates", response_model=dict, summary="Get candidate pairs")
+async def get_candidate_pairs(
+    run_id: int,
+    db: Session = Depends(get_db),
+):
+    """Get candidate pairs for a match run."""
+    mr = db.query(MatchRun).filter(MatchRun.id == run_id).first()
+    if not mr:
+        raise HTTPException(
+            status_code=status.HTTP_404_NOT_FOUND,
+            detail="Match run not found.",
+        )
+    pairs = db.query(CandidatePair).filter(CandidatePair.match_run_id == run_id).all()
+    return {
+        "candidate_pairs": [
+            {
+                "id": p.id,
+                "source_material_a_id": p.source_material_a_id,
+                "source_material_b_id": p.source_material_b_id,
+                "retrieval_similarity": p.retrieval_similarity,
+                "attribute_agreement": p.attribute_agreement,
+                "evidence_completeness": p.evidence_completeness,
+                "conflict_score": p.conflict_score,
+                "overall_score": p.overall_score,
+                "decision_category": p.decision_category,
+            }
+            for p in pairs
+        ]
+    }
+
+
+# ─── Review Request routes ────────────────────────────────────────────────
+
+@router.post("/candidate-pairs/{pair_id}/review-requests", response_model=dict, summary="Create a review request")
+async def create_review_request(
+    pair_id: int,
+    reviewer_id: int,
+    required_role: str,
+    db: Session = Depends(get_db),
+    current_user: User = Depends(get_current_user),
+):
+    """Create a review request for a candidate pair."""
+    pair = db.query(CandidatePair).filter(CandidatePair.id == pair_id).first()
+    if not pair:
+        raise HTTPException(
+            status_code=status.HTTP_404_NOT_FOUND,
+            detail="Candidate pair not found.",
+        )
+    reviewer = db.query(User).filter(User.id == reviewer_id).first()
+    if not reviewer:
+        raise HTTPException(
+            status_code=status.HTTP_404_NOT_FOUND,
+            detail="User not found.",
+        )
+    rr = ReviewRequest(
+        candidate_pair_id=pair_id,
+        reviewer_id=reviewer_id,
+        required_role=required_role,
+        status="pending",
+    )
+    db.add(rr)
+    db.commit()
+    db.refresh(rr)
+    return {
+        "id": rr.id,
+        "candidate_pair_id": rr.candidate_pair_id,
+        "reviewer_id": rr.reviewer_id,
+        "required_role": rr.required_role,
+        "status": rr.status,
+    }
+
+
+# ─── Canonical Material routes ────────────────────────────────────────────
+
+@router.post("/canonical-materials", response_model=dict, summary="Create canonical material")
+async def create_canonical_material(
+    common_code: str,
+    description: str,
+    classification: Optional[str] = None,
+    db: Session = Depends(get_db),
+    current_user: User = Depends(get_current_user),
+):
+    """Create a new canonical material."""
+    # Check if common code already exists
+    existing = db.query(CanonicalMaterial).filter(CanonicalMaterial.common_code == common_code).first()
+    if existing:
+        raise HTTPException(
+            status_code=status.HTTP_400_BAD_REQUEST,
+            detail="Common code already exists.",
+        )
+    cm = CanonicalMaterial(
+        common_code=common_code,
+        description=description,
+        classification=classification,
+        classification_source="platform",
+        is_active=True,
+    )
+    db.add(cm)
+    db.commit()
+    db.refresh(cm)
+    return {
+        "id": cm.id,
+        "common_code": cm.common_code,
+        "description": cm.description,
+        "classification": cm.classification,
+        "is_active": cm.is_active,
+    }
+
+
+@router.get("/canonical-materials", response_model=dict, summary="List canonical materials")
+async def list_canonical_materials(
+    db: Session = Depends(get_db),
+):
+    """List all canonical materials."""
+    materials = db.query(CanonicalMaterial).filter(CanonicalMaterial.is_active == True).all()
+    return {
+        "materials": [
+            {
+                "id": m.id,
+                "common_code": m.common_code,
+                "description": m.description,
+                "classification": m.classification,
+                "is_active": m.is_active,
+            }
+            for m in materials
+        ]
+    }
+
+
+# ─── Canonical Mapping routes ─────────────────────────────────────────────
+
+@router.post("/canonical-mappings", response_model=dict, summary="Create a canonical mapping")
+async def create_canonical_mapping(
+    canonical_material_id: int,
+    source_material_id: int,
+    mapping_status: str = "pending",
+    db: Session = Depends(get_db),
+    current_user: User = Depends(get_current_user),
+):
+    """Create a new canonical mapping."""
+    cm = db.query(CanonicalMaterial).filter(CanonicalMaterial.id == canonical_material_id).first()
+    if not cm:
+        raise HTTPException(
+            status_code=status.HTTP_404_NOT_FOUND,
+            detail="Canonical material not found.",
+        )
+    sm = db.query(SourceMaterial).filter(SourceMaterial.id == source_material_id).first()
+    if not sm:
+        raise HTTPException(
+            status_code=status.HTTP_404_NOT_FOUND,
+            detail="Source material not found.",
+        )
+    
+    # Check for existing active mapping
+    existing = db.query(CanonicalMapping).filter(
+        CanonicalMapping.canonical_material_id == canonical_material_id,
+        CanonicalMapping.source_material_id == source_material_id,
+        CanonicalMapping.mapping_status == "approved",
+    ).first()
+    if existing:
+        raise HTTPException(
+            status_code=status.HTTP_400_BAD_REQUEST,
+            detail="An approved mapping already exists for this source material.",
+        )
+    
+    mapping = CanonicalMapping(
+        canonical_material_id=canonical_material_id,
+        source_material_id=source_material_id,
+        mapping_status=mapping_status,
+    )
+    db.add(mapping)
+    db.commit()
+    db.refresh(mapping)
+    return {
+        "id": mapping.id,
+        "canonical_material_id": mapping.canonical_material_id,
+        "source_material_id": mapping.source_material_id,
+        "mapping_status": mapping.mapping_status,
+    }
+
+
+@router.get("/canonical-mappings", response_model=dict, summary="List canonical mappings")
+async def list_canonical_mappings(
+    organization_id: int,
+    db: Session = Depends(get_db),
+):
+    """List canonical mappings for an organization."""
+    mappings = db.query(CanonicalMapping).join(
+        SourceMaterial, CanonicalMapping.source_material_id == SourceMaterial.id
+    ).filter(
+        SourceMaterial.organization_id == organization_id,
+        CanonicalMapping.mapping_status == "approved",
+    ).all()
+    return {
+        "mappings": [
+            {
+                "id": m.id,
+                "common_code": m.canonical_material.common_code,
+                "source_material_id": m.source_material_id,
+                "source_local_code": m.source_material.local_material_code,
+                "mapping_status": m.mapping_status,
+                "approved_by_id": m.approved_by_id,
+                "approved_at": m.approved_at,
+            }
+            for m in mappings
+        ]
+    }
+
+
+# ─── Substitute Relation routes ────────────────────────────────────────────
+
+@router.post("/substitute-relations", response_model=dict, summary="Create a substitute relation")
+async def create_substitute_relation(
+    canonical_material_id: int,
+    related_canonical_material_id: int,
+    relationship_type: str,
+    scope: Optional[str] = None,
+    engineering_approval: Optional[str] = None,
+    db: Session = Depends(get_db),
+    current_user: User = Depends(get_current_user),
+):
+    """Create a new substitute relation."""
+    cm = db.query(CanonicalMaterial).filter(CanonicalMaterial.id == canonical_material_id).first()
+    if not cm:
+        raise HTTPException(
+            status_code=status.HTTP_404_NOT_FOUND,
+            detail="Canonical material not found.",
+        )
+    related_cm = db.query(CanonicalMaterial).filter(
+        CanonicalMaterial.id == related_canonical_material_id
+    ).first()
+    if not related_cm:
+        raise HTTPException(
+            status_code=status.HTTP_404_NOT_FOUND,
+            detail="Related canonical material not found.",
+        )
+    
+    sr = SubstituteRelation(
+        canonical_material_id=canonical_material_id,
+        related_canonical_material_id=related_canonical_material_id,
+        relationship_type=relationship_type,
+        scope=scope,
+        engineering_approval=engineering_approval,
+    )
+    db.add(sr)
+    db.commit()
+    db.refresh(sr)
+    return {
+        "id": sr.id,
+        "canonical_material_id": sr.canonical_material_id,
+        "related_canonical_material_id": sr.related_canonical_material_id,
+        "relationship_type": sr.relationship_type,
+        "scope": sr.scope,
+        "engineering_approval": sr.engineering_approval,
+    }
+
+
+@router.get("/substitute-relations", response_model=dict, summary="List substitute relations")
+async def list_substitute_relations(
+    canonical_material_id: int,
+    db: Session = Depends(get_db),
+):
+    """List substitute relations for a canonical material."""
+    relations = db.query(SubstituteRelation).filter(
+        SubstituteRelation.canonical_material_id == canonical_material_id
+    ).all()
+    return {
+        "substitute_relations": [
+            {
+                "id": r.id,
+                "related_canonical_material_id": r.related_canonical_material_id,
+                "relationship_type": r.relationship_type,
+                "scope": r.scope,
+                "engineering_approval": r.engineering_approval,
+            }
+            for r in relations
+        ]
+    }

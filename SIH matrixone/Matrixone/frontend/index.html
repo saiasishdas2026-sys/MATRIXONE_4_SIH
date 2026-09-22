@@ -1,0 +1,55 @@
+<!doctype html>
+<html lang="en" data-theme="light" data-density="comfortable">
+  <head>
+    <meta charset="UTF-8" />
+    <link rel="icon" type="image/svg+xml" href="/logo.svg" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>MATRIXONE — One Nation, One Material Code | SIH 2026</title>
+    <meta name="description" content="National Unified Material Intelligence Platform federating CPSE material master data, eliminating duplicate inventory, standardizing descriptions, and generating Common National Material Codes (CNMC)." />
+    <!-- Fonts: Inter & JetBrains Mono -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700;800&family=JetBrains+Mono:wght@400;500;600;700&display=swap" rel="stylesheet">
+    
+    <!-- Instant Theme Loader (Zero FOUC, Default = Light) -->
+    <script>
+      (function() {
+        try {
+          var saved = localStorage.getItem('matrixone_appearance_preferences');
+          var theme = 'light';
+          var density = 'comfortable';
+          var motion = 'full';
+          var accent = 'cyan';
+          if (saved) {
+            var parsed = JSON.parse(saved);
+            if (parsed.theme) theme = parsed.theme;
+            if (parsed.density) density = parsed.density;
+            if (parsed.motion) motion = parsed.motion;
+            if (parsed.accent) accent = parsed.accent;
+          }
+          var resolved = theme;
+          if (theme === 'system') {
+            resolved = window.matchMedia('(prefers-color-scheme: dark)').matches ? 'dark' : 'light';
+          }
+          var docEl = document.documentElement;
+          if (resolved === 'dark') {
+            docEl.classList.add('dark');
+          } else {
+            docEl.classList.remove('dark');
+          }
+          docEl.setAttribute('data-theme', resolved);
+          docEl.setAttribute('data-density', density);
+          docEl.setAttribute('data-motion', motion);
+          docEl.setAttribute('data-accent', accent);
+        } catch (e) {
+          document.documentElement.classList.remove('dark');
+          document.documentElement.setAttribute('data-theme', 'light');
+        }
+      })();
+    </script>
+  </head>
+  <body class="bg-canvas text-ink-primary font-sans antialiased selection:bg-telemetry-cyan selection:text-black overflow-x-hidden min-h-screen transition-colors duration-150">
+    <div id="root"></div>
+    <script type="module" src="/src/main.jsx"></script>
+  </body>
+</html>

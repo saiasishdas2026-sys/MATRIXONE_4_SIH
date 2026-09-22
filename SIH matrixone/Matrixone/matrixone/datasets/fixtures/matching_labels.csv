@@ -1,0 +1,9 @@
+desc_a,desc_b,label,note
+SS316 GATE VALVE 50MM PN40 FLANGED,"VALVE, GATE, FLANGED, 50 NB, SS316, CLASS 300",functional_equivalent,"Same job, equivalent spec — needs tech check"
+GATE VALVE SS316 50MM,SS 316 GATE VALVE 50 MM,near_duplicate,Spacing/abbrev only
+Gate Valve 100mm CS 150#,Gate Valve 100mm CS 150#,identical,Exact
+Gate Valve 100mm CS 150#,Globe Valve 100mm CS 150#,different,Different valve type — must NOT match
+Deep Groove Ball Bearing 6205,BRG 6205 25x52x15,near_duplicate,Abbrev + dims
+Stainless Steel Gate Valve,AISI 316 Gate Valve,functional_equivalent,Grade synonym
+VALVE,VLVE,near_duplicate,Typo
+MS Pipe 100mm NB ERW,SS316 Pipe 100mm NB ERW,different,Different metallurgy — critical conflict

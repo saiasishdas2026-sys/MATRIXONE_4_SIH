@@ -1,0 +1,26 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 100 100" fill="none">
+  <defs>
+    <linearGradient id="cyanGrad" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#22d3ee" />
+      <stop offset="100%" stop-color="#06b6d4" />
+    </linearGradient>
+    <linearGradient id="emeraldGrad" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#34d399" />
+      <stop offset="100%" stop-color="#10b981" />
+    </linearGradient>
+  </defs>
+  <!-- Outer Hexagon Frame -->
+  <polygon points="50,5 89,27 89,73 50,95 11,73 11,27" stroke="url(#cyanGrad)" stroke-width="4" fill="#111827" fill-opacity="0.8"/>
+  <!-- Inner Dynamic Nodes -->
+  <polygon points="50,22 74,36 74,64 50,78 26,64 26,36" stroke="#334155" stroke-width="2" fill="#0b0f17" fill-opacity="0.9"/>
+  <!-- Core Data Crystal -->
+  <circle cx="50" cy="50" r="10" fill="url(#cyanGrad)"/>
+  <circle cx="50" cy="50" r="18" stroke="url(#emeraldGrad)" stroke-width="2" stroke-dasharray="4 2"/>
+  <!-- Telemetry Lines -->
+  <line x1="50" y1="5" x2="50" y2="22" stroke="#06b6d4" stroke-width="2"/>
+  <line x1="89" y1="27" x2="74" y2="36" stroke="#06b6d4" stroke-width="2"/>
+  <line x1="89" y1="73" x2="74" y2="64" stroke="#10b981" stroke-width="2"/>
+  <line x1="50" y1="95" x2="50" y2="78" stroke="#10b981" stroke-width="2"/>
+  <line x1="11" y1="73" x2="26" y2="64" stroke="#10b981" stroke-width="2"/>
+  <line x1="11" y1="27" x2="26" y2="36" stroke="#06b6d4" stroke-width="2"/>
+</svg>
